@@ -1,5 +1,5 @@
 const RightColumn = () => {
-  return( <div></div>
+  return( <div className = "right-column" id = "tempDesign">RightColumn</div>
   
   )
 };

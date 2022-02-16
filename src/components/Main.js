@@ -1,5 +1,5 @@
 const Main = () => {
-  return <div></div>;
+  return <div className = "main" id = "tempDesign">Main</div>;
 };
 
 export default Main;

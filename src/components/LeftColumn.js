@@ -1,6 +1,6 @@
 const LeftColumn = () => {
   return (
-    <div></div>
+    <div className = "left-column" id = "tempDesign">LeftColumn</div>
   )
 }
 

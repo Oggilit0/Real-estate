@@ -4,10 +4,9 @@ import LeftColumn from "./components/LeftColumn";
 import RightColumn from "./components/RightColumn";
 import Main from "./components/Main";
 
-
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Main />
       <RightColumn />

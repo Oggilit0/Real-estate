@@ -1,45 +1,49 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-.container{
+.container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "left-column main right-column"
+    "footer footer footer";
 }
 
-#temp-design{
+#tempDesign {
   background-color: cadetblue;
-  border: 2px solid black;
+  height: 300px;
+  border: 1px solid black;
 }
 
-.footer{
-
+.footer {
+  grid-area: footer;
 }
 
-.header{
-
+.header {
+  grid-area: header;
 }
 
-.left-column{
-
+.left-column {
+  grid-area: left-column;
 }
 
-.right-column{
-
+.right-column {
+  grid-area: right-column;
 }
 
-.main{
-
+.main {
+  grid-area: main;
 }

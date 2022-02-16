@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#temp-design{
+  background-color: cadetblue;
+  border: 2px solid black;
+}
+
+.footer{
+
+}
+
+.header{
+
+}
+
+.left-column{
+
+}
+
+.right-column{
+
+}
+
+.main{
+
+}

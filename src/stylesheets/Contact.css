@@ -1,3 +1,18 @@
-.contact{
+.title{
   text-align: center;
 }
+
+.line{
+  margin-left: 2rem;
+  border: 1.0px solid black;
+}
+
+.right-column{
+  color: black;
+}
+
+#message{
+  height: 8rem;
+}
+
+

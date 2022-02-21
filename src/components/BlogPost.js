@@ -1,4 +1,4 @@
 const BlogPost = () => {
-  return <h2>buy</h2>;
+  return <h2>Blog post</h2>;
 };
 export default BlogPost;

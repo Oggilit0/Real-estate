@@ -3,21 +3,23 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LeftColumn from "./components/LeftColumn";
 import RightColumn from "./components/RightColumn";
-import Main from "./components/Main";
+import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import BlogPost from "./components/BlogPost";
 import Buy from "./components/Buy";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import TopImage from "./components/TopImage";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container">
         <Header />
+        <TopImage />
         <div className="main" id="tempDesign">
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/blogpost" element={<BlogPost />} />
             <Route path="/buy" element={<Buy />} />

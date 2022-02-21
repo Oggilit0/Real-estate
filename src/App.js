@@ -5,6 +5,10 @@ import LeftColumn from "./components/LeftColumn";
 import RightColumn from "./components/RightColumn";
 import Main from "./components/Main";
 import About from "./components/About";
+import BlogPost from "./components/BlogPost";
+import Buy from "./components/Buy";
+import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -14,7 +18,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blogpost" element={<BlogPost />} />
+          <Route path="/buy" element={<Buy />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
 
         <RightColumn />

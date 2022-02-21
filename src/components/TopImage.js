@@ -1,4 +1,5 @@
 import Logo from "./Pictures/logga.png";
+import "../stylesheets/TopImage.css"
 
 const TopImage = () => {
   return (

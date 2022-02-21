@@ -1,5 +1,11 @@
+import "../stylesheets/Contact.css"
+
 const Contact = () => {
-  return <h2>contact</h2>;
-};
+  return (
+    <div className="contact">
+    <h2>Contact Us</h2>
+    </div>
+  );
+  };
 
 export default Contact;

@@ -20,11 +20,9 @@ const Contact = () => {
         <input type="text" id ="message" placeholder="Message"/>
         </div>
       </form>
-    
     </div>
+</div>
 
-    
-    </div>
   );
   };
 

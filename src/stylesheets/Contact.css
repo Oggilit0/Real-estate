@@ -3,7 +3,6 @@
 }
 
 .line{
-  margin-left: 2rem;
   border: 1.0px solid black;
 }
 
@@ -14,5 +13,3 @@
 #message{
   height: 8rem;
 }
-
-

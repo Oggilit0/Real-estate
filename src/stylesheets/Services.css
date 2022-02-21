@@ -1,0 +1,22 @@
+.title{
+  text-align: center;
+}
+
+.serviceLogos{
+  text-align: center;
+}
+
+#logoDesign{
+  border: 1px solid black;
+  background-color: blueviolet;
+  margin-right: 3rem;
+  margin-bottom: 4rem;
+}
+
+.line{
+  margin:20px;
+}
+
+#familyMoving{
+  margin-left: 1.5rem;
+}

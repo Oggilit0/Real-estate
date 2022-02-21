@@ -15,15 +15,16 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Header />
-
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blogpost" element={<BlogPost />} />
-          <Route path="/buy" element={<Buy />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<Services />} />
-        </Routes>
+        <div className="main" id="tempDesign">
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blogpost" element={<BlogPost />} />
+            <Route path="/buy" element={<Buy />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<Services />} />
+          </Routes>
+        </div>
 
         <RightColumn />
         <LeftColumn />

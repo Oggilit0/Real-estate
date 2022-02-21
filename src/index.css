@@ -49,4 +49,5 @@ code {
 
 .main {
   grid-area: main;
+  min-width: 400px;
 }

@@ -1,7 +1,5 @@
 const RightColumn = () => {
-  return( <div className = "right-column">RightColumn</div>
-  
-  )
+  return <div className="right-column" />;
 };
 
 export default RightColumn;

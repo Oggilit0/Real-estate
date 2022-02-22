@@ -4,8 +4,7 @@ import "../stylesheets/TopImage.css"
 const TopImage = () => {
   return (
     <div className="topImage" id="tempDesign">
-      <img src={Logo} width="100px" />
-      <h2>Image</h2>
+      <div id="banner"></div>
     </div>
   );
 };

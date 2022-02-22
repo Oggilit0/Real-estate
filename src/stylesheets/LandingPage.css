@@ -1,0 +1,44 @@
+.landing-page{
+  background-color:lightgoldenrodyellow;
+}
+
+h2{
+  margin: 20px;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-areas: 
+  "sml-1 sml-2 mdm-img"
+  "brd-img brd-img mdm-img";
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+#small-img1 {
+  grid-area: sml-1;
+  width: 100%;
+
+}
+
+#small-img2 {
+  grid-area: sml-2;
+  width: 100%;
+
+}
+
+#medium-img {
+  grid-area: mdm-img;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+#broad-img {
+  grid-area: brd-img;
+  width: 100%;
+
+
+}

@@ -1,0 +1,45 @@
+#header-logo {
+  float: left;
+  margin-left: 20px;
+  width: 80px;
+}
+
+.header{
+  grid-area: header;
+  background-color: #404044;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+
+#navbar{
+  float: left;
+}
+
+#navbar ul{
+  display: block;
+  height: 50px;
+  width: 400px;
+  list-style-type:none;
+}
+
+#navbar ul li{
+
+  float: left;
+  display: block;
+  margin: 0 10px 0 0;
+}
+
+#navbar ul a {
+  text-decoration: none;
+}
+
+#navbar a{
+  color: white;
+ 
+}
+
+#navbar a:visted{
+  color: white;
+}

@@ -1,5 +1,3 @@
-import "../stylesheets/BlogPost.css"
-
 const BlogPost = () => {
   return <h2>Blog post</h2>;
 };

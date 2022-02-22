@@ -20,3 +20,7 @@
 #familyMoving{
   margin-left: 1.5rem;
 }
+
+#blogImage{
+  visibility: hidden;
+}

@@ -1,6 +1,8 @@
 #replyBox{
   width: 400px;
   height: 150px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #nameBox{
@@ -14,6 +16,7 @@ width: 200px;
 #bloggImage{
   width: 100%;
   height: 350px;
+  object-fit: cover;
 }
 
 #btn-reply-send{

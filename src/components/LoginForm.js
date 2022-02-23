@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BlogLoggedIn from "./Lo";
+import BlogLoggedIn from "./BlogLoggedIn";
 
 function LoginForm({ Login, error }) {
   const [details, setDetails] = useState({ name: "", email: "", password: "" });
@@ -13,7 +13,7 @@ function LoginForm({ Login, error }) {
     <form onSubmit={submitHandler}>
       <div>
         <h2>Login</h2>
-        {error != "" ? <div className="error">{error}</div> : ""}
+        {error != "" ? <div>{error}</div> : ""}
         <div>
           <label htmlFor="name">Name:</label>
           <input

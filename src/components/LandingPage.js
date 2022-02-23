@@ -50,8 +50,66 @@ const LandingPage = () => {
           </div>
         </div>
       </article>
+      <h2>Articles</h2>
       <article>
-        <h2>Articles</h2>
+        <div id="articles-container">
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-img-container">
+            <img id ="articles-img" src={bedroom}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+        </div>
       </article>
     </div>
   );

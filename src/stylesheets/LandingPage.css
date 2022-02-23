@@ -65,3 +65,17 @@ article {
 #discover-text h1, p, button{
 margin: 20px;
 }
+
+#articles-container{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#articles-img-container{
+}
+
+#articles-img{
+  width: 100%;
+}

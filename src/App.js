@@ -10,6 +10,7 @@ import Buy from "./components/Buy";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import TopImage from "./components/TopImage";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blogpost" element={<BlogPost />} />
             <Route path="/buy" element={<Buy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />

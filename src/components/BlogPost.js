@@ -7,7 +7,7 @@ const BlogPost = () => {
     blogTime: "13:49",
     blogAuthor: "Mathilda Nilsson",
     blogText:
-      "We know that there are a lot of items to choose from with your home search, so we offer up-to-date listings from many different realtors. That way, we can show you homes for sale in the neighborhood you love, in fact, homes that you haven't even considered yet. We'll let you know about them -- before they show up on the market! It's like becoming an expert on real estate about houses and neighborhoods before you ever see them for sale!",
+      "My real estate journey have been interesting and exciting. I started here 4 years ago as a secretary for one of the biggest real estate agents in the city. That's not something I would like to do for the rest of my life, so after 3 years I was offered a chance to be an agent myself. I had already so many great experiences and have seen so much that I thought this is gonna be a whole new ball game for me. 3 years later, it hasn't disappointed me once. My clients and I have become friends through this journey and some even became family. It gives me chills just thinking about all the amazing people i met during these past 6 years and all the people who are still to come. And when the day comes that I'm standing on top of it all, with my clients by my side and my kids playing around, i know this is going to be where i belong.'",
   };
 
   return (

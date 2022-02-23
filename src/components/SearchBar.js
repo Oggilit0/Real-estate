@@ -21,7 +21,7 @@ const SearchBar = () => {
         }
       }).map((val, key) => {
         return (
-          <div className="user" key={key}>
+          <div key={key}>
             <p>{val.Address}</p>
           </div>
         );

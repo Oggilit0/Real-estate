@@ -5,7 +5,7 @@ import LeftColumn from "./components/LeftColumn";
 import RightColumn from "./components/RightColumn";
 import LandingPage from "./components/LandingPage";
 import About from "./components/About";
-import BlogPost from "./components/BlogPost";
+import Blog from "./components/Blog";
 import Buy from "./components/Buy";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/blogpost" element={<BlogPost />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/buy" element={<Buy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />

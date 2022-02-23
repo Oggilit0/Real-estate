@@ -1,3 +1,5 @@
+import picture from "../components/Pictures/real-estate-agent.jpg";
+
 const BlogPost = () => {
 
   const post = {
@@ -26,7 +28,7 @@ const BlogPost = () => {
     <div>
     <label id="email">Email:</label>
     </div>
-    <input id="emailBox"></input>
+    <input id="emailBox" multiline={true} ></input>
     </div>
     <button id="btn-reply-send">Send</button>
   </div>

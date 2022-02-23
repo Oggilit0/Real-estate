@@ -13,19 +13,19 @@ const Services = () => {
   <h2 className ="title">Our Services</h2>
   <hr className = "line"></hr>
   <div className="serviceLogos">
-    <img id="logoDesign" src={StyleLogo} width="150px"/>
-    <img id="logoDesign" src={InsuranceLogo} width="150px"/>
-    <img id="logoDesign" src={ValueLogo} width="150px"/>
+    <img id="logoDesign" src={StyleLogo}/>
+    <img id="logoDesign" src={InsuranceLogo}/>
+    <img id="logoDesign" src={ValueLogo}/>
     </div>
     <div className="serviceLogos">
-    <img id="logoDesign" src={CalenderLogo} width="150px"/>
-    <img id="logoDesign" src={CameraLogo} width="150px"/>
-    <img id="logoDesign" src={CalculatorLogo} width="150px"/>
+    <img id="logoDesign" src={CalenderLogo}/>
+    <img id="logoDesign" src={CameraLogo}/>
+    <img id="logoDesign" src={CalculatorLogo}/>
   
     </div>
 
     <hr className = "line"></hr>
-    <img id="familyMoving" src={FamilyMoving} width ="auto" height="500px"/>
+    <img id="familyMoving" src={FamilyMoving}/>
     </div>
   );
 };

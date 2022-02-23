@@ -11,6 +11,7 @@
 @import "./stylesheets/Services.css";
 @import "./stylesheets/TopImage.css";
 @import "./stylesheets/Main.css";
+@import "./stylesheets/Blog.css";
 
 body {
   margin: 0;

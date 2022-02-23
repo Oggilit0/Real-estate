@@ -19,13 +19,15 @@ article{
 #small-img1 {
   grid-area: sml-1;
   width: 100%;
-
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 #small-img2 {
   grid-area: sml-2;
   width: 100%;
-
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 #medium-img {

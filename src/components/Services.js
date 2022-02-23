@@ -1,4 +1,3 @@
-import "../stylesheets/Services.css";
 import StyleLogo from "./Pictures/StyleLogo.png";
 import InsuranceLogo from "./Pictures/InsuranceLogo.png";
 import ValueLogo from "./Pictures/ValueLogo.png";

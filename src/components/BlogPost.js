@@ -1,6 +1,3 @@
-import "../stylesheets/BlogPost.css"
-import picture from "./Pictures/real-estate-agent.jpg";
-
 const BlogPost = () => {
 
   const post = {

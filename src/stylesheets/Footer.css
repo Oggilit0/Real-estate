@@ -1,3 +1,57 @@
-#Footer-Background{
-background-color: aqua;
+.footer {
+  grid-area: footer;
+}
+
+#footer {
+  background-color: #404044;
+  height: 500px;
+}
+
+#footer-logo {
+  position: relative;
+  bottom: 50px;
+  margin-left: 10%;
+  width: 150px;
+}
+
+#social-media {
+  position: relative;
+  bottom: 30px;
+  margin-left: 10%;
+  width: 280px;
+}
+
+#footer-icon {
+  height: 50px;
+  padding: 0 20px 0 0;
+}
+
+#footer-content h1 {
+  position: relative;
+  bottom: 75px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#footer-content {
+  background-color: whitesmoke;
+  position: relative;
+  top: 100px;
+  height: 250px;
+}
+
+#footer-content p {
+  position: relative;
+  margin-right: 10%;
+  bottom: 250px;
+  float: right;
+  width: 500px;
+}
+
+#footer-line{
+  border-left: 2px solid lightslategrey;
+  height: 190px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
 }

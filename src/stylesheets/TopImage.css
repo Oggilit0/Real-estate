@@ -5,3 +5,8 @@
   background-size: cover;
   background-position: 50% 60%;
 }
+
+.topImage {
+  grid-area: topImage;
+  height: 300px;
+}

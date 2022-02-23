@@ -10,6 +10,7 @@
 @import "./stylesheets/RightColumn.css";
 @import "./stylesheets/Services.css";
 @import "./stylesheets/TopImage.css";
+@import "./stylesheets/Main.css";
 
 body {
   margin: 0;
@@ -26,9 +27,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-#tempDesign {
-  background-color: cadetblue;
-  border: 1px solid black;
 }

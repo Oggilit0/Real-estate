@@ -1,5 +1,3 @@
-import "../stylesheets/About.css"
-
 const About = () => {
   return (
     <p>

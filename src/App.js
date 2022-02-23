@@ -17,7 +17,7 @@ function App() {
       <div className="container">
         <Header />
         <TopImage />
-        <div className="main" id="tempDesign">
+        <div className="main" id="main">
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />

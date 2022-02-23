@@ -1,57 +1,10 @@
 .container {
   display: grid;
-  grid-gap: 10px;
   grid-template-columns: 1fr 3fr 1fr;
-
-  grid-auto-rows: minmax(100px, auto);
-
+  grid-auto-rows: minmax(50px, auto);
   grid-template-areas:
     "header header header"
     "topImage topImage topImage"
     "left-column main right-column"
     "footer footer footer";
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.header {
-  grid-area: header;
-  position: sticky;
-  top: 0;
-
-  width: 100%;
-
-  background-color: blue;
-  color: white;
-}
-
-a .header {
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
-
-.left-column {
-  background-color:whitesmoke;
-  grid-area: left-column;
-}
-
-.right-column {
-  background-color:whitesmoke;
-  grid-area: right-column;
-}
-
-.main {
-  grid-area: main;
-  min-width: 400px;
-  padding: 10px;
-}
-
-.topImage {
-  grid-area: topImage;
-  height: 300px;
 }

@@ -1,0 +1,4 @@
+.right-column {
+  background-color:whitesmoke;
+  grid-area: right-column;
+}

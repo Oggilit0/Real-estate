@@ -1,7 +1,5 @@
 import JSONDATA from "../mock-data.json";
 import { useState } from "react";
-import "../stylesheets/SearchBar.css";
-import Buy from "./Buy";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");

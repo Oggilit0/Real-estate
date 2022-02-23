@@ -12,6 +12,16 @@ const BlogLoggedIn = () => {
     password: "guy",
   };
 
+  const mathildaUser = {
+    email: "mathilda@realestate.com",
+    password: "langth",
+  };
+
+  const oskarUser = {
+    email: "oskar@realestate.com",
+    password: "macforthewin",
+  };
+
   const [user, setUser] = useState({ name: "", email: "" });
   const [error, setError] = useState("");
 
@@ -19,10 +29,14 @@ const BlogLoggedIn = () => {
     console.log(details);
 
     if (
-      (details.email == adminUser.email &&
-        details.password == adminUser.password) ||
-      (details.email == marcusUser.email &&
-        details.password == marcusUser.password)
+      (details.email === adminUser.email &&
+        details.password === adminUser.password) ||
+      (details.email === marcusUser.email &&
+        details.password === marcusUser.password) ||
+      (details.email === mathildaUser.email &&
+        details.password === mathildaUser.password) ||
+      (details.email === oskarUser.email &&
+        details.password === oskarUser.password)
     ) {
       setUser({
         name: details.name,
@@ -39,7 +53,7 @@ const BlogLoggedIn = () => {
   };
 
   return (
-    <div className="App">
+    <div>
       {user.email != "" ? (
         <div>
           <h2>

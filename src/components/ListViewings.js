@@ -1,12 +1,11 @@
 import JSONDATA from "../mock-data.json";
 
 const ListViewings = (value) => {
-
   return (
     <div>
       {JSONDATA.filter((val) => {
         if (val.Address.includes(value.name)) {
-          return val;
+          // return val;
         }
       }).map((val, key) => {
         return (
@@ -17,6 +16,6 @@ const ListViewings = (value) => {
       })}
     </div>
   );
-}
+};
 
 export default ListViewings;

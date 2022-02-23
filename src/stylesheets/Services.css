@@ -8,7 +8,8 @@
 
 #logoDesign{
   border: 1px solid black;
-  background-color: blueviolet;
+  background-color: rgb(151, 114, 185);
+  width:150px;
   margin-right: 3rem;
   margin-bottom: 4rem;
 }
@@ -19,6 +20,8 @@
 
 #familyMoving{
   margin-left: 1.5rem;
+  width: auto; 
+  height: 500px;
 }
 
 #blogImage{

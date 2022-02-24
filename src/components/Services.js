@@ -1,3 +1,4 @@
+import "../stylesheets/Services.css";
 import StyleLogo from "./Pictures/StyleLogo.png";
 import InsuranceLogo from "./Pictures/InsuranceLogo.png";
 import ValueLogo from "./Pictures/ValueLogo.png";
@@ -10,23 +11,73 @@ const Services = () => {
   return (
     <div className="services">
       <hr className = "line"></hr>
-  <h2 className ="title">Our Services</h2>
-  <hr className = "line"></hr>
-  <div className="serviceLogos">
-    <img id="logoDesign" src={StyleLogo}/>
-    <img id="logoDesign" src={InsuranceLogo}/>
-    <img id="logoDesign" src={ValueLogo}/>
-    </div>
-    <div className="serviceLogos">
-    <img id="logoDesign" src={CalenderLogo}/>
-    <img id="logoDesign" src={CameraLogo}/>
-    <img id="logoDesign" src={CalculatorLogo}/>
+      <h2 className ="title">Our Services</h2>
+     <hr className = "line"></hr>
   
-    </div>
+     <article>
+        <div id="serviceLogos">
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={StyleLogo}></img>
+            <h1 id="serviceTitle">Home Styling</h1>
+            <p>
+            Does your home need a makeover? 
+            Let our homestyling experts provide simple, 
+            practical advice to help you sell your home faster. 
+            Our homestyling services provide valuable insight into 
+            how to best showcase your homes key features, creating a 
+            more positive first impression for potential buyers.
+            </p>
+          </div>
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={InsuranceLogo}></img>
+            <h1 id="serviceTitle">Home Insurance</h1>
+            <p>
+            Protect your home and belongings with a homeowners insurance policy from our agency. 
+            Whether you need flood or fire damage repairs, we provide resources to you and help 
+            you get your life back on track after an unfortunate accident.
+            </p>
+          </div>
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={ValueLogo}></img>
+            <h1 id="serviceTitle">Valuation</h1>
+            <p>
+            With several years of experience in the real estate sector, 
+            we are committed to providing the most accurate home valuation estimates 
+            in the industry. We gather comparable data from nearby houses, look at recent
+             sales data and factors influencing property value growth to give you a price that you can trust.
+            </p>
+          </div>
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={CameraLogo}></img>
+            <h1 id="serviceTitle">Photography</h1>
+            <p>
+            Our real estate company specializes in professional photographing of houses up for sale.
+             We are able to apply our expertise in this field through a variety of services including, 
+             but not limited to, aerial photography and 3D virtual tours.
+            </p>
+          </div>
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={CalenderLogo}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+          <div id="articles-logo-container">
+            <img id ="logoDesign" src={CalculatorLogo}></img>
+            <p>
+              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
+              in odio.
+            </p>
+          </div>
+        </div>
+      </article>
 
-    <hr className = "line"></hr>
-    <img id="familyMoving" src={FamilyMoving}/>
-    </div>
+     <hr className = "line"></hr>
+     <img id="familyMoving" src={FamilyMoving} width ="auto" height="500px"/>
+     
+     
+     </div>
   );
 };
 

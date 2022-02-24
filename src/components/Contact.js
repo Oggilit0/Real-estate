@@ -6,7 +6,7 @@ const Contact = () => {
       <hr className = "line"></hr>
 
       <div className ="contactForm">
-      <h2>Contact Form</h2>
+      <h2 id="contactForm">Contact Form</h2>
       <form className ="form">
         <div className= "form-controll">
         <input type ="text" id ="firstname" placeholder ="Name"/>

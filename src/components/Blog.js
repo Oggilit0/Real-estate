@@ -1,6 +1,6 @@
 import {useState} from "react";
 import BlogContent from "./data/BlogContent";
-import BlogList from "../components/BlogList";
+import BlogList from "./BlogList";
 import BlogLoggedIn from "./BlogLoggedIn";
 
 const Blog = () => {

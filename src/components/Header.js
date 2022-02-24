@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <img id="header-logo" src={logga} />
-      <navbar id="navbar">
+      <nav id="navbar">
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -26,7 +26,7 @@ const Header = () => {
             <Link to="/services">Services</Link>
           </li>
         </ul>
-      </navbar>
+      </nav>
     </div>
   );
 };

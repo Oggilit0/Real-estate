@@ -12,4 +12,5 @@
 
 #message{
   height: 8rem;
+  resize: vertical;
 }

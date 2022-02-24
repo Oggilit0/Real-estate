@@ -27,12 +27,9 @@ const Footer = () => {
           As real estate brokers, our goal is to provide a personal service that
           makes everyone feel welcome. Our ambition is to create a natural
           meeting place where we can chat, laugh and imagine how your perfect
-          home should look. Our cooperation will be characterized by
-          seriousness, trust and confidence. We will talk about competition and
+          home should look. We will talk about competition and
           market conditions when it is necessary, but mostly we will talk about
-          what you are looking for in your dream home. If you have even the
-          slightest interest in selling your house or buying one, you are
-          welcome to contact us. The coffee is always hot in our office!
+          what you are looking for in your dream home. The coffee is always hot in our office!
         </p>
       </div>
     </div>

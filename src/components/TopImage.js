@@ -5,8 +5,10 @@ const TopImage = () => {
   return (
     <div className="topImage" id="tempDesign">
       <div id="banner">
-        <SearchBar />
-        <ListViewings name="Summerview" />
+        <div className="searchBar">
+          <SearchBar className="input" />
+          <ListViewings name="Summerview" />
+        </div>
       </div>
     </div>
   );

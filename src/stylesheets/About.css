@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+.right-column {
+  color: black;
+}
+
+#message {
+  height: 8rem;
+}
+
+#aboutPhoto {
+  width: 100%;
+  height: 400px;
+
+  object-fit: cover;
+  vertical-align: top;
+}
+.aboutRL {
+  margin: 20px;
+}
+.aboutHiring {
+  margin: 20px;
+}

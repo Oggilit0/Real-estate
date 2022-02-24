@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.serviceLogos{
+#serviceLogos{
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -10,8 +10,8 @@
 }
 
 #logoDesign{
-  height:100%;
-  width:100px;
+  height:auto;
+  width:160px;
   border: 1px solid black;
   background-color: rgb(151, 114, 185);
 }
@@ -23,4 +23,26 @@
 #familyMoving{
   margin-left: 1.5rem;
   
+}
+
+article{
+  margin: 20px;
+}
+
+h2{
+  margin: 20px;
+}
+
+#articles-logo-container{
+  padding: 40px;
+  box-shadow: 1px 1px 2px 2px grey;
+  width:150px;
+  border: 1px solid grey;
+}
+
+
+
+#service-text{
+  text-align:left;
+  margin: 2px;
 }

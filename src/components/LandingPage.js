@@ -3,12 +3,16 @@ import diningroom from "./Pictures/StartPage/dining-room-1.jpg";
 import entrance from "./Pictures/StartPage/entrance-1.jpg";
 import livingroom from "./Pictures/StartPage/living-room-1.jpg";
 import discover from "./Pictures/family-photo-moving.jpg";
+import ImageCarousel from "./ImageCarousel";
+
 
 const LandingPage = () => {
   return (
+    
     <div className="landing-page">
+      
       <h2>Popular homes</h2>
-      <article></article>
+      <ImageCarousel />
       <h2>From dream to reality</h2>
       <article id="img-collage">
         <div id="img-container">

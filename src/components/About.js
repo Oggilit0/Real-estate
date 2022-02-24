@@ -9,6 +9,11 @@ const About = () => {
       was all about sales.
       <p /> They wanted to shift the focus to the most important aspect in Real
       Estate, the client, and that is you!
+      <p />
+      oday Lars and Guy works with two other agents, our door is always open for
+      you, why don't come in for a chat over a cup of coffee? Besides offering
+      good objects to match your dreams we have other services to help you on
+      your quest, you can read more about that on our service page.
     </>
   );
 };

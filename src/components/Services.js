@@ -13,6 +13,7 @@ const Services = () => {
       <hr className = "line"></hr>
       <h2 className ="title">Our Services</h2>
      <hr className = "line"></hr>
+  
      <article>
         <div id="serviceLogos">
           <div id="articles-logo-container">
@@ -48,9 +49,11 @@ const Services = () => {
           </div>
           <div id="articles-logo-container">
             <img id ="logoDesign" src={CameraLogo}></img>
+            <h1 id="serviceTitle">Photography</h1>
             <p>
-              Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
-              in odio.
+            Our real estate company specializes in professional photographing of houses up for sale.
+             We are able to apply our expertise in this field through a variety of services including, 
+             but not limited to, aerial photography and 3D virtual tours.
             </p>
           </div>
           <div id="articles-logo-container">

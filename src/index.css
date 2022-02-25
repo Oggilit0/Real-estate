@@ -13,3 +13,11 @@
 @import "./stylesheets/Main.css";
 @import "./stylesheets/Blog.css";
 @import "./stylesheets/ResponsiveDesign.css";
+
+:root {
+  --Light-Shades: #FBFBFB;
+  --Light-accent: #9CA77C;
+  --Main: #939BA8;
+  --Dark-accent: #787689;
+  --Dark-shades: #2E384F;
+}

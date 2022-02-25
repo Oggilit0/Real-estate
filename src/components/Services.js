@@ -15,13 +15,14 @@ const Services = () => {
     <div className="services">
      <article>
       <hr className = "line"></hr>
-      <h2 className ="title">Our Services</h2>
+      <h2 className ="title" id="serviceTopTitle">Our Services</h2>
      <hr className = "line"></hr>
      </article>
 
      <article>
         <div id="serviceLogos">
           <div id="articles-logo-container">
+            <div id="test">
           <img id ="logoDesign" src={StyleLogo}/>
             <h1 id="serviceTitle">Home Styling</h1>
             <p id="service-text">
@@ -32,6 +33,7 @@ const Services = () => {
             <Link className = "readMoreLink" to="./services"> Read More </Link>
             </div>
             </p>
+            </div>
           </div>
           <div id="articles-logo-container">
             <img id ="logoDesign" src={InsuranceLogo}></img>

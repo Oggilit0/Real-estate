@@ -10,8 +10,8 @@ const BlogContent = [
   time:"15:36",
   author:"Laureen	Goodere",
   image:img1,
-  text:"My real estate journey have been interesting and exciting.", 
-  previewText:"My real estate journey have been interesting and exciting.",
+  text:"My real estate journey have been interesting and exciting. I started here 4 years ago as a secretary for one of the biggest real estate agents in the city. That's not something I would like to do for the rest of my life, so after 3 years I was offered a chance to be an agent myself. I had already so many great experiences and have seen so much that I thought this is gonna be a whole new ball game for me. 3 years later, it hasn't disappointed me once. My clients and I have become friends through this journey and some even became family. It gives me chills just thinking about all the amazing people i met during these past 6 years and all the people who are still to come. And when the day comes that I'm standing on top of it all, with my clients by my side and my kids playing around, i know this is going to be where i belong.'",
+  previewText:"My real estate journey have been interesting and exciting. I started here 4 years ago as a secretary for one of the biggest real estate agents in the city.",
  
 },
 {

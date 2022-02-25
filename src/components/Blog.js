@@ -9,12 +9,6 @@ const Blog = () => {
     <div className="blog">
       <BlogList post={post}/>
       
-      <button
-        id="continue-reading-btn"
-        onClick={(event) => (window.location.href = "/BlogPost")}
-      >
-        Continue reading
-      </button>
       <BlogLoggedIn />
     </div>
   );

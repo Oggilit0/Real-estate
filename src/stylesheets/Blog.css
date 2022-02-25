@@ -8,5 +8,14 @@
 #continue-reading-btn{
   background-color: orange;
   margin-top: 0.2rem;
+  margin:20px;
   cursor: pointer;
+}
+
+#previewText{
+  margin: 20px;;
+}
+
+#blogTitle{
+  margin: 20px;
 }

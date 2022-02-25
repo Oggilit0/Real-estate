@@ -101,14 +101,14 @@ const Services = () => {
       <h2 className ="title">The voice of our customers</h2>
      <hr className = "line"></hr>
      <img id ="customerDesign" src={customer}/>
-     <h1 id="customerTitle">I found my dream home!</h1>
+     <h1 id="customerTitle">I FOUND MY DREAM HOME</h1>
      <div id = "customerText">'"This is the house I have been looking for 
      since I could remember. I had my eyes on this home since last year, 
      especially after seeing its beautiful kitchen and deck area. The staff 
      was great and helped me through every part of the sale, from advising me 
      on small details to big specifics. It is a very professional team, who not
       only value the clients' feedback, but also ensure that all problems are 
-      solved at first hand."'</div>
+      solved at first hand."' - Elsie</div>
      </article>
      
      </div>

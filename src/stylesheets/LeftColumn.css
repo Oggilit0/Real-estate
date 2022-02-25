@@ -1,4 +1,4 @@
 .left-column {
-  background-color:whitesmoke;
+  background-color: var(--Light-Shades);
   grid-area: left-column;
 }

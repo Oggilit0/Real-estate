@@ -1,4 +1,4 @@
 .right-column {
-  background-color:whitesmoke;
+  background-color: var(--Light-Shades);
   grid-area: right-column;
 }

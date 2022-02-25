@@ -1,5 +1,5 @@
 .landing-page {
-  background-color: lightgoldenrodyellow;
+  background-color: var(--Ligh-accent);
 }
 
 h2 {
@@ -7,16 +7,28 @@ h2 {
 }
 
 article {
-  margin: 20px;
+
 }
 
 #img-collage {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "sml-1 sml-2 mdm-img"
     "brd-img brd-img mdm-img";
-  grid-gap: 20px;
+}
+
+#img-container{
+
+}
+
+#medium-img-container{
+  grid-area: mdm-img;
+}
+
+#broad-img-container{
+  grid-area: brd-img;
 }
 
 #small-img1 {
@@ -34,19 +46,18 @@ article {
 }
 
 #medium-img {
-  grid-area: mdm-img;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 #broad-img {
-  grid-area: brd-img;
+  object-fit: cover;
   width: 100%;
+  height: 100%;
 }
 
 #discover {
-  background-color: darkblue;
+  background-color: var(--Light-accent);
 }
 
 #discover-img {
@@ -57,7 +68,7 @@ article {
 }
 
 #discover-text{
-  color: aliceblue;
+  color: var(--Dark-shades);
   width: 50%;
   float: right;
 }
@@ -75,4 +86,16 @@ margin: 20px;
 
 #articles-img{
   width: 100%;
+}
+
+article{
+  background-color: var(--Dark-shades);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
+}
+
+section{
+  background-color: var(--Light-shades);
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
 }

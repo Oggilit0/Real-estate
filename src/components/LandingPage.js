@@ -5,17 +5,17 @@ import livingroom from "./Pictures/StartPage/living-room-1.jpg";
 import discover from "./Pictures/family-photo-moving.jpg";
 import ImageCarousel from "./ImageCarousel";
 
-
 const LandingPage = () => {
   return (
-    
     <div className="landing-page">
-      
       <h2>Popular homes</h2>
-      <ImageCarousel />
+      <article>
+        <ImageCarousel />
+      </article>
+
       <h2>From dream to reality</h2>
       <article id="img-collage">
-        <div id="img-container">
+        <section id="img-container">
           <img id="small-img1" src={bedroom} />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
@@ -23,9 +23,9 @@ const LandingPage = () => {
             sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
             magna lorem ut velit.
           </p>
-        </div>
+        </section>
 
-        <div id="img-container">
+        <section id="img-container">
           <img id="small-img2" src={entrance} />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
@@ -33,14 +33,19 @@ const LandingPage = () => {
             sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
             magna lorem ut velit.
           </p>
-        </div>
+        </section>
 
-        <img id="medium-img" src={livingroom} />
-        <img id="broad-img" src={diningroom} />
+        <section id="medium-img-container">
+          <img id="medium-img" src={livingroom} />
+        </section>
+        <section id="broad-img-container">
+          <img id="broad-img" src={diningroom} />
+        </section>
       </article>
+
       <h2>Discover how much your home is worth</h2>
       <article>
-        <div id="discover">
+        <section id="discover">
           <img id="discover-img" src={discover} />
           <div id="discover-text">
             <h1>Try out our free home value estimator!</h1>
@@ -52,68 +57,68 @@ const LandingPage = () => {
             </p>
             <button>Try it out now!</button>
           </div>
-        </div>
+        </section>
       </article>
       <h2>Articles</h2>
       <article>
-        <div id="articles-container">
+        <section id="articles-container">
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
           <div id="articles-img-container">
-            <img id ="articles-img" src={bedroom}></img>
+            <img id="articles-img" src={bedroom}></img>
             <p>
               Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit
               in odio.
             </p>
           </div>
-        </div>
+        </section>
       </article>
     </div>
   );

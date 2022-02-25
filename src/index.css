@@ -15,7 +15,7 @@
 @import "./stylesheets/ResponsiveDesign.css";
 
 :root {
-  --Light-Shades: #FBFBFB;
+  --Light-shades: #FBFBFB;
   --Light-accent: #9CA77C;
   --Main: #939BA8;
   --Dark-accent: #787689;

@@ -11,6 +11,8 @@ import Contact from "./components/Contact";
 import Services from "./components/Services";
 import TopImage from "./components/TopImage";
 import BlogPost from "./components/BlogPost";
+import HouseObject1 from "./components/HouseObject1";
+import HouseObject2 from "./components/HouseObject2";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/buy" element={<Buy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />
+            <Route path="houseobject1" element={<HouseObject1 />} />
+            <Route path="houseobject2" element={<HouseObject2 />} />
           </Routes>
         </div>
 

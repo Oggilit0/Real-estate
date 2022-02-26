@@ -7,7 +7,7 @@ const HouseList = ({ post }) => {
   return (
     <>
       {post.map((item) => (
-        <HouseSummary item={item} />
+        <HouseSummary key={item.id} item={item} />
       ))}
     </>
   );

@@ -13,7 +13,7 @@ const BlogSummary = ({item}) => {
       >
         Continue reading
       </button>
-      
+      <hr></hr>
       
     </div>
   );

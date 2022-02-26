@@ -1,14 +1,9 @@
-import picture from "../components/Pictures/real-estate-agent.jpg";
+import {useState} from "react";
+import BlogContent from "./data/BlogContent";
+
 
 const BlogPost = () => {
-  const post = {
-    blogTitle: "",
-    blogDate: "",
-    blogTime: "",
-    blogAuthor: "",
-    blogText:"",
-      
-  };
+  const [post, setPost] = useState(BlogContent);
 
   return (
     <div className="blogPost">
@@ -16,7 +11,7 @@ const BlogPost = () => {
       <p>
         {post.blogDate}/{post.blogTime}/{post.blogAuthor}
       </p>
-      <img id="bloggImage" src={picture}></img>
+      <img id="bloggImage" src={post.image}></img>
       <p>{post.blogText}</p>
       <div className="replyForm">
         <div>

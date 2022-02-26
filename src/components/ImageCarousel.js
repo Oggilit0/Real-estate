@@ -1,6 +1,5 @@
 import Carousel from "react-elastic-carousel";
 import discover from "./Pictures/pillow.jpg";
-import agent from "./Pictures/real-estate-agent.jpg";
 import "../stylesheets/ImageCarousel.css";
 import Item from "./Item";
 import { Link } from "react-router-dom";
@@ -27,28 +26,36 @@ const ImageCarousel = () => {
           <Item>
             <Link to="/about">
               <img id="carousel-img" src={discover} />
+              <div id="carousel-text"><p>asdasdasdasdasd</p></div>
             </Link>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
           <Item>
             <img id="carousel-img" src={discover} />
+            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
           </Item>
         </Carousel>
       </div>

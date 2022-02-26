@@ -60,8 +60,8 @@ const LandingPage = () => {
         </section>
       </article>
       <h2>Articles</h2>
-      <article>
-        <section id="articles-container">
+      <div>
+        <div id="articles-container">
           <div id="articles-img-container">
             <img id="articles-img" src={bedroom}></img>
             <p>
@@ -118,8 +118,8 @@ const LandingPage = () => {
               in odio.
             </p>
           </div>
-        </section>
-      </article>
+        </div>
+      </div>
     </div>
   );
 };

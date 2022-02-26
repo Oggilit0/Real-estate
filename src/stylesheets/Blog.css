@@ -6,14 +6,16 @@
 }
 
 #continue-reading-btn{
-  background-color: orange;
-  
-  margin:20px;
+  background-color: #9CA77C;
+  color: #fff;
   cursor: pointer;
+  height: 35px;
+  margin: 20px;
+  margin-top: -0.2rem;
 }
 
 #previewText{
-  margin: 20px;;
+  margin: 20px;
 }
 
 #blogTitle{

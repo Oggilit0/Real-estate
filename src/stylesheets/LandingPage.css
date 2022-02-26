@@ -3,7 +3,12 @@
 }
 
 h2 {
+  font-family: 'Cabin', sans-serif;
   margin: 20px;
+}
+
+p{
+  font-family: 'Cabin', sans-serif;
 }
 
 article {
@@ -13,7 +18,6 @@ article {
 #img-collage {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "sml-1 sml-2 mdm-img"
     "brd-img brd-img mdm-img";
@@ -36,6 +40,7 @@ article {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 #small-img2 {
@@ -43,17 +48,20 @@ article {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 #medium-img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 #broad-img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 #discover {
@@ -79,13 +87,25 @@ margin: 20px;
 
 #articles-container{
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
+  margin-bottom: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  background-color: var(--Light-shades);
+}
+
+#articles-img-container{
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
+  border-radius: 10px;
 }
 
 #articles-img{
   width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#articles-img p{
+background-color: aqua;
 }
 
 article{

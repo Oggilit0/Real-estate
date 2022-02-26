@@ -5,11 +5,11 @@ const HouseList = ({ post }) => {
     return <p></p>;
   }
   return (
-    <div id="houselist">
+    <>
       {post.map((item) => (
         <HouseSummary item={item} />
       ))}
-    </div>
+    </>
   );
 };
 

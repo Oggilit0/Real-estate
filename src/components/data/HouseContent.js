@@ -7,7 +7,7 @@ const HouseContent = [
   {
     id: 1,
     city: "Gothenburg",
-    address: "Address: Vasaplatsen 5",
+    address: "Vasaplatsen 5",
     price: "Asking price: 2000009 kr",
     sqMeters: "Square meters: 30",
     amountRooms: "Amount of rooms: 2",
@@ -18,7 +18,7 @@ const HouseContent = [
   {
     id: 2,
     city: "Kinna",
-    address: "Address: Main Street 5",
+    address: "Main Street 5",
     price: "Asking price: 3000000 kr",
     sqMeters: "Square meters: 80",
     amountRooms: "Amount of rooms: 5",
@@ -29,7 +29,7 @@ const HouseContent = [
   {
     id: 3,
     city: "Boden",
-    address: "Address: Kungsgatan 3",
+    address: "Kungsgatan 3",
     price: "Asking price: 400 000 kr",
     sqMeters: "Square meters: 70",
     amountRooms: "Amount of rooms: 4",
@@ -40,7 +40,18 @@ const HouseContent = [
   {
     id: 4,
     city: "Valdemarsvik",
-    address: "Address: Udden 5",
+    address: "Udden 5",
+    price: "Asking price: 5000000kr",
+    sqMeters: "Square meters: 200",
+    amountRooms: "Amount of rooms: 3",
+    type: "Type of living: House",
+    description: "A place to build a family",
+    image: img4,
+  },
+  {
+    id: 5,
+    city: "Valdemarsvik",
+    address: "Udden 5",
     price: "Asking price: 5000000kr",
     sqMeters: "Square meters: 200",
     amountRooms: "Amount of rooms: 3",

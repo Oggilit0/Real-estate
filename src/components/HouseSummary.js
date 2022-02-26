@@ -2,16 +2,26 @@ import { isContentEditable } from "@testing-library/user-event/dist/utils";
 
 const HouseSummary = ({ item }) => {
   return (
-    <div id="houseSummary">
-      <h3 id="houseCity">{item.city}</h3>
-      <p id="houseAddress">{item.address}</p>
-      <div id="housePrice">{item.price}</div>
-      <div id="houseSq">{item.sqMeters}</div>
-      <div id="amountRooms">{item.amountRooms}</div>
-      <div id="type">{item.type}</div>
-      <div id="description">{item.description}</div>
-      <img id="blogImage" src={item.image} />
-    </div>
+    <>
+      <article>
+        <div id="articles-img-container" style={{ color: "white" }}>
+          <img id="articles-img" src={item.image}></img>
+          <p>
+            {item.city}
+            <br />
+            {item.address}
+            <br />
+            {item.price}
+            <br />
+            {item.sqMeters}
+
+            {item.amountRooms}
+
+            {item.type}
+          </p>
+        </div>
+      </article>
+    </>
   );
 };
 

@@ -14,3 +14,11 @@
   height: 8rem;
   resize: vertical;
 }
+
+.contactForm{
+  text-align: right;
+ margin-right: -15rem;
+ margin-top: -55rem;
+ margin-bottom: 53rem;
+}
+

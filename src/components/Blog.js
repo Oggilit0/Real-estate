@@ -12,10 +12,11 @@ const Blog = () => {
   const [post, setPost] = useState(BlogContent);
   return (
     <div className="blog">
-      <BlogList post={post}/>
       <div id = "blogLoggIn">
       <BlogLoggedIn/>
       </div>
+      <BlogList post={post}/>
+      
     </div>
   );
 };

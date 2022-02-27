@@ -7,7 +7,7 @@ const HouseSummary = ({ item }) => {
   return (
     <>
       <article>
-        <div id="articles-img-container" style={{ color: "white" }}>
+        <div id="articles-img-container">
           <img id="articles-img" src={item.image}></img>
           <p>
             {item.city}

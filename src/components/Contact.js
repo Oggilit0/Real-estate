@@ -4,8 +4,14 @@ import adam from "../components/Pictures/contact/adam.jpg";
 import margret from "../components/Pictures/contact/margret.jpg";
 import caroll from "../components/Pictures/contact/caroll.jpg";
 import annika from "../components/Pictures/contact/annika.jpg";
+import { useEffect } from "react";
 
 const Contact = () => {
+
+  useEffect(() => {
+    document.title = "Contact";
+  }, []);
+
   return (
     <div className="contact">
       <hr className="line"></hr>
@@ -30,7 +36,7 @@ const Contact = () => {
       <div id="articles-container">
         <div id="articles-img-container">
           <img id="articles-img" src={louise}></img>
-          <p>Louise Björnsson</p>
+          <p>Louise Yarkoni</p>
           <p>CEO and founder</p>
         </div>
         <div id="articles-img-container">
@@ -45,7 +51,7 @@ const Contact = () => {
         </div>
         <div id="articles-img-container">
           <img id="articles-img" src={adam}></img>
-          <p>Adam Björnsson</p>
+          <p>Adam Yarkoni</p>
           <p>Sales executive</p>
         </div>
         <div id="articles-img-container">

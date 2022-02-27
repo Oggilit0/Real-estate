@@ -3,7 +3,7 @@ import img2 from "../Pictures/House/House2/House2-1.jpg";
 import img3 from "../Pictures/House/House3/House3-1.jpg";
 import img4 from "../Pictures/House/House4/House4-2.jpg";
 import img5 from "../Pictures/House/House5/House5-1.jpg";
-import img6 from "../Pictures/House/House6/House6-1.jpg";
+import img6 from "../Pictures/House/House6/House6-3.jpg";
 import img7 from "../Pictures/House/House7/House7-1.jpg";
 
 const HouseContent = [

@@ -1,9 +1,13 @@
 import { useState } from "react";
 import HouseContent from "./data/HouseContent";
 import HouseList from "./HouseList";
+import { useEffect } from "react";
 
 const Buy = () => {
   const [post, setPost] = useState(HouseContent);
+  useEffect(() => {
+    document.title = "Buy";
+  }, []);
 
   return (
     <div>

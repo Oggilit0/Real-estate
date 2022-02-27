@@ -5,8 +5,7 @@ import livingroom from "./Pictures/StartPage/living-room-1.jpg";
 import discover from "./Pictures/family-photo-moving.jpg";
 import ImageCarousel from "./ImageCarousel";
 import { useEffect } from "react";
-{
-}
+import Articles from "./Articles";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -67,64 +66,7 @@ const LandingPage = () => {
         </section>
       </article>
       <h2>Articles</h2>
-      <article id="articles-container">
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-        <section id="articles-img-container">
-          <img id="articles-img" src={bedroom}></img>
-          <p>
-            Suspendisse eros tellus, euismod sit amet tincidunt ac, suscipit in
-            odio.
-          </p>
-        </section>
-      </article>
+        <Articles />
     </div>
   );
 };

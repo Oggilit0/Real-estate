@@ -1,3 +1,13 @@
 .houseSummary {
   background-color: var(--Dark-shades);
 }
+
+a {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}

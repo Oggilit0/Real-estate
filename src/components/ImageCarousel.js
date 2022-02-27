@@ -7,11 +7,9 @@ import { Link } from "react-router-dom";
 const ImageCarousel = () => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
     { width: 650, itemsToShow: 3 },
     { width: 850, itemsToShow: 4, itemsToScroll: 2 },
-    { width: 900, itemsToShow: 5 },
-    { width: 1750, itemsToShow: 6 },
   ];
   return (
     <>
@@ -26,36 +24,42 @@ const ImageCarousel = () => {
           <Item>
             <Link to="/about">
               <img id="carousel-img" src={discover} />
-              <div id="carousel-text"><p>asdasdasdasdasd</p></div>
             </Link>
           </Item>
           <Item>
+            <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
           <Item>
+          <Link to="/about">
             <img id="carousel-img" src={discover} />
-            <div id="carousel-text"><p>asdasdasdasdasd</p></div>
+            </Link>
           </Item>
         </Carousel>
       </div>

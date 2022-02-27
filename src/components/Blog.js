@@ -8,7 +8,9 @@ const Blog = () => {
   return (
     <div className="blog">
       <BlogList post={post}/>
-      <BlogLoggedIn />
+      <div id = "blogLoggIn">
+      <BlogLoggedIn/>
+      </div>
     </div>
   );
 };

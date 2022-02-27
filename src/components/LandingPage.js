@@ -4,18 +4,25 @@ import entrance from "./Pictures/StartPage/entrance-1.jpg";
 import livingroom from "./Pictures/StartPage/living-room-1.jpg";
 import discover from "./Pictures/family-photo-moving.jpg";
 import ImageCarousel from "./ImageCarousel";
+import { useEffect } from "react";
+{
+}
 
 const LandingPage = () => {
+  useEffect(() => {
+    document.title = "Main";
+  }, []);
+
   return (
     <div className="landing-page">
       <h2>Popular homes</h2>
-      <article>
+      <article className="landing-article">
         <ImageCarousel />
       </article>
 
       <h2>From dream to reality</h2>
-      <article id="img-collage">
-        <section id="img-container">
+      <article className="landing-article" id="img-collage">
+        <section className="landing-section" id="img-container">
           <img id="small-img1" src={bedroom} />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
@@ -25,7 +32,7 @@ const LandingPage = () => {
           </p>
         </section>
 
-        <section id="img-container">
+        <section className="landing-section" id="img-container">
           <img id="small-img2" src={entrance} />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
@@ -35,17 +42,17 @@ const LandingPage = () => {
           </p>
         </section>
 
-        <section id="medium-img-container">
+        <section className="landing-section" id="medium-img-container">
           <img id="medium-img" src={livingroom} />
         </section>
-        <section id="broad-img-container">
+        <section className="landing-section" id="broad-img-container">
           <img id="broad-img" src={diningroom} />
         </section>
       </article>
 
       <h2>Discover how much your home is worth</h2>
-      <article>
-        <section id="discover">
+      <article className="landing-article" id="landing-article">
+        <section className="landing-section" id="discover">
           <img id="discover-img" src={discover} />
           <div id="discover-text">
             <h1>Try out our free home value estimator!</h1>

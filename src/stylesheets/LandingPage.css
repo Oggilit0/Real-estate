@@ -3,16 +3,15 @@
 }
 
 h2 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   margin: 20px;
 }
 
-p{
-  font-family: 'Cabin', sans-serif;
+p {
+  font-family: "Cabin", sans-serif;
 }
 
 article {
-
 }
 
 #img-collage {
@@ -23,15 +22,14 @@ article {
     "brd-img brd-img mdm-img";
 }
 
-#img-container{
-
+#img-container {
 }
 
-#medium-img-container{
+#medium-img-container {
   grid-area: mdm-img;
 }
 
-#broad-img-container{
+#broad-img-container {
   grid-area: brd-img;
 }
 
@@ -72,20 +70,22 @@ article {
   width: 50%;
   height: auto;
   object-fit: cover;
-  vertical-align:top;
+  vertical-align: top;
 }
 
-#discover-text{
+#discover-text {
   color: var(--Dark-shades);
   width: 50%;
   float: right;
 }
 
-#discover-text h1, p, button{
-margin: 20px;
+#discover-text h1,
+p,
+button {
+  margin: 20px;
 }
 
-#articles-container{
+#articles-container {
   display: grid;
   grid-gap: 40px;
   margin-bottom: 20px;
@@ -94,27 +94,27 @@ margin: 20px;
   background-color: var(--Light-shades);
 }
 
-#articles-img-container{
+#articles-img-container {
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
   border-radius: 10px;
 }
 
-#articles-img{
+#articles-img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
 
-#articles-img p{
-background-color: aqua;
+#articles-img p {
+  background-color: aqua;
 }
 
-article{
+.landing-article {
   background-color: var(--Dark-shades);
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
 }
 
-section{
+.landing-section {
   background-color: var(--Light-shades);
   margin: 20px 20px 20px 20px;
   border-radius: 10px;

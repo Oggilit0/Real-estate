@@ -15,7 +15,7 @@ const Contact = () => {
       <div id="articles-container">
         <div id="articles-img-container">
           <img id="articles-img" src={louise}></img>
-          <p>Louise Björnsson</p>
+          <p>Louise Yarkoni</p>
           <p>CEO and founder</p>
         </div>
         <div id="articles-img-container">
@@ -30,7 +30,7 @@ const Contact = () => {
         </div>
         <div id="articles-img-container">
           <img id="articles-img" src={adam}></img>
-          <p>Adam Björnsson</p>
+          <p>Adam Yarkoni</p>
           <p>Sales executive</p>
         </div>
         <div id="articles-img-container">

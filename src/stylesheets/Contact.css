@@ -1,24 +1,25 @@
-.title{
+.title {
   text-align: center;
 }
 
-.line{
-  border: 1.0px solid black;
+.line {
+  border: 1px solid black;
 }
 
-.right-column{
+.right-column {
   color: black;
 }
 
-#message{
+#message {
   height: 8rem;
   resize: vertical;
 }
 
-.contactForm{
-  text-align: right;
- margin-right: -15rem;
- margin-top: -55rem;
- margin-bottom: 53rem;
+#contact-container {
+  display: grid;
+  grid-gap: 40px;
+  margin-bottom: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: var(--Light-shades);
 }
-

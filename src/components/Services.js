@@ -18,12 +18,15 @@ const Services = () => {
   return (
     <div className="services">
      <article>
+       <section className = "landing-article">
       <hr className = "line"></hr>
       <h2 className ="title" id="serviceTopTitle">Our Services</h2>
      <hr className = "line"></hr>
+     </section>
      </article>
 
      <article>
+       <section className = "landing-article">
         <div id="serviceLogos">
           <div id="articles-logo-container">
             <div id="test">
@@ -95,14 +98,19 @@ const Services = () => {
             </div>
           </div>
         </div>
+        </section>
       </article>
       
       <article>
+      <section className = "landing-customer">
      <hr className = "line"></hr>
      <img id="familyMoving" src={FamilyMoving} width ="auto" height="500px"/>
+     <hr className = "line"></hr>
+     </section>
      </article>
 
      <article>
+       <section className = "landing-customer">
       <hr className = "line"></hr>
       <h2 className ="title">The voice of our customers</h2>
      <hr className = "line"></hr>
@@ -115,6 +123,7 @@ const Services = () => {
      on small details to big specifics. It is a very professional team, who not
       only value the clients' feedback, but also ensure that all problems are 
       solved at first hand."' - Elsie</div>
+      </section>
      </article>
      
      </div>

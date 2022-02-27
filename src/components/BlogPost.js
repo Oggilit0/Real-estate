@@ -17,7 +17,7 @@ const BlogPost = (item) => {
         <div>
           <label id="reply">Leave a reply:</label>
         </div>
-        <input id="replyBox"></input>
+        <textarea id="replyBox"></textarea>
         <div>
           <label id="name">Name:</label>
         </div>

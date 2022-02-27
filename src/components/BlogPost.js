@@ -2,7 +2,7 @@ import {useState} from "react";
 import BlogContent from "./data/BlogContent";
 
 
-const BlogPost = () => {
+const BlogPost = (item) => {
   const [post, setPost] = useState(BlogContent);
 
   return (

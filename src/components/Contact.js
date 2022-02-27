@@ -4,8 +4,14 @@ import adam from "../components/Pictures/contact/adam.jpg";
 import margret from "../components/Pictures/contact/margret.jpg";
 import caroll from "../components/Pictures/contact/caroll.jpg";
 import annika from "../components/Pictures/contact/annika.jpg";
+import { useEffect } from "react";
 
 const Contact = () => {
+
+  useEffect(() => {
+    document.title = "Contact";
+  }, []);
+
   return (
     <div className="contact">
       <hr className="line"></hr>

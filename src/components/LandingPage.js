@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 const LandingPage = () => {
   useEffect(() => {
-    document.title = "Main";
+    document.title = "Home";
   }, []);
 
   return (

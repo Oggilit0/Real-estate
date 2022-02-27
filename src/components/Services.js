@@ -9,8 +9,12 @@ import CalculatorLogo from "./Pictures/calculatorLogo.png";
 import FamilyMoving from "./Pictures/family-photo-moving.jpg";
 import customer from "./Pictures/customer-lady.jpg";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Services = () => {
+  useEffect(() => {
+    document.title = "Services";
+  }, []);
   return (
     <div className="services">
      <article>

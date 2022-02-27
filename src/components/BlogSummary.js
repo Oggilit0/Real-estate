@@ -4,7 +4,7 @@ const BlogSummary = ({item}) => {
   return (
     <div id = "blogSummary">
       <h1 id="blogTitle">{item.title}</h1>
-      <p id="timeDatePost">{item.date}/{item.time}/{item.author}</p>
+      <p id="timeDatePost">Posted by {item.author} on {item.date}</p>
       <img id = "blogImage" src={item.image}/>
       <div id="previewText">{item.previewText}</div>
       <button

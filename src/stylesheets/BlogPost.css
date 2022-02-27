@@ -20,6 +20,10 @@ width: 200px;
 }
 
 #btn-reply-send{
-  background-color: orange;
+  background-color: #9CA77C;
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  width: 75px;
   margin-top: 1rem;
 }

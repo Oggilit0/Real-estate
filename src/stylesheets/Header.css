@@ -12,16 +12,20 @@
   position: sticky;
   top: 0;
   width: 100%;
-  color: white;
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.2);
   z-index: 2;
 }
 
 #navbar{
   position: absolute;
+  top: 20%;
   left: 30%;
   font-size: 2rem;
   margin-bottom: 20px;
+}
+
+#navbar a:hover{
+color:var(--Dark-accent);
 }
 
 #navbar ul{
@@ -43,10 +47,6 @@
 }
 
 #navbar a{
-  color: white;
+  color: var(--Light-shades);
  
-}
-
-#navbar a:visted{
-  color: white;
 }

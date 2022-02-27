@@ -1,6 +1,6 @@
 import discover from "./Pictures/family-photo-moving.jpg";
 
-const Inspirational = (props) => {
+const Inspirational = () => {
   return (
     <>
       <img id="discover-img" src={discover} />

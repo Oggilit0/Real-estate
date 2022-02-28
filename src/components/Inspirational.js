@@ -2,7 +2,7 @@ import discover from "./Pictures/family-photo-moving.jpg";
 
 const Inspirational = () => {
   return (
-    <>
+    <section id="discover">
       <img id="discover-img" src={discover} />
       <div id="discover-text">
         <h1>Try out our free home value estimator!</h1>
@@ -14,7 +14,7 @@ const Inspirational = () => {
         </p>
         <button>Try it out now!</button>
       </div>
-    </>
+    </section>
   );
 };
 

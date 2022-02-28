@@ -22,8 +22,13 @@
 }
 
 #blogLoggIn{
-position: absolute;
+position: relative;
 float: right;
 text-align: right;
-left: 72rem;
+left: 290px;
+top:270px;
+}
+
+#blogTopTitle{
+  margin-top: -250px;
 }

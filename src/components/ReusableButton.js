@@ -1,6 +1,6 @@
-const ReusableButton = ({children}) => {
+const ReusableButton = ({onClick, title,submit}) => {
   return <div>
-    <button className = "reuse-btn">{children}</button>
+    <button className = "reuse-btn" onClick={onClick} submit={submit}>{title}</button>
     </div>
 }
 

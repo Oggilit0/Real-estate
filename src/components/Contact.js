@@ -5,6 +5,7 @@ import margret from "../components/Pictures/contact/margret.jpg";
 import caroll from "../components/Pictures/contact/caroll.jpg";
 import annika from "../components/Pictures/contact/annika.jpg";
 import { useEffect } from "react";
+import ReusableButton from "./ReusableButton";
 
 const Contact = () => {
 
@@ -27,12 +28,15 @@ const Contact = () => {
           <div className="form-controll">
             <textarea type="text" id="message" placeholder="Message" />
           </div>
+          <ReusableButton title="Send"></ReusableButton>
         </form>
       </div>
       
+      <div id="contactTopTitle">
       <hr className="line"></hr>
       <h2 className="title">Contact Us</h2>
       <hr className="line"></hr>
+      </div>
 
     
       <div id="articles-container">

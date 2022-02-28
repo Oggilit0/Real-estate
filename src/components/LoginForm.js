@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import BlogLoggedIn from "./BlogLoggedIn";
+import ReusableButton from "./ReusableButton";
 
 function LoginForm({ Login, error }) {
   const [details, setDetails] = useState({ name: "", email: "", password: "" });
@@ -46,7 +47,7 @@ function LoginForm({ Login, error }) {
             value={details.password}
           ></input>
         </div>
-        <input type="submit" value="LOGIN"></input>
+        <ReusableButton type="submit" title="LOGIN"/>
       </div>
     </form>
   );

@@ -1,4 +1,5 @@
 import discover from "./Pictures/family-photo-moving.jpg";
+import ReusableButton from "./ReusableButton";
 
 const Inspirational = () => {
   return (
@@ -12,7 +13,7 @@ const Inspirational = () => {
           or charges - we'll collate all the latest data and email you your
           report within just a few minutes.
         </p>
-        <button>Try it out now!</button>
+        <ReusableButton title="Try it out now!"></ReusableButton>
       </div>
     </section>
   );

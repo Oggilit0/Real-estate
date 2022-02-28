@@ -10,51 +10,6 @@ p {
   font-family: "Cabin", sans-serif;
 }
 
-#img-collage {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-template-areas:
-    "sml-1 sml-2 mdm-img"
-    "brd-img brd-img mdm-img";
-}
-
-#medium-img-container {
-  grid-area: mdm-img;
-}
-
-#broad-img-container {
-  grid-area: brd-img;
-}
-
-#small-img1 {
-  grid-area: sml-1;
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-
-#small-img2 {
-  grid-area: sml-2;
-  width: 100%;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
-
-#medium-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-
-#broad-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
-
 #discover-text h1,
 p,
 button {

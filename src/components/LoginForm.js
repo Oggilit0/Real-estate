@@ -12,7 +12,7 @@ function LoginForm({ Login, error }) {
   return (
     <form onSubmit={submitHandler}>
       <div>
-        <h2>Sellers Login</h2>
+        <h2 className = "title" id ="sellersLogin">Sellers Login</h2>
         {error != "" ? <div>{error}</div> : ""}
         <div>
           <label htmlFor="name">Name:</label>

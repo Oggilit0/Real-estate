@@ -21,15 +21,15 @@ const LandingPage = () => {
         <ImageCarousel />
       </article>
 
-      <h2>From dream to reality</h2>
+      <h2 className = "title">From dream to reality</h2>
       <LandingPageCollage />
   
 
-      <h2>Discover how much your home is worth</h2>
+      <h2 className = "title">Discover how much your home is worth</h2>
 
       <Inspirational />
 
-      <h2>Articles</h2>
+      <h2 className = "title">Articles</h2>
         <Articles />
     </div>
   );

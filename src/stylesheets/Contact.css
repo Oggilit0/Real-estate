@@ -30,3 +30,9 @@ textarea{
   background-color: var(--Light-shades);
 }
 
+.contactForm{
+position: absolute;
+float: right;
+text-align: right;
+left: 74rem;
+}

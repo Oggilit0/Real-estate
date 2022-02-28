@@ -14,12 +14,9 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <hr className="line"></hr>
-      <h2 className="title">Contact Us</h2>
-      <hr className="line"></hr>
 
-      <div className="contactForm">
-        <h2 id="contactForm">Contact Form</h2>
+<div className="contactForm">
+        <h2 className = "title" id="contactForm">Contact Form</h2>
         <form className="form">
           <div className="form-controll">
             <input type="text" id="firstname" placeholder="Name" />
@@ -32,7 +29,12 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      
+      <hr className="line"></hr>
+      <h2 className="title">Contact Us</h2>
+      <hr className="line"></hr>
 
+    
       <div id="articles-container">
         <div id="articles-img-container">
           <img id="articles-img" src={louise}></img>

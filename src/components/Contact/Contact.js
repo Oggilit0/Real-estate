@@ -41,32 +41,32 @@ const Contact = () => {
     
       <div id="articles-container">
         <div id="articles-img-container">
-          <img id="articles-img" src={louise}></img>
+          <img id="contact-img" src={louise}></img>
           <p>Louise Yarkoni</p>
           <p>CEO and founder</p>
         </div>
         <div id="articles-img-container">
-          <img id="articles-img" src={guy}></img>
+          <img id="contact-img" src={guy}></img>
           <p>Guy Adams</p>
           <p>Founder and KAM</p>
         </div>
         <div id="articles-img-container">
-          <img id="articles-img" src={caroll}></img>
+          <img id="contact-img" src={caroll}></img>
           <p>Caroll Adams</p>
           <p> Sales manager</p>
         </div>
         <div id="articles-img-container">
-          <img id="articles-img" src={adam}></img>
+          <img id="contact-img" src={adam}></img>
           <p>Adam Yarkoni</p>
           <p>Sales executive</p>
         </div>
         <div id="articles-img-container">
-          <img id="articles-img" src={margret}></img>
+          <img id="contact-img" src={margret}></img>
           <p>Margret Silverstein</p>
           <p>Sales executive</p>
         </div>
         <div id="articles-img-container">
-          <img id="articles-img" src={annika}></img>
+          <img id="contact-img" src={annika}></img>
           <p>Annika Devald</p>
           <p>Reception</p>
         </div>

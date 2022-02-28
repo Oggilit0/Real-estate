@@ -4,19 +4,29 @@
   margin-bottom: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: var(--Light-shades);
+  margin: 10px;
 }
 
 #articles-img-container {
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
   border-radius: 10px;
+  background-color: var(--Light-shades);
+  height: 380px;
+  
 }
+
+#articles-img-container p{
+  color: var(--Dark-accent);
+}
+
+#articles-img-container h1{
+  margin-left: 20px;
+  color: var(--Dark-shades);
+  }
 
 #articles-img {
   width: 100%;
+  height: 150px;
+  object-fit: cover;
   border-radius: 10px 10px 0 0;
-}
-
-#articles-img p {
-  background-color: aqua;
 }

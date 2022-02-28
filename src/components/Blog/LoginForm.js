@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BlogLoggedIn from "./BlogLoggedIn";
-import ReusableButton from "./ReusableButton";
+import ReusableButton from "../ReusableComponents/ReusableButton";
 
 function LoginForm({ Login, error }) {
   const [details, setDetails] = useState({ name: "", email: "", password: "" });

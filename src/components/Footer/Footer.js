@@ -5,7 +5,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import logga from "./Pictures/logga.png";
+import logga from "../Pictures/logga.png";
 
 const Footer = () => {
   return (

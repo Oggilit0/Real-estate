@@ -1,4 +1,4 @@
-import discover from "./Pictures/family-photo-moving.jpg";
+import discover from "../Pictures/family-photo-moving.jpg";
 import ReusableButton from "./ReusableButton";
 
 const Inspirational = () => {

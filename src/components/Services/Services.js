@@ -1,12 +1,11 @@
-import "../stylesheets/Services.css";
-import StyleLogo from "./Pictures/StyleLogo.png";
-import InsuranceLogo from "./Pictures/InsuranceLogo.png";
-import ValueLogo from "./Pictures/ValueLogo.png";
-import CalenderLogo from "./Pictures/calenderLogo.png";
-import CameraLogo from "./Pictures/cameraLogo.png";
-import CalculatorLogo from "./Pictures/calculatorLogo.png";
-import FamilyMoving from "./Pictures/family-photo-moving.jpg";
-import customer from "./Pictures/customer-lady.jpg";
+import StyleLogo from "../Pictures/StyleLogo.png";
+import InsuranceLogo from "../Pictures/InsuranceLogo.png";
+import ValueLogo from "../Pictures/ValueLogo.png";
+import CalenderLogo from "../Pictures/calenderLogo.png";
+import CameraLogo from "../Pictures/cameraLogo.png";
+import CalculatorLogo from "../Pictures/calculatorLogo.png";
+import FamilyMoving from "../Pictures/family-photo-moving.jpg";
+import customer from "../Pictures/customer-lady.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 

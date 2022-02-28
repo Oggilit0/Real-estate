@@ -1,4 +1,4 @@
-import aboutPhoto from "./Pictures/about.jpg";
+import aboutPhoto from "../Pictures/about.jpg";
 import { useEffect } from "react";
 
 const About = () => {

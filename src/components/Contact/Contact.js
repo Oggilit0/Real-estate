@@ -1,11 +1,11 @@
-import louise from "../components/Pictures/contact/louise.jpg";
-import guy from "../components/Pictures/contact/guy.jpg";
-import adam from "../components/Pictures/contact/adam.jpg";
-import margret from "../components/Pictures/contact/margret.jpg";
-import caroll from "../components/Pictures/contact/caroll.jpg";
-import annika from "../components/Pictures/contact/annika.jpg";
+import louise from "../Pictures/contact/louise.jpg";
+import guy from "../Pictures/contact/guy.jpg";
+import adam from "../Pictures/contact/adam.jpg";
+import margret from "../Pictures/contact/margret.jpg";
+import caroll from "../Pictures/contact/caroll.jpg";
+import annika from "../Pictures/contact/annika.jpg";
 import { useEffect } from "react";
-import ReusableButton from "./ReusableButton";
+import ReusableButton from "../ReusableComponents/ReusableButton";
 
 const Contact = () => {
 

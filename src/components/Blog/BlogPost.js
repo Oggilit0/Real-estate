@@ -1,6 +1,6 @@
 import {useState} from "react";
-import BlogContent from "./data/BlogContent";
-import ReusableButton from "./ReusableButton";
+import BlogContent from "../data/BlogContent";
+import ReusableButton from "../ReusableComponents/ReusableButton";
 
 
 const BlogPost = (item) => {

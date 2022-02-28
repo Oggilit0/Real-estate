@@ -1,5 +1,5 @@
 import { isContentEditable } from "@testing-library/user-event/dist/utils";
-import ReusableButton from "./ReusableButton";
+import ReusableButton from "../ReusableComponents/ReusableButton";
 
 const BlogSummary = ({item}) => {
   return (

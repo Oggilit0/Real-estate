@@ -1,7 +1,7 @@
-import diningroom from "./Pictures/StartPage/dining-room-1.jpg";
-import entrance from "./Pictures/StartPage/entrance-1.jpg";
-import livingroom from "./Pictures/StartPage/living-room-1.jpg";
-import bedroom from "./Pictures/StartPage/bedroom-1.jpg";
+import diningroom from "../Pictures/StartPage/dining-room-1.jpg";
+import entrance from "../Pictures/StartPage/entrance-1.jpg";
+import livingroom from "../Pictures/StartPage/living-room-1.jpg";
+import bedroom from "../Pictures/StartPage/bedroom-1.jpg";
 
 const LandingPageCollage = () => {
   return (

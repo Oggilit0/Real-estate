@@ -1,5 +1,5 @@
 
-import logga from "./Pictures/logga.png";
+import logga from "../Pictures/logga.png";
 import NavigationBar from "./NavigationBar";
 
 const Header = () => {

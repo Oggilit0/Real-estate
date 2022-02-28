@@ -1,8 +1,8 @@
 import { useState } from "react";
-import HouseContent from "./data/HouseContent";
+import HouseContent from "../data/HouseContent";
 import HouseList from "./HouseList";
 import { useEffect } from "react";
-import Inspirational from "./Inspirational";
+import Inspirational from "../ReusableComponents/Inspirational";
 
 const Buy = () => {
   const [post, setPost] = useState(HouseContent);

@@ -1,4 +1,4 @@
-import JSONDATA from "../mock-data.json";
+import JSONDATA from "../../mock-data.json";
 import { useState } from "react";
 
 const SearchBar = () => {

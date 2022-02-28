@@ -1,12 +1,7 @@
-import bedroom from "./Pictures/StartPage/bedroom-1.jpg";
-import diningroom from "./Pictures/StartPage/dining-room-1.jpg";
-import entrance from "./Pictures/StartPage/entrance-1.jpg";
-import livingroom from "./Pictures/StartPage/living-room-1.jpg";
-import discover from "./Pictures/family-photo-moving.jpg";
 import ImageCarousel from "./ImageCarousel";
 import { useEffect } from "react";
 import Articles from "./Articles";
-import Inspirational from "./Inspirational";
+import Inspirational from "../ReusableComponents/Inspirational";
 import LandingPageCollage from "./LandingPageCollage";
 
 const LandingPage = () => {

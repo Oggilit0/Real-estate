@@ -1,4 +1,4 @@
-import JSONDATA from "../mock-data.json";
+import JSONDATA from "../../mock-data.json";
 
 const ListViewings = (value) => {
   return (

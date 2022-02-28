@@ -1,5 +1,5 @@
-import bedroom from "./Pictures/StartPage/bedroom-1.jpg";
-import blogimg1 from "./Pictures/real-estate-blog-agent.jpg";
+import bedroom from "../Pictures/StartPage/bedroom-1.jpg";
+import blogimg1 from "../Pictures/real-estate-blog-agent.jpg";
 
 const Articles = () => {
   return (

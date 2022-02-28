@@ -1,6 +1,5 @@
 import Carousel from "react-elastic-carousel";
-import discover from "./Pictures/pillow.jpg";
-import "../stylesheets/ImageCarousel.css";
+import discover from "../Pictures/pillow.jpg";
 import Item from "./Item";
 import { Link } from "react-router-dom";
 

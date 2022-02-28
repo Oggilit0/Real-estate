@@ -1,3 +1,8 @@
+import pic1 from "../Pictures/pillow.jpg";
+import pic2 from "../Pictures/pillow.jpg";
+import pic3 from "../Pictures/pillow.jpg";
+import pic4 from "../Pictures/pillow.jpg";
+
 const HouseObject1 = () => {
   return (
     <div className="houseObjectContainer">

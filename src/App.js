@@ -1,19 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import LeftColumn from "./components/LeftColumn";
-import RightColumn from "./components/RightColumn";
-import LandingPage from "./components/LandingPage";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Buy from "./components/Buy";
-import Contact from "./components/Contact";
-import Services from "./components/Services";
-import TopImage from "./components/TopImage";
-import BlogPost from "./components/BlogPost";
-import ReusableButton from "./components/ReusableButton";
-import HouseObject1 from "./components/HouseObject1";
-import HouseObject2 from "./components/HouseObject2";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import LeftColumn from "./components/ReusableComponents/LeftColumn";
+import RightColumn from "./components/ReusableComponents/RightColumn";
+import LandingPage from "./components/Home/LandingPage";
+import About from "./components/About/About";
+import Blog from "./components/Blog/Blog";
+import Buy from "./components/Buy/Buy";
+import Contact from "./components/Contact/Contact";
+import Services from "./components/Services/Services";
+import TopImage from "./components/TopImage/TopImage";
+import BlogPost from "./components/Blog/BlogPost";
+import ReusableButton from "./components/ReusableComponents/ReusableButton";
+import HouseObject1 from "./components/Buy/HouseObject1";
+import HouseObject2 from "./components/Buy/HouseObject2";
 
 function App() {
   return (

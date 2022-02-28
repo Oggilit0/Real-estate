@@ -1,5 +1,5 @@
 import SearchBar from "./SearchBar";
-import ListViewings from "./ListViewings.js";
+import ListViewings from "../Buy/ListViewings.js";
 
 const TopImage = () => {
   return (

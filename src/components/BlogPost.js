@@ -28,7 +28,7 @@ const BlogPost = (item) => {
         </div>
         <input id="emailBox"></input>
       </div>
-      <ReusableButton>Leave a reply</ReusableButton>
+      <ReusableButton title="Leave a reply"></ReusableButton>
     </div>
   );
 };

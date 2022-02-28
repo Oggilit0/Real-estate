@@ -8,7 +8,7 @@ const LandingPageCollage = () => {
     <article className="landing-article" id="img-collage">
       <section className="landing-section" id="img-container">
         <img id="small-img1" src={bedroom} />
-        <p>
+        <p id = "collageText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
           sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
           sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
@@ -18,7 +18,7 @@ const LandingPageCollage = () => {
 
       <section className="landing-section" id="img-container">
         <img id="small-img2" src={entrance} />
-        <p>
+        <p id = "collageText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
           sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
           sapien quis sollicitudin convallis, ex diam posuere urna, in euismod

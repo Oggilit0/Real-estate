@@ -1,5 +1,6 @@
 import { useState } from "react";
 import LoginForm from "./LoginForm";
+import ReusableButton from "./ReusableButton";
 
 const BlogLoggedIn = () => {
   const adminUser = {
@@ -63,7 +64,7 @@ const BlogLoggedIn = () => {
             Make a post.
             <form></form>
           </h4>
-          <button onClick={Logout}>Logout</button>
+          <ReusableButton onClick={Logout} title="LOGOUT"></ReusableButton>
         </div>
       ) : (
         <LoginForm Login={Login} error={error} />

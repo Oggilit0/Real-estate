@@ -21,6 +21,7 @@ const LandingPage = () => {
         <ImageCarousel />
       </article>
 
+
       <h2 className = "title">From dream to reality</h2>
       <LandingPageCollage />
   

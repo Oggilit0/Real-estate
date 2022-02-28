@@ -34,10 +34,10 @@ const Services = () => {
             Does your home need a makeover? 
             Let our homestyling experts provide simple, 
             practical advice to help you sell your home faster. 
+            </p>
             <div>
             <Link className = "readMoreLink" to="./services"> Read More </Link>
             </div>
-            </p>
           </div>
           <div id="articles-logo-container">
             <img id ="logoDesign" src={InsuranceLogo}></img>
@@ -45,10 +45,8 @@ const Services = () => {
             <p id="service-text">
             Protect your home and belongings with a homeowners insurance policy from our agency. 
             We provide resources to help you get your life back on track after an unfortunate accident.
-            <div>
-            <Link className  = "readMoreLink" to="./services"> Read More </Link>
-            </div>
             </p>
+            
           </div>
           <div id="articles-logo-container">
             <img id ="logoDesign" src={ValueLogo}></img>

@@ -1,4 +1,5 @@
 import { isContentEditable } from "@testing-library/user-event/dist/utils";
+import ReusableButton from "./ReusableButton";
 
 const BlogSummary = ({item}) => {
   return (
@@ -7,12 +8,7 @@ const BlogSummary = ({item}) => {
       <p id="timeDatePost">Posted by {item.author} on {item.date}</p>
       <img id = "blogImage" src={item.image}/>
       <div id="previewText">{item.previewText}</div>
-      <button
-        id="continue-reading-btn"
-        onClick={(event) => (window.location.href = "/BlogPost")}
-      >
-        Continue reading
-      </button>
+      <ReusableButton onClick={(event) => (window.location.href = "/BlogPost")}title="Continue reading"></ReusableButton>
       <hr></hr>
       
     </div>

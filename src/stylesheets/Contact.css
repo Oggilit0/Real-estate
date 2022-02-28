@@ -3,8 +3,13 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+#contactTopTitle{
+  margin-top: -350px;
+}
+
 .line {
   border: 1px solid black;
+  width: 100%;
 }
 
 .right-column {
@@ -31,8 +36,9 @@ textarea{
 }
 
 .contactForm{
-position: absolute;
-float: right;
-text-align: right;
-left: 74rem;
+  position: relative;
+  float: right;
+  text-align: right;
+  left: 250px;
+  top:370px;
 }

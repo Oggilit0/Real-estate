@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .line {
@@ -28,3 +29,4 @@ textarea{
   grid-template-rows: 1fr 1fr;
   background-color: var(--Light-shades);
 }
+

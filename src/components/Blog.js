@@ -15,6 +15,11 @@ const Blog = () => {
       <div id = "blogLoggIn">
       <BlogLoggedIn/>
       </div>
+      <div id = "blogTopTitle">
+      <hr className="line"></hr>
+      <h2 className="title">Blog</h2>
+      <hr className="line"></hr>
+      </div>
       <BlogList post={post}/>
       
     </div>

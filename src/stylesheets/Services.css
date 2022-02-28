@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-#serviceTopTitle{
-  color: #FBFBFB;
-}
-
 #serviceLogos{
   display: grid;
   grid-gap: 20px;

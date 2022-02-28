@@ -16,13 +16,14 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <h2>Popular homes</h2>
+      <h2 className = "title">Popular homes</h2>
       <article className="landing-article">
         <ImageCarousel />
       </article>
 
       <h2>From dream to reality</h2>
       <LandingPageCollage />
+  
 
       <h2>Discover how much your home is worth</h2>
 

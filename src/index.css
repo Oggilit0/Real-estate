@@ -13,6 +13,8 @@
 @import "./stylesheets/Main.css";
 @import "./stylesheets/Blog.css";
 @import "./stylesheets/ResponsiveDesign.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 
 :root {
   --Light-shades: #FBFBFB;

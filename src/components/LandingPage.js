@@ -16,12 +16,12 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <h2>Popular homes</h2>
+      <h2 className = "title">Popular homes</h2>
       <article className="landing-article">
         <ImageCarousel />
       </article>
 
-      <h2>From dream to reality</h2>
+      <h2 className ="title">From dream to reality</h2>
       <article className="landing-article" id="img-collage">
         <section className="landing-section" id="img-container">
           <img id="small-img1" src={bedroom} />
@@ -51,13 +51,13 @@ const LandingPage = () => {
         </section>
       </article>
 
-      <h2>Discover how much your home is worth</h2>
+      <h2 className = "title">Discover how much your home is worth</h2>
       <article className="landing-article" id="landing-article">
         <section className="landing-section" id="discover">
           <Inspirational />
         </section>
       </article>
-      <h2>Articles</h2>
+      <h2 className = "title">Articles</h2>
       <article id="articles-container">
         <section id="articles-img-container">
           <img id="articles-img" src={bedroom}></img>

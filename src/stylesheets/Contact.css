@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .line {
@@ -12,15 +13,12 @@
 
 #message {
   height: 8rem;
-<<<<<<< HEAD
   width: 200px;
   
 }
 
 textarea{
   border-radius: 10px;
-}
-=======
   resize: vertical;
 }
 
@@ -32,4 +30,3 @@ textarea{
   grid-template-rows: 1fr 1fr;
   background-color: var(--Light-shades);
 }
->>>>>>> marcus

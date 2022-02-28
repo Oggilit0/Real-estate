@@ -17,26 +17,7 @@ const Contact = () => {
       <h2 className="title">Contact Us</h2>
       <hr className="line"></hr>
 
-<<<<<<< HEAD
-      <div className="contactForm">
-        <h2 id="contactForm">Contact Form</h2>
-        <form className="form">
-          <div className="form-controll">
-            <input type="text" id="firstname" placeholder="Name" />
-          </div>
-          <div className="form-controll">
-            <input type="text" id="email" placeholder="Email" />
-          </div>
-          <div className="form-controll">
-            <textarea type="text" id="message" placeholder="Message" />
-          </div>
-        </form>
-      </div>
-
-      <div id="articles-container">
-=======
       <div id="contact-container">
->>>>>>> marcus
         <div id="articles-img-container">
           <img id="articles-img" src={louise}></img>
           <p>Louise Yarkoni</p>

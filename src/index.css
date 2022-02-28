@@ -13,6 +13,8 @@
 @import "./stylesheets/Main.css";
 @import "./stylesheets/Blog.css";
 @import "./stylesheets/ResponsiveDesign.css";
+@import "./stylesheets/LandingPageCollage.css";
+@import "./stylesheets/Inspirational.css";
 
 :root {
   --Light-shades: #FBFBFB;

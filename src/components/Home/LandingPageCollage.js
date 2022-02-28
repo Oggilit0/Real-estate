@@ -1,28 +1,25 @@
 import diningroom from "../Pictures/StartPage/dining-room-1.jpg";
-import entrance from "../Pictures/StartPage/entrance-1.jpg";
+import livingroom2 from "../Pictures/StartPage/living-room-2.jpg";
 import livingroom from "../Pictures/StartPage/living-room-1.jpg";
-import bedroom from "../Pictures/StartPage/bedroom-1.jpg";
+import couple from "../Pictures/StartPage/couple-moving.jpg";
+
 
 const LandingPageCollage = () => {
   return (
     <article className="landing-article" id="img-collage">
       <section className="landing-section" id="img-container">
-        <img id="small-img1" src={bedroom} />
+        <img id="small-img1" src={livingroom2} />
         <p id = "collageText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
-          sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
-          sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
-          magna lorem ut velit.
+        Feel inspired by the latest project kick-offs, 
+        including new ideas and designs for your next home.
         </p>
       </section>
 
       <section className="landing-section" id="img-container">
-        <img id="small-img2" src={entrance} />
+        <img id="small-img2" src={couple} />
         <p id = "collageText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
-          sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
-          sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
-          magna lorem ut velit.
+        If you are thinking about buying a home contact us! We would 
+        love to help your dream come true!
         </p>
       </section>
 

@@ -12,9 +12,11 @@ const Buy = () => {
 
   return (
     <div>
-      <hr className="line"></hr>
-      <h2 className="title">Available objects for sale </h2>
-      <hr className="line"></hr>
+      <div className="buy-top">
+        <hr className="line"></hr>
+        <h2 className="title">Available objects for sale </h2>
+        <hr className="line"></hr>
+      </div>
 
       <div id="articles-container">
         <HouseList post={post} />

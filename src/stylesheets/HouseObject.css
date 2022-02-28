@@ -1,0 +1,50 @@
+.houseobject {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-areas:
+    "factsTop factsTop factsTop factsTop"
+    "adressPrice adressPrice adressPrice adressPrice"
+    "picture-bar pictures-bar pictures-bar picturesbar"
+    "display display display display"
+    "display2 display2 display3 display3";
+}
+
+.adressPrice {
+  grid-area: adressPrice;
+}
+
+.factsTop {
+  grid-area: factsTop;
+}
+
+.adress {
+  float: left;
+}
+
+.price {
+  float: right;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.display {
+  grid-area: display;
+  width: 150px;
+}
+
+.display2 {
+  grid-area: display2;
+  width: 200px;
+}
+
+.display3 {
+  grid-area: display3;
+  width: 300px;
+}
+
+.pictures-bar {
+  grid-area: pictures-bar;
+}

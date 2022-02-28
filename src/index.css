@@ -13,11 +13,12 @@
 @import "./stylesheets/Main.css";
 @import "./stylesheets/Blog.css";
 @import "./stylesheets/ResponsiveDesign.css";
+@import "./stylesheets/HouseObject.css";
 
 :root {
-  --Light-shades: #FBFBFB;
-  --Light-accent: #9CA77C;
-  --Main: #939BA8;
+  --Light-shades: #fbfbfb;
+  --Light-accent: #9ca77c;
+  --Main: #939ba8;
   --Dark-accent: #787689;
-  --Dark-shades: #2E384F;
+  --Dark-shades: #2e384f;
 }

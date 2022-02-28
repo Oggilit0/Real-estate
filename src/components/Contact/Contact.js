@@ -4,6 +4,8 @@ import adam from "../Pictures/contact/adam.jpg";
 import margret from "../Pictures/contact/margret.jpg";
 import caroll from "../Pictures/contact/caroll.jpg";
 import annika from "../Pictures/contact/annika.jpg";
+import laura from "../Pictures/contact/laura.jpg";
+import miles from "../Pictures/contact/miles.jpg";
 import { useEffect } from "react";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 
@@ -51,9 +53,19 @@ const Contact = () => {
           <p>Founder and KAM</p>
         </div>
         <div id="articles-img-container">
+          <img id="contact-img" src={laura}></img>
+          <p>Laura Carter</p>
+          <p>HR manager</p>
+        </div>
+        <div id="articles-img-container">
           <img id="contact-img" src={caroll}></img>
           <p>Caroll Adams</p>
           <p> Sales manager</p>
+        </div>
+        <div id="articles-img-container">
+          <img id="contact-img" src={miles}></img>
+          <p>Miles Ray</p>
+          <p>IT Engineer</p>
         </div>
         <div id="articles-img-container">
           <img id="contact-img" src={adam}></img>

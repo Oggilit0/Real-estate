@@ -48,4 +48,6 @@ textarea{
   height: 250px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }

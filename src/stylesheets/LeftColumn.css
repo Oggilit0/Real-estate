@@ -1,4 +1,5 @@
 .left-column {
-  background-color: var(--Light-Shades);
   grid-area: left-column;
+  background-color: var(--Light-shades);
+  z-index: -1;
 }

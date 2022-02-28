@@ -1,0 +1,20 @@
+#discover {
+
+  background-color: var(--Light-accent);
+  width: 100%;
+  border-radius: 10px;
+}
+
+#discover-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 10px 0 0 10px;
+}
+
+#discover-text {
+  color: var(--Dark-shades);
+  width: 50%;
+  float: right;
+}

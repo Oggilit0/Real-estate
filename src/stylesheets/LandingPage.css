@@ -62,22 +62,7 @@ article {
   border-radius: 10px;
 }
 
-#discover {
-  background-color: var(--Light-accent);
-}
 
-#discover-img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-  vertical-align: top;
-}
-
-#discover-text {
-  color: var(--Dark-shades);
-  width: 50%;
-  float: right;
-}
 
 #discover-text h1,
 p,

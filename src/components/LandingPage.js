@@ -7,6 +7,7 @@ import ImageCarousel from "./ImageCarousel";
 import { useEffect } from "react";
 import Articles from "./Articles";
 import Inspirational from "./Inspirational";
+import LandingPageCollage from "./LandingPageCollage";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -21,41 +22,12 @@ const LandingPage = () => {
       </article>
 
       <h2>From dream to reality</h2>
-      <article className="landing-article" id="img-collage">
-        <section className="landing-section" id="img-container">
-          <img id="small-img1" src={bedroom} />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
-            sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
-            sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
-            magna lorem ut velit.
-          </p>
-        </section>
-
-        <section className="landing-section" id="img-container">
-          <img id="small-img2" src={entrance} />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
-            sodales magna. Duis tristique a augue ac hendrerit. Maecenas mollis,
-            sapien quis sollicitudin convallis, ex diam posuere urna, in euismod
-            magna lorem ut velit.
-          </p>
-        </section>
-
-        <section className="landing-section" id="medium-img-container">
-          <img id="medium-img" src={livingroom} />
-        </section>
-        <section className="landing-section" id="broad-img-container">
-          <img id="broad-img" src={diningroom} />
-        </section>
-      </article>
+      <LandingPageCollage />
 
       <h2>Discover how much your home is worth</h2>
-      <article className="landing-article" id="landing-article">
-        <section className="landing-section" id="discover">
-          <Inspirational />
-        </section>
-      </article>
+
+      <Inspirational />
+
       <h2>Articles</h2>
         <Articles />
     </div>

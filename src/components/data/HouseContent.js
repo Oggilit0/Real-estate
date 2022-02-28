@@ -9,13 +9,13 @@ import img7 from "../Pictures/House/House7/House7-1.jpg";
 const HouseContent = [
   {
     id: 1,
-    city: "Gothenburg",
-    address: "Vasaplatsen 5",
+    city: "Bollebygd",
+    address: "Ödåkra 5",
     price: "Asking price: 2000009 kr",
     sqMeters: "Square meters: 30",
     amountRooms: "Amount of rooms: 2",
     type: "Type of living: Apartment",
-    description: "Now you have the chance to aquire this apartment",
+    description: "Time to relax in the country side",
     image: img1,
   },
   {

@@ -1,5 +1,6 @@
 import {useState} from "react";
 import BlogContent from "./data/BlogContent";
+import ReusableButton from "./ReusableButton";
 
 
 const BlogPost = (item) => {
@@ -27,7 +28,7 @@ const BlogPost = (item) => {
         </div>
         <input id="emailBox"></input>
       </div>
-      <button id="btn-reply-send">Send</button>
+      <ReusableButton>Leave a reply</ReusableButton>
     </div>
   );
 };

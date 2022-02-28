@@ -2,15 +2,98 @@
   body {
     min-width: 375px;
     max-width: 375px;
-    
   }
 
   .container {
-    grid-template-columns: 1fr;
+    
+    grid-template-columns: 375px;
     grid-template-areas:
       "header"
       "topImage"
       "main"
       "footer";
   }
+
+  #navbar{
+    position: relative;
+    left: 0%;
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+  }
+
+  #navbar ul{
+    display: block;
+    height: 50px;
+    width: 330px;
+    list-style-type:none;
+  }
+
+  #familyMoving{
+    width: 80%;
+  }
+
+  #serviceLogos{
+    grid-template-columns: 375px;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #articles-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: var(--Light-shades);
+  }
+
+  #blogLoggIn{
+    left: 0px;
+    }
+
+    #footer {
+      height: 570px;
+      margin-bottom: -100px;
+    }
+
+    #footer-content {
+      top: 60px;
+      height: 420px;
+    }
+
+    #footer-logo {
+      bottom:20px;
+      margin-left: 130px;
+      width: 100px;
+    }
+    
+    #social-media {
+      bottom: 0px;
+      margin-left: 70px;
+      margin-top: 230px;
+    }
+    
+    .footer-icon {
+      height: 40px;
+    }
+    
+    #footer-content h1 {
+      font-size: 1rem;
+      bottom: 40px;
+    }
+    
+    #footer-content p {
+      bottom: 300px;
+      margin-left: 70px;
+      float:none;
+      width: 240px;
+    }
+    
+    #footer-line{
+      display: none;
+    }
+
+    #banner {
+      height: 300px;
+    }
+    
+    .topImage {
+      height: 300px;
+    }
 }

@@ -1,3 +1,4 @@
+@import "./stylesheets/ResponsiveDesign.css";
 @import "./stylesheets/Footer.css";
 @import "./stylesheets/Header.css";
 @import "./stylesheets/About.css";
@@ -12,9 +13,9 @@
 @import "./stylesheets/TopImage.css";
 @import "./stylesheets/Main.css";
 @import "./stylesheets/Blog.css";
-@import "./stylesheets/ResponsiveDesign.css";
 @import "./stylesheets/LandingPageCollage.css";
 @import "./stylesheets/Inspirational.css";
+@import "./stylesheets/Articles.css";
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 

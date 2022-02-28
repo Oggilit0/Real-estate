@@ -62,35 +62,10 @@ article {
   border-radius: 10px;
 }
 
-
-
 #discover-text h1,
 p,
 button {
   margin: 20px;
-}
-
-#articles-container {
-  display: grid;
-  grid-gap: 40px;
-  margin-bottom: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  background-color: var(--Light-shades);
-}
-
-#articles-img-container {
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
-  border-radius: 10px;
-}
-
-#articles-img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-#articles-img p {
-  background-color: aqua;
 }
 
 .landing-article {

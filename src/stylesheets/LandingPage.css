@@ -10,18 +10,12 @@ p {
   font-family: "Cabin", sans-serif;
 }
 
-article {
-}
-
 #img-collage {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-areas:
     "sml-1 sml-2 mdm-img"
     "brd-img brd-img mdm-img";
-}
-
-#img-container {
 }
 
 #medium-img-container {

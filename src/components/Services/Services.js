@@ -25,7 +25,7 @@ const Services = () => {
      </article>
 
      <article>
-       <section className = "landing-article">
+       <section className = "landing-section">
         <div id="serviceLogos">
           <div id="articles-logo-container">
           <img id ="logoDesign" src={StyleLogo}/>
@@ -36,6 +36,7 @@ const Services = () => {
             practical advice to help you sell your home faster. 
             </p>
             <div>
+              <br/>
             <Link className = "readMoreLink" to="./services"> Read More </Link>
             </div>
           </div>
@@ -46,7 +47,8 @@ const Services = () => {
             Protect your home and belongings with a homeowners insurance policy from our agency. 
             We provide resources to help you get your life back on track after an unfortunate accident.
             </p>
-            
+            <br/>
+            <Link className = "readMoreLink" to="./services"> Read More </Link>
           </div>
           <div id="articles-logo-container">
             <img id ="logoDesign" src={ValueLogo}></img>
@@ -57,6 +59,7 @@ const Services = () => {
             in the industry.
             </p>
             <div>
+            <br/>
             <Link className  = "readMoreLink" to="./Services"> Read More </Link>
             </div>
           </div>
@@ -68,6 +71,7 @@ const Services = () => {
              We are able to apply our expertise in this field through a variety of services.
             </p>
             <div>
+            <br/>
             <Link className  = "readMoreLink" to="./Services"> Read More </Link>
             </div>
           </div>
@@ -79,6 +83,7 @@ const Services = () => {
             Book an appointment with one of our Realtor. We look forward to seeing you soon!
             </p>
             <div>
+            <br/>
             <Link className  = "readMoreLink" to="./Services"> Read More </Link>
             </div>
           </div>
@@ -89,6 +94,7 @@ const Services = () => {
             Calculate your mortgage, monthly payments, and more in just a few easy steps. 
             </p>
             <div>
+            <br/>
             <Link className  = "readMoreLink"to="./Services"> Read More </Link>
             </div>
           </div>

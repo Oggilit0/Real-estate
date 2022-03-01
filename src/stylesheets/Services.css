@@ -13,7 +13,8 @@
   height:auto;
   width:160px;
   border: 1px solid black;
-  background-color: #FBFBFB;
+  background-color: #939ba8;
+  border-radius: 10px 10px 0px 0px;
   
 }
 
@@ -23,25 +24,23 @@
 
 #articles-logo-container{
   padding: 35px;
-  box-shadow: 1px 1px 2px 2px grey;
-  width:150px;
   border: 1px solid grey;
+  border-radius: 10px 10px 10px 10px;
   margin:20px;
+  background-color: var(--Light-shades);
 }
 
 #serviceTitle{
-color: #787689;
+color: #2e384f;
 }
 
 #service-text{
   text-align:left;
   margin: -1px;
-  color:#FBFBFB;
 }
 
 .readMoreLink{
   margin-top: 1rem;
-  color: #FBFBFB;
 }
 
 #customerDesign{

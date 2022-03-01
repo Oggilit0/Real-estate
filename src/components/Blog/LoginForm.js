@@ -16,31 +16,31 @@ function LoginForm({ Login, error }) {
         <h2 className = "title" id ="sellersLogin">Sellers Login</h2>
         {error != "" ? <div>{error}</div> : ""}
         <div>
-          <label htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
             id="name"
+            placeholder="Name"
             onChange={(e) => setDetails({ ...details, name: e.target.value })}
             value={details.name}
           />
         </div>
         <div>
-          <label htmlFor="email">Email: </label>
           <input
             type="email"
             email="email"
             id="email"
+            placeholder="Email"
             onChange={(e) => setDetails({ ...details, email: e.target.value })}
             value={details.email}
           ></input>
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
           <input
             type="password"
             password="password"
             id="password"
+            placeholder="Password"
             onChange={(e) =>
               setDetails({ ...details, password: e.target.value })
             }

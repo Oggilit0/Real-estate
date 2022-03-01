@@ -10,7 +10,7 @@ const NavigationBar = () => {
       <label for="check" class="checkbtn">
       <FontAwesomeIcon icon={faBars}/>
       </label>
-      <ul>
+      <ul id ="headerText">
         <li>
           <Link to="/">Home</Link>
         </li>

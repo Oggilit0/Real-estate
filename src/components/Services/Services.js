@@ -4,7 +4,7 @@ import ValueLogo from "../Pictures/ValueLogo.png";
 import CalenderLogo from "../Pictures/calenderLogo.png";
 import CameraLogo from "../Pictures/cameraLogo.png";
 import CalculatorLogo from "../Pictures/calculatorLogo.png";
-import FamilyMoving from "../Pictures/family-photo-moving.jpg";
+import FamilyMoving from "../Pictures/StartPage/family-playing-box.jpg";
 import customer from "../Pictures/customer-lady.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
@@ -96,10 +96,8 @@ const Services = () => {
       </article>
       
       <article>
-      <section className = "landing-customer">
-     <hr className = "line"></hr>
+      <section className = "landing-section">
      <img id="familyMoving" src={FamilyMoving} width ="auto" height="500px"/>
-     <hr className = "line"></hr>
      </section>
      </article>
 

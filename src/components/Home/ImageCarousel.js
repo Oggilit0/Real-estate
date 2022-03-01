@@ -30,12 +30,27 @@ const ImageCarousel = () => {
         >
           <Item>
             <Link to="/about">
-              <img id="carousel-img" src={house3} />
+              <img id="carousel-img" src={house5} />
             </Link>
           </Item>
           <Item>
             <Link to="/about">
+            <img id="carousel-img" src={house7} />
+            </Link>
+          </Item>
+          <Item>
+          <Link to="/about">
+            <img id="carousel-img" src={house8} />
+            </Link>
+          </Item>
+          <Item>
+          <Link to="/about">
             <img id="carousel-img" src={house2} />
+            </Link>
+          </Item>
+          <Item>
+          <Link to="/about">
+            <img id="carousel-img" src={house3} />
             </Link>
           </Item>
           <Item>
@@ -46,21 +61,6 @@ const ImageCarousel = () => {
           <Item>
           <Link to="/about">
             <img id="carousel-img" src={house6} />
-            </Link>
-          </Item>
-          <Item>
-          <Link to="/about">
-            <img id="carousel-img" src={house5} />
-            </Link>
-          </Item>
-          <Item>
-          <Link to="/about">
-            <img id="carousel-img" src={house7} />
-            </Link>
-          </Item>
-          <Item>
-          <Link to="/about">
-            <img id="carousel-img" src={house8} />
             </Link>
           </Item>
           <Item>

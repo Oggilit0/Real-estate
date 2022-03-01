@@ -11,7 +11,6 @@ import Contact from "./components/Contact/Contact";
 import Services from "./components/Services/Services";
 import TopImage from "./components/TopImage/TopImage";
 import BlogPost from "./components/Blog/BlogPost";
-import ReusableButton from "./components/ReusableComponents/ReusableButton";
 import HouseObject1 from "./components/Buy/HouseObject1";
 import HouseObject2 from "./components/Buy/HouseObject2";
 import HouseObject3 from "./components/Buy/HouseObject3";
@@ -21,6 +20,7 @@ import HouseObject6 from "./components/Buy/HouseObject6";
 import HouseObject7 from "./components/Buy/HouseObject7";
 import BlogPost1 from "./components/Blog/BlogPost1";
 import BlogPost2 from "./components/Blog/BlogPost2";
+import BlogPost3 from "./components/Blog/BlogPost3";
 import '../src/stylesheets/Main.css';
 import '../src/stylesheets/GridContainer.css';
 
@@ -48,6 +48,7 @@ function App() {
             <Route path="houseobject7" element={<HouseObject7 />} />
             <Route path="blogpost1" element={<BlogPost1/>}/>
             <Route path="blogpost2" element={<BlogPost2/>}/>
+            <Route path="blogpost3" element={<BlogPost3/>}/>
           </Routes>
         </div>
 

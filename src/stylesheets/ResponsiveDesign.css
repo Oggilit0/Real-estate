@@ -12,7 +12,6 @@
       "main"
       "footer";
   }
-
   #navbar{
     position: relative;
     left: 0%;
@@ -39,7 +38,6 @@
   #articles-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: var(--Light-shades);
     margin: 10px;
   }
 

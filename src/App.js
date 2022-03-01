@@ -21,7 +21,7 @@ import HouseObject6 from "./components/Buy/HouseObject6";
 import HouseObject7 from "./components/Buy/HouseObject7";
 import '../src/stylesheets/Main.css';
 import '../src/stylesheets/GridContainer.css';
-
+import '../src/stylesheets/ResponsiveDesign.css';
 function App() {
   return (
     <BrowserRouter>

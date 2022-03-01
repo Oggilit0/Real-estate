@@ -9,6 +9,7 @@ import miles from "../Pictures/contact/miles.jpg";
 import { useEffect } from "react";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 import '../../stylesheets/Contact.css';
+import Career from "../Contact/Career";
 
 const Contact = () => {
 
@@ -19,7 +20,7 @@ const Contact = () => {
   return (
     <div className="contact">
 
-<div className="contactForm">
+      <div className="contactForm">
         <h2 className = "title" id="contactForm">Contact Form</h2>
         <form className="form">
           <div className="form-controll">
@@ -84,6 +85,16 @@ const Contact = () => {
           <p>Reception</p>
         </div>
       </div>
+
+      <div id="careerTitle">
+      <hr className="line"></hr>
+      <h2 className="title">Career</h2>
+      <hr className="line"></hr>
+      </div>
+
+      <Career/>
+
+      
     </div>
   );
 };

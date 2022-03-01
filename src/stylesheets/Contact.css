@@ -21,6 +21,11 @@
   width: 200px;
 }
 
+#email{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 textarea{
   border-radius: 10px;
   resize: vertical;

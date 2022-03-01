@@ -17,13 +17,9 @@
 @import "./stylesheets/Inspirational.css";
 @import "./stylesheets/Articles.css";
 @import "./stylesheets/ReusableButton.css";
-<<<<<<< HEAD
 @import "./stylesheets/ImageCarousel.css";
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-=======
 @import "./stylesheets/HouseObject.css";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
->>>>>>> marcus
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
 :root {

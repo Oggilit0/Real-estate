@@ -1,44 +1,68 @@
-.houseObjectContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr;
-
-  grid-template-areas:
-    "factsTop factsTop factsTop factsTop factsTop"
-    "adressPrice adressPrice adressPrice adressPrice adressPrice"
-    "pictures-bar pictures-bar pictures-bar pictures-bar pictures-bar"
-    "display display display display display"
-    "description-bar description-bar description-bar description-bar description-bar";
-}
-
-.adressPrice {
-  grid-area: adressPrice;
-}
-
-.factsTop {
-  grid-area: factsTop;
-}
-
 .adress {
+  position: relative;
   float: left;
 }
 
 .price {
+  position: relative;
   float: right;
 }
 
-.image {
+#img-collage-house {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 380px 400px;
+  grid-template-areas:
+    "sml-1 sml-1 mdm-img"
+    "brd-img brd-img mdm-img";
+}
+
+#medium-img-container {
+  grid-area: mdm-img;
+}
+
+#broad-img-container {
+  grid-area: brd-img;
+}
+
+#img-container{
+  grid-area: sml-1;
+}
+
+#img1 {
   width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-.display {
-  display: flex;
-  gap: 20px;
+#medium-img-house {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.pictures-bar {
-  grid-area: pictures-bar;
+#broad-img-house {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
-.description-bar {
-  grid-area: description-bar;
+
+.factsLine{
+  margin: 20px;
+  border: 0.8px solid black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#houseText{
+  margin-bottom: 100px;
+  letter-spacing: 0.2;
+  line-height: 120%;
+}
+
+#houseTextTitle{
+  text-align: center;
 }

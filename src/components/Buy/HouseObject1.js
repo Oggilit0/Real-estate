@@ -17,31 +17,47 @@ const HouseObject1 = () => {
       <div className="adressPrice">
         <div className="adress">Ödåkra 5</div>
         <div className="price">2000009 kr</div>
+        <hr className="factsLine"></hr>
+      </div>
+
+      <div className="typeRooms">
+        <div className="adress">House</div>
+        <div className="price">2</div>
+        <hr className="factsLine"></hr>
       </div>
 
       <div className="pictures-bar">
         <hr className="line"></hr>
+        <h2 className="title">Pictures</h2>
+        <hr className="line"></hr>
       </div>
 
-      <div className="display">
-        <img src={pic1} className="image" />
-        <img src={pic2} className="image" />
+      <article className="landing-section" id="img-collage-house">
+      <section className="landing-section" id="img-container">
+        <img id="img1" src={pic2} />
+      </section>
 
-        <img src={pic3} className="image" />
-        <img src={pic4} className="image" />
+      <section className="landing-section" id="medium-img-container">
+        <img id="medium-img-house" src={pic3} />
+      </section>
+      <section className="landing-section" id="broad-img-container">
+        <img id="broad-img-house" src={pic4} />
+      </section>
+    </article>
 
-        <img src={pic5} className="image" />
-      </div>
+    
 
       <div className="description-bar">
         <hr className="line"></hr>
-        <h4>
-          Welcome to Ödåkra 5! <p />
-          New opportunity, as we have another home in the area for sale, to
+        <h2 className="title">Information</h2>
+        <hr className="line"></hr>
+        <h4 id ="houseTextTitle">
+          Welcome to Ödåkra 5! </h4>
+          <p id = "houseText">New opportunity, as we have another home in the area for sale, to
           acquire a well-equipped condominium on two floors in an attractive
           area. The home is bright and well-planned with a practical floor plan
           with hall, shower room with laundry area, kitchen and living room with
-          open floor plan on the entrance level. The patio has a nice location
+          open floor plan on the entrance level. <br/> <br/>The patio has a nice location
           facing south. On the upper level there is a living room with access to
           a balcony, three bedrooms and a bathroom. In the living room there is
           a hatch up to the attic. Heating is done with water-borne heat via
@@ -49,7 +65,7 @@ const HouseObject1 = () => {
           box for the car. The home is located in a pleasant area with school,
           preschool, grocery store and with a short distance to city of
           Gothenburg.
-        </h4>
+          </p>
       </div>
     </div>
   );

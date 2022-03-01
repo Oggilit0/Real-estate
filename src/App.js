@@ -14,6 +14,11 @@ import BlogPost from "./components/BlogPost";
 import ReusableButton from "./components/ReusableButton";
 import HouseObject1 from "./components/HouseObject1";
 import HouseObject2 from "./components/HouseObject2";
+import HouseObject3 from "./components/HouseObject3";
+import HouseObject4 from "./components/HouseObject4";
+import HouseObject5 from "./components/HouseObject5";
+import HouseObject6 from "./components/HouseObject6";
+import HouseObject7 from "./components/HouseObject7";
 
 function App() {
   return (
@@ -32,6 +37,11 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="houseobject1" element={<HouseObject1 />} />
             <Route path="houseobject2" element={<HouseObject2 />} />
+            <Route path="houseobject3" element={<HouseObject3 />} />
+            <Route path="houseobject4" element={<HouseObject4 />} />
+            <Route path="houseobject5" element={<HouseObject5 />} />
+            <Route path="houseobject6" element={<HouseObject6 />} />
+            <Route path="houseobject7" element={<HouseObject7 />} />
           </Routes>
         </div>
 

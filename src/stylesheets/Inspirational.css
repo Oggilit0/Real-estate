@@ -1,5 +1,4 @@
 #discover {
-
   background-color: var(--Light-accent);
   width: 100%;
   border-radius: 10px;
@@ -17,4 +16,4 @@
   color: var(--Dark-shades);
   width: 50%;
   float: right;
-
+}

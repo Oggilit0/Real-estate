@@ -17,7 +17,8 @@
 @import "./stylesheets/Inspirational.css";
 @import "./stylesheets/Articles.css";
 @import "./stylesheets/ReusableButton.css";
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import "./stylesheets/HouseObject.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
 :root {

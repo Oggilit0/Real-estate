@@ -7,8 +7,8 @@ import '../../stylesheets/BlogPost.css';
 const BlogPost = (item) => {
   const [post, setPost] = useState(BlogContent);
 
-  return (
-    <div className="blogPost">
+  return /*(
+   <div className="blogPost">
       <h2>{post.blogTitle}</h2>
       <p>
         {post.blogDate}/{post.blogTime}/{post.blogAuthor}
@@ -31,6 +31,6 @@ const BlogPost = (item) => {
       </div>
       <ReusableButton title="Leave a reply"></ReusableButton>
     </div>
-  );
-};
+  );*/
+}
 export default BlogPost;

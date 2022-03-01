@@ -21,14 +21,14 @@ const BlogPost3 = (item) => {
       sure your house wins the bidding war. <br /> <br />1. Spring is the most popular
        time of year for people to start packing up their old home, and moving
         into a new one! everyone enjoys the promise of spring so much that they 
-        left their old homes behind and go searching for a new one.<br /> 2. A 
+        left their old homes behind and go searching for a new one.<br /><br />  2. A 
         good way to attract buyers is by offering free online classes that
-         provide tips and tricks on selling homes even faster.<br /> 3. You can reach
+         provide tips and tricks on selling homes even faster.<br /> <br /> 3. You can reach
           more potential buyers by advertising in places such as Social Media, 
-          TV, Radio and other public events.<br /> 4. You can get your money quicker 
+          TV, Radio and other public events.<br /><br />  4. You can get your money quicker 
           if you offer incentives to potential buyers such as better interest 
           rates or providing loans sooner than the bank would offer it to them 
-          on their own.<br /> 5. Offering free upgrades on appliances like microwaves
+          on their own.<br /><br />  5. Offering free upgrades on appliances like microwaves
            and dishwashers could be enough incentive for someone looking at
             multiple houses in an area where many other buyers look too. Its
              always important to make sure that you have given all possible customers 

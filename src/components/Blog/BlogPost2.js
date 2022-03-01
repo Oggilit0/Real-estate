@@ -16,18 +16,18 @@ const BlogPost2 = (item) => {
       </p>
       <img id="bloggImage" src={img2}></img>
       <p id = "blogPostText">We are excited to announce that New York 
-      is about to launch a new wave of listings. With great options in
+      is about to launch a new wave of listings. <br /> <br /> With great options in
        Brooklyn, Queens, Manhattan, and other areas all around New York City,
-        we are confident that you will find the house of your dreams. New York,
+        we are confident that you will find the house of your dreams. <br /> <br /> New York,
          New York where once you come here, you’ll never want to leave! If you manage 
          to get over the winter weather we promise this amazing city has so much more 
          to offer, starting with the amazing real estate we have available in our
-          upcoming sales! There are one bedrooms in Brooklyn and Queens, showing 
+          upcoming sales!<br /> <br />  There are one bedrooms in Brooklyn and Queens, showing 
           their famous tree-lined streets and adorable brick storefronts. While 
-          borough hopping why not check out the apartments in Manhattan? Don't
+          borough hopping why not check out the apartments in Manhattan?<br /> <br />  Don't
            forget to try the pizza...people take it very seriously around here. 
-           It's life-changing. Also make sure to head to The Bronx for condos and 
-           co-ops if you're still looking for your dream home – one of these could be it!
+           It's life-changing.<br /> <br />  Also make sure to head to The Bronx for condos and 
+           co-ops if you're still looking for your dream home – one of these could be it!<br /> <br /> 
             You can even make a whole weekend out of it by renting a beach house on Fire
              Island. Come find your best place yet!</p>
       <div className="replyForm">

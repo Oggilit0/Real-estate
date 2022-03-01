@@ -17,33 +17,47 @@ const HouseObject3 = () => {
       <div className="adressPrice">
         <div className="adress">Kungsgatan 3</div>
         <div className="price">400000 kr</div>
+        <hr className="factsLine"></hr>
+      </div>
+
+      <div className="typeRooms">
+        <div className="adress">House</div>
+        <div className="price">2</div>
+        <hr className="factsLine"></hr>
       </div>
 
       <div className="pictures-bar">
         <hr className="line"></hr>
+        <h2 className="title">Pictures</h2>
+        <hr className="line"></hr>
       </div>
 
-      <div className="display">
-        <img src={pic1} className="image" />
-        <img src={pic2} className="image" />
+      <article className="landing-section" id="img-collage-house">
+      <section className="landing-section" id="img-container">
+        <img id="img1" src={pic1} />
+      </section>
 
-        <img src={pic3} className="image" />
-        <img src={pic4} className="image" />
-
-        <img src={pic5} className="image" />
-      </div>
+      <section className="landing-section" id="medium-img-container">
+        <img id="medium-img-house" src={pic4} />
+      </section>
+      <section className="landing-section" id="broad-img-container">
+        <img id="broad-img-house" src={pic2} />
+      </section>
+    </article>
 
       <div className="description-bar">
         <hr className="line"></hr>
-        <h4>
-          Here is a place that will soon become vacant. The kitchen from
+        <h2 className="title">Information</h2>
+        <hr className="line"></hr>
+        <p id = "houseText">
+          Here is a place that will soon become vacant. <br/>The kitchen from
           Marbodal is clearly elegant, You see that the bathrooms are renovated
           if you are observant, That there is both district heating and wood
-          stove is brilliant, right? The garage is large and interesting enough,
+          stove is brilliant, right? <br/>The garage is large and interesting enough,
           You get a seat with an Saab AND a Trabant! Admittedly, the house costs
           a penny, But there is room to pledge, 300 meters to Gruvberget is
-          relevant, Welcome to Kungsgatan 3 on an outer edge!
-        </h4>
+          relevant. <br/> Welcome to Kungsgatan 3 on an outer edge!
+        </p>
       </div>
     </div>
   );

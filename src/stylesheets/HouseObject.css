@@ -1,0 +1,44 @@
+.houseObjectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+
+  grid-template-areas:
+    "factsTop factsTop factsTop factsTop factsTop"
+    "adressPrice adressPrice adressPrice adressPrice adressPrice"
+    "pictures-bar pictures-bar pictures-bar pictures-bar pictures-bar"
+    "display display display display display"
+    "description-bar description-bar description-bar description-bar description-bar";
+}
+
+.adressPrice {
+  grid-area: adressPrice;
+}
+
+.factsTop {
+  grid-area: factsTop;
+}
+
+.adress {
+  float: left;
+}
+
+.price {
+  float: right;
+}
+
+.image {
+  width: 100%;
+}
+
+.display {
+  display: flex;
+  gap: 20px;
+}
+
+.pictures-bar {
+  grid-area: pictures-bar;
+}
+.description-bar {
+  grid-area: description-bar;
+}

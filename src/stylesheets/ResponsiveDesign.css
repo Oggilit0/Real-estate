@@ -129,6 +129,9 @@
     right: -150%;
     transition: all 0.5s;
   }
+  .header{
+    position: fixed;
+  }
 
   nav ul li {
     position: relative;

@@ -15,12 +15,14 @@ const HouseSummary = ({ item }) => {
             {item.address}
             <br />
             {item.price}
-            <br />
+            <p />
             {item.sqMeters}
+            <br />
             {item.amountRooms}
+            <br />
             {item.type}
-
-            <Link to={`/houseobject${item.id}`}>Read more</Link>
+            <p />
+            <Link to={`/houseobject${item.id}`}>Find out more..</Link>
           </p>
         </div>
       </article>

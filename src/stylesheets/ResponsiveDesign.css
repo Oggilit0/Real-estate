@@ -1,7 +1,9 @@
 @media screen and (max-width: 375px) {
-  body {
+  html, body {
     min-width: 375px;
     max-width: 375px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
 
   .container {

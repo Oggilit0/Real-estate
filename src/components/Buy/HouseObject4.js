@@ -17,40 +17,54 @@ const HouseObject4 = () => {
       <div className="adressPrice">
         <div className="adress">Udden 5</div>
         <div className="price">5000000 kr</div>
+        <hr className="factsLine"></hr>
+      </div>
+
+      <div className="typeRooms">
+        <div className="adress">House</div>
+        <div className="price">2</div>
+        <hr className="factsLine"></hr>
       </div>
 
       <div className="pictures-bar">
+      <hr className="line"></hr>
+        <h2 className="title">Pictures</h2>
         <hr className="line"></hr>
       </div>
 
-      <div className="display">
-        <img src={pic1} className="image" />
-        <img src={pic2} className="image" />
+      <article className="landing-section" id="img-collage-house">
+      <section className="landing-section" id="img-container">
+        <img id="img1" src={pic1} />
+      </section>
 
-        <img src={pic3} className="image" />
-        <img src={pic4} className="image" />
-
-        <img src={pic5} className="image" />
-      </div>
+      <section className="landing-section" id="medium-img-container">
+        <img id="medium-img-house" src={pic2} />
+      </section>
+      <section className="landing-section" id="broad-img-container">
+        <img id="broad-img-house" src={pic5} />
+      </section>
+    </article>
 
       <div className="description-bar">
+      <hr className="line"></hr>
+        <h2 className="title">Information</h2>
         <hr className="line"></hr>
-        <h4>
+        <p id = "houseText">
           A warm welcome to this late 30's villa located on Udden 5 in
-          Valdemarsvik. Here awaits a family-friendly villa spread over two
+          Valdemarsvik. <br/><br/>Here awaits a family-friendly villa spread over two
           floors.The floor plan is appealing where the kitchen and living room
           merge and in the living room there is a wood burning stove that
           creates an incredible feeling of coziness and is a fantastic heat
           source that heats up colder days. Cozy kitchen that was renovated in
           2017 and there is plenty of space for a dining table for nice family
-          dinners. Upstairs we find the house's more private spaces with 3
+          dinners.<br/>Upstairs we find the house's more private spaces with 3
           bedrooms and a hall with access to the lovely balcony for relaxation.
           Furthermore, we have a bathroom on the entrance level and a toilet on
-          the upper level. Flat and easy-care garden plot with plenty of space
-          for play, relaxation and cultivation opportunities if desired. Here
+          the upper level.<br/> Flat and easy-care garden plot with plenty of space
+          for play, relaxation and cultivation opportunities if desired. <br/>Here
           you live in central Valdemarsvik with proximity to preschool, school,
           grocery store and sports facility. Welcome to register your interest!
-        </h4>
+        </p>
       </div>
     </div>
   );

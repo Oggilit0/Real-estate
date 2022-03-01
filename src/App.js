@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-<<<<<<< HEAD
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import LeftColumn from "./components/ReusableComponents/LeftColumn";
@@ -15,28 +14,11 @@ import BlogPost from "./components/Blog/BlogPost";
 import ReusableButton from "./components/ReusableComponents/ReusableButton";
 import HouseObject1 from "./components/Buy/HouseObject1";
 import HouseObject2 from "./components/Buy/HouseObject2";
-=======
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import LeftColumn from "./components/LeftColumn";
-import RightColumn from "./components/RightColumn";
-import LandingPage from "./components/LandingPage";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Buy from "./components/Buy";
-import Contact from "./components/Contact";
-import Services from "./components/Services";
-import TopImage from "./components/TopImage";
-import BlogPost from "./components/BlogPost";
-import ReusableButton from "./components/ReusableButton";
-import HouseObject1 from "./components/HouseObject1";
-import HouseObject2 from "./components/HouseObject2";
-import HouseObject3 from "./components/HouseObject3";
-import HouseObject4 from "./components/HouseObject4";
-import HouseObject5 from "./components/HouseObject5";
-import HouseObject6 from "./components/HouseObject6";
-import HouseObject7 from "./components/HouseObject7";
->>>>>>> marcus
+import HouseObject3 from "./components/Buy/HouseObject3";
+import HouseObject4 from "./components/Buy/HouseObject4";
+import HouseObject5 from "./components/Buy/HouseObject5";
+import HouseObject6 from "./components/Buy/HouseObject6";
+import HouseObject7 from "./components/Buy/HouseObject7";
 
 function App() {
   return (

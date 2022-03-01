@@ -9,6 +9,7 @@
 .header{
   grid-area: header;
   background-color: var(--Dark-shades);
+
   position: sticky;
   top: 0;
   width: 100%;
@@ -49,4 +50,19 @@ color:var(--Dark-accent);
 #navbar a{
   color: var(--Light-shades);
  
+}
+
+.checkbtn{
+position: relative;
+float: right;
+font-size: 80px;
+color: var(--Light-shades);
+margin-right: 20px;
+cursor: pointer;
+display: none;
+bottom: 20px;
+}
+
+#check{
+  display: none;
 }

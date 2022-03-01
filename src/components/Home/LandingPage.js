@@ -11,21 +11,37 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
-      <h2 className = "title">Popular homes</h2>
+      <div id = "landingPageTitles">
+      <hr className="line"></hr>
+      <h2 className="title">Popular homes</h2>
+      <hr className="line"></hr>
+      </div>
       <article className="landing-article">
         <ImageCarousel />
       </article>
 
 
-      <h2 className = "title">From dream to reality</h2>
+      <div id = "landingPageTitles">
+      <hr className="line"></hr>
+      <h2 className="title">From dream to reality</h2>
+      <hr className="line"></hr>
+      </div>
       <LandingPageCollage />
   
 
-      <h2 className = "title">Discover how much your home is worth</h2>
+      <div id = "landingPageTitles">
+      <hr className="line"></hr>
+      <h2 className="title">Discover how much your home is worth</h2>
+      <hr className="line"></hr>
+      </div>
 
       <Inspirational />
 
-      <h2 className = "title">Articles</h2>
+      <div id = "landingPageTitles">
+      <hr className="line"></hr>
+      <h2 className="title">Articles</h2>
+      <hr className="line"></hr>
+      </div>
         <Articles />
     </div>
   );

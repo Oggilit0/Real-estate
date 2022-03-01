@@ -12,7 +12,7 @@ const BlogPost1 = (item) => {
     <div className="blogPost">
       <h2 id ="blogPostTitle">ONCE UPON A REAL ESTATE AGENT</h2>
       <p>
-      <p id="timeDatePostBlog">Posted by Laureen	Goodere on 24 February, 2021</p>
+      <p id="timeDatePostBlog">Posted by Laureen Goodere on 24 February, 2021</p>
       </p>
       <img id="bloggImage" src={img1}></img>
       <p id = "blogPostText">My real estate journey have been interesting and exciting. I started 

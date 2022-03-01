@@ -20,6 +20,7 @@ import HouseObject5 from "./components/Buy/HouseObject5";
 import HouseObject6 from "./components/Buy/HouseObject6";
 import HouseObject7 from "./components/Buy/HouseObject7";
 import BlogPost1 from "./components/Blog/BlogPost1";
+import BlogPost2 from "./components/Blog/BlogPost2";
 import '../src/stylesheets/Main.css';
 import '../src/stylesheets/GridContainer.css';
 
@@ -46,6 +47,7 @@ function App() {
             <Route path="houseobject6" element={<HouseObject6 />} />
             <Route path="houseobject7" element={<HouseObject7 />} />
             <Route path="blogpost1" element={<BlogPost1/>}/>
+            <Route path="blogpost2" element={<BlogPost2/>}/>
           </Routes>
         </div>
 

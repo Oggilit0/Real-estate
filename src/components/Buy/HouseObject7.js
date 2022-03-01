@@ -3,7 +3,7 @@ import pic2 from "../Pictures/House/House7/House7-2.jpg";
 import pic3 from "../Pictures/House/House7/House7-3.jpg";
 import pic4 from "../Pictures/House/House7/House7-4.jpg";
 import pic5 from "../Pictures/House/House7/House7-5.jpg";
-import '../../stylesheets/HouseObject.css';
+import "../../stylesheets/HouseObject.css";
 
 const HouseObject7 = () => {
   return (
@@ -16,38 +16,57 @@ const HouseObject7 = () => {
 
       <div className="adressPrice">
         <div className="adress">Strandvägen 5</div>
-        <div className="price">50000000kr</div>
+        <div className="price"> 50000000kr</div>
+        <hr className="factsLine"></hr>
+      </div>
+
+      <div className="typeRooms">
+        <div className="adress">House</div>
+        <div className="price">2</div>
+        <hr className="factsLine"></hr>
       </div>
 
       <div className="pictures-bar">
         <hr className="line"></hr>
+        <h2 className="title">Pictures</h2>
+        <hr className="line"></hr>
       </div>
 
-      <div className="display">
-        <img src={pic1} className="image" />
-        <img src={pic2} className="image" />
+      <article className="landing-section" id="img-collage-house">
+        <section className="landing-section" id="img-container">
+          <img id="img1" src={pic2} />
+        </section>
 
-        <img src={pic3} className="image" />
-        <img src={pic4} className="image" />
-
-        <img src={pic5} className="image" />
-      </div>
+        <section className="landing-section" id="medium-img-container">
+          <img id="medium-img-house" src={pic3} />
+        </section>
+        <section className="landing-section" id="broad-img-container">
+          <img id="broad-img-house" src={pic4} />
+        </section>
+      </article>
 
       <div className="description-bar">
         <hr className="line"></hr>
-        <h4>
-          Charming and well-planned house with a sunny, lush corner plot in a
-          leafy quiet location in Djursholm out side of Stockholm. Welcoming
-          hall opens up to the bright living room. Here is a nice white
-          fireplace, oak parquet and large windows as well as access to a lovely
-          terrace with a sunny location. Spacious kitchen with large nice
-          windows and dining area. Several bedrooms with the possibility of more
-          if needed. Furnished basement with living room, laundry room, toilet,
-          sauna and storage space. Garage, carport and guest house with sleeping
-          facilities
-        </h4>
+        <h2 className="title">Information</h2>
+        <hr className="line"></hr>
+        <h4 id="houseTextTitle">Welcome to Strandvägen 5! </h4>
+        <p id="houseText">
+          New opportunity, as we have another home in the area for sale, to
+          acquire a well-equipped condominium on two floors in an attractive
+          area. The home is bright and well-planned with a practical floor plan
+          with hall, shower room with laundry area, kitchen and living room with
+          open floor plan on the entrance level. <br /> <br />
+          The patio has a nice location facing south. On the upper level there
+          is a living room with access to a balcony, three bedrooms and a
+          bathroom. In the living room there is a hatch up to the attic. Heating
+          is done with water-borne heat via exhaust air heat pump and there is
+          access to both carport and charging box for the car. The home is
+          located in a pleasant area with school, preschool, grocery store and
+          with a short distance to city of Gothenburg.
+        </p>
       </div>
     </div>
   );
 };
+
 export default HouseObject7;

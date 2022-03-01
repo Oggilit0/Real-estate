@@ -10,6 +10,7 @@ import house8 from "../Pictures/House/Extras/House8-1.jpg";
 import house9 from "../Pictures/House/Extras/House9-1.jpg";
 import Item from "./Item";
 import { Link } from "react-router-dom";
+import '../../stylesheets/ImageCarousel.css';
 
 const ImageCarousel = () => {
   const breakPoints = [

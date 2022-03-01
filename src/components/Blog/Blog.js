@@ -3,6 +3,7 @@ import BlogContent from "../data/BlogContent";
 import BlogList from "./BlogList";
 import BlogLoggedIn from "./BlogLoggedIn";
 import { useEffect } from "react";
+import '../../stylesheets/Blog.css';
 
 const Blog = () => {
   useEffect(() => {

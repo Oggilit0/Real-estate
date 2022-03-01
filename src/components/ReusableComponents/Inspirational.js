@@ -1,5 +1,6 @@
 import discover from "../Pictures/family-photo-moving.jpg";
 import ReusableButton from "./ReusableButton";
+import '../../stylesheets/Inspirational.css';
 
 const Inspirational = () => {
   return (

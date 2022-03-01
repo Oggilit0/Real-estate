@@ -8,6 +8,7 @@ import FamilyMoving from "../Pictures/StartPage/family-playing-box.jpg";
 import customer from "../Pictures/customer-lady.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import '../../stylesheets/Services.css';
 
 const Services = () => {
   useEffect(() => {

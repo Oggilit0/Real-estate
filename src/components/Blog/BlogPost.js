@@ -1,6 +1,7 @@
 import {useState} from "react";
 import BlogContent from "../data/BlogContent";
 import ReusableButton from "../ReusableComponents/ReusableButton";
+import '../../stylesheets/BlogPost.css';
 
 
 const BlogPost = (item) => {

@@ -1,5 +1,6 @@
 import aboutPhoto from "../Pictures/about.jpg";
 import { useEffect } from "react";
+import '../../stylesheets/About.css';
 
 const About = () => {
   useEffect(() => {

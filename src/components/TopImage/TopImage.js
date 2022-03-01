@@ -1,5 +1,6 @@
 import SearchBar from "./SearchBar";
 import ListViewings from "../Buy/ListViewings.js";
+import '../../stylesheets/TopImage.css';
 
 const TopImage = () => {
   return (

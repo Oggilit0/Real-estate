@@ -1,24 +1,3 @@
-@import "./stylesheets/ResponsiveDesign.css";
-@import "./stylesheets/Footer.css";
-@import "./stylesheets/Header.css";
-@import "./stylesheets/About.css";
-@import "./stylesheets/BlogPost.css";
-@import "./stylesheets/Buy.css";
-@import "./stylesheets/Contact.css";
-@import "./stylesheets/GridContainer.css";
-@import "./stylesheets/LandingPage.css";
-@import "./stylesheets/LeftColumn.css";
-@import "./stylesheets/RightColumn.css";
-@import "./stylesheets/Services.css";
-@import "./stylesheets/TopImage.css";
-@import "./stylesheets/Main.css";
-@import "./stylesheets/Blog.css";
-@import "./stylesheets/LandingPageCollage.css";
-@import "./stylesheets/Inspirational.css";
-@import "./stylesheets/Articles.css";
-@import "./stylesheets/ReusableButton.css";
-@import "./stylesheets/ImageCarousel.css";
-@import "./stylesheets/HouseObject.css";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 

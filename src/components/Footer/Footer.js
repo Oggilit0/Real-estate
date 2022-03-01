@@ -6,6 +6,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import logga from "../Pictures/logga.png";
+import '../../stylesheets/Footer.css';
 
 const Footer = () => {
   return (

@@ -3,6 +3,7 @@ import HouseContent from "../data/HouseContent";
 import HouseList from "./HouseList";
 import { useEffect } from "react";
 import Inspirational from "../ReusableComponents/Inspirational";
+import '../../stylesheets/Buy.css';
 
 const Buy = () => {
   const [post, setPost] = useState(HouseContent);

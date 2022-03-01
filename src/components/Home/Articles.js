@@ -8,6 +8,7 @@ import ValueLogo from "../Pictures/ValueLogo.png";
 import CalculatorLogo from "../Pictures/calculatorLogo.png";
 import blog from "../Pictures/blogImage.jpg";
 import { Link } from "react-router-dom";
+import '../../stylesheets/Articles.css';
 
 const Articles = () => {
   return (

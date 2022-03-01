@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Articles from "./Articles";
 import Inspirational from "../ReusableComponents/Inspirational";
 import LandingPageCollage from "./LandingPageCollage";
+import '../../stylesheets/LandingPage.css';
 
 const LandingPage = () => {
   useEffect(() => {

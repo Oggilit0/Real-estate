@@ -8,6 +8,7 @@ import laura from "../Pictures/contact/laura.jpg";
 import miles from "../Pictures/contact/miles.jpg";
 import { useEffect } from "react";
 import ReusableButton from "../ReusableComponents/ReusableButton";
+import '../../stylesheets/Contact.css';
 
 const Contact = () => {
 

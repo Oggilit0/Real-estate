@@ -3,6 +3,7 @@ import pic2 from "../Pictures/House/House3/House3-2.jpg";
 import pic3 from "../Pictures/House/House3/House3-3.jpg";
 import pic4 from "../Pictures/House/House3/House3-4.jpg";
 import pic5 from "../Pictures/House/House3/House3-5.jpg";
+import '../../stylesheets/HouseObject.css';
 
 const HouseObject3 = () => {
   return (

@@ -2,6 +2,7 @@ import diningroom from "../Pictures/StartPage/dining-room-1.jpg";
 import livingroom2 from "../Pictures/StartPage/living-room-2.jpg";
 import livingroom from "../Pictures/StartPage/living-room-1.jpg";
 import couple from "../Pictures/StartPage/couple-moving.jpg";
+import '../../stylesheets/LandingPageCollage.css';
 
 
 const LandingPageCollage = () => {

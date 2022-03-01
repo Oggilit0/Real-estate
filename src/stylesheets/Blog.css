@@ -4,21 +4,10 @@
   object-fit: cover;
 }
 
-#continue-reading-btn{
-  background-color: #9CA77C;
-  color: #fff;
-  cursor: pointer;
-  height: 35px;
-  margin: 20px;
-  margin-top: -0.2rem;
-}
-
 #previewText{
-  margin: 20px;
-}
-
-#blogTitle{
-  margin: 20px;
+  margin-top: 25px;
+  letter-spacing: 0.2;
+  line-height: 140%;
 }
 
 #blogLoggIn{

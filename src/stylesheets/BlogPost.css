@@ -19,11 +19,9 @@ width: 200px;
   object-fit: cover;
 }
 
-#btn-reply-send{
-  background-color: #9CA77C;
-  color: #fff;
-  cursor: pointer;
-  height: 35px;
-  width: 75px;
-  margin-top: 1rem;
+#blogPostText{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  letter-spacing: 0.2;
+  line-height: 140%;
 }

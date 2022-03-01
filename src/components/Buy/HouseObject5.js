@@ -1,8 +1,8 @@
-import pic1 from "./Pictures/House/House5/House5-1.jpg";
-import pic2 from "./Pictures/House/House5/House5-2.jpg";
-import pic3 from "./Pictures/House/House5/House5-3.jpg";
-import pic4 from "./Pictures/House/House5/House5-4.jpg";
-import pic5 from "./Pictures/House/House5/House5-5.jpg";
+import pic1 from "../Pictures/House/House5/House5-1.jpg";
+import pic2 from "../Pictures/House/House5/House5-2.jpg";
+import pic3 from "../Pictures/House/House5/House5-3.jpg";
+import pic4 from "../Pictures/House/House5/House5-4.jpg";
+import pic5 from "../Pictures/House/House5/House5-5.jpg";
 
 const HouseObject5 = () => {
   return (

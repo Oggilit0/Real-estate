@@ -1,15 +1,8 @@
-<<<<<<< HEAD:src/components/Buy/HouseObject1.js
-import pic1 from "../Pictures/pillow.jpg";
-import pic2 from "../Pictures/pillow.jpg";
-import pic3 from "../Pictures/pillow.jpg";
-import pic4 from "../Pictures/pillow.jpg";
-=======
-import pic1 from "./Pictures/House/House1/House1-1.jpg";
-import pic2 from "./Pictures/House/House1/House1-2.jpg";
-import pic3 from "./Pictures/House/House1/House1-3.jpg";
-import pic4 from "./Pictures/House/House1/House1-4.jpg";
-import pic5 from "./Pictures/House/House1/House1-5.jpg";
->>>>>>> marcus:src/components/HouseObject1.js
+import pic1 from "../Pictures/House/House1/House1-1.jpg";
+import pic2 from "../Pictures/House/House1/House1-2.jpg";
+import pic3 from "../Pictures/House/House1/House1-3.jpg";
+import pic4 from "../Pictures/House/House1/House1-4.jpg";
+import pic5 from "../Pictures/House/House1/House1-5.jpg";
 
 const HouseObject1 = () => {
   return (

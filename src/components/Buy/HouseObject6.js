@@ -9,7 +9,7 @@ import Viewing from "../ReusableComponents/Viewing";
 const HouseObject6 = () => {
   return (
     <div className="houseObjectContainer">
-      <Viewing className="cForm" />
+      <Viewing date={"24 jun"} />
       <div className="factsTop">
         <hr className="line"></hr>
         <h2 className="title">Facts</h2>

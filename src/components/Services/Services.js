@@ -101,20 +101,14 @@ const Services = () => {
         </div>
         </section>
       </article>
-      
-      <article>
-      <section className = "landing-section">
-     <img id="familyMoving" src={FamilyMoving} width ="auto" height="500px"/>
-     </section>
-     </article>
 
      <article>
-       <section className = "landing-customer">
-      <hr className = "line"></hr>
+     <hr className = "line"></hr>
       <h2 className ="title">The voice of our customers</h2>
      <hr className = "line"></hr>
+       <section className = "landing-customer">
      <img id ="customerDesign" src={customer}/>
-     <h1 id="customerTitle">I FOUND MY DREAM HOME</h1>
+     <h1 id="customerTitle"> <br/>I FOUND MY DREAM HOME</h1>
      <div id = "customerText">'"This is the house I have been looking for 
      since I could remember. I had my eyes on this home since last year, 
      especially after seeing its beautiful kitchen and deck area. The staff 
@@ -124,6 +118,12 @@ const Services = () => {
       solved at first hand."' - Elsie</div>
       </section>
      </article>
+
+     <article>
+      <section className = "landing-section">
+      <img id="familyMoving" src={FamilyMoving}/>
+      </section>
+      </article>
      
      </div>
   );

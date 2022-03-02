@@ -1,6 +1,7 @@
 import aboutPhoto from "../Pictures/about.jpg";
 import { useEffect } from "react";
 import '../../stylesheets/About.css';
+import Career from "../Contact/Career";
 
 const About = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const About = () => {
       <div className="aboutHiring">
         We are always looking for new talents, please contact us if you are
         interested.
+        <Career/>
         <img id="aboutPhoto" src={aboutPhoto} />
       </div>
     </div>

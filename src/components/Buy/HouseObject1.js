@@ -8,6 +8,7 @@ import '../../stylesheets/HouseObject.css';
 const HouseObject1 = () => {
   return (
     <div className="houseObjectContainer">
+      
       <div className="factsTop">
         <hr className="line"></hr>
         <h2 className="title">Facts</h2>

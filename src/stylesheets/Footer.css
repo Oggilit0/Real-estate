@@ -23,29 +23,24 @@
   bottom: 30px;
   margin-left: 20%;
   width: 280px;
-  
 }
 
 .footer-icon {
   height: 50px;
   padding: 0 20px 0 0;
 }
-#footer-instagram{
-color: #262626;
-
+#footer-instagram {
+  color: #262626;
 }
-#footer-youtube{
-  color: #FF0000;
-  
+#footer-youtube {
+  color: #ff0000;
 }
-#footer-linkedin{
-color: #2867B2;
+#footer-linkedin {
+  color: #2867b2;
 }
-#footer-twitter{
-color: #1DA1F2;
-
+#footer-twitter {
+  color: #1da1f2;
 }
-
 
 #footer-content h1 {
   position: relative;
@@ -65,12 +60,12 @@ color: #1DA1F2;
 #footer-content p {
   position: relative;
   margin-right: 20%;
-  bottom: 250px;
+  bottom: 230px;
   float: right;
   width: 380px;
 }
 
-#footer-line{
+#footer-line {
   border-left: 2px solid lightslategrey;
   height: 190px;
   position: absolute;

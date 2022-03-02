@@ -1,84 +1,81 @@
-.title{
+.title {
   text-align: center;
 }
 
-#serviceLogos{
+#serviceLogos {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-#logoDesign{
-  height:auto;
-  width:100%;
+#logoDesign {
+  height: auto;
+  width: 100%;
   border: 1px solid black;
   background-color: #939ba8;
   border-radius: 10px 10px 0px 0px;
-  
 }
 
-#articles-logo-container{
+#articles-logo-container {
   padding: 35px;
   border: 1px solid grey;
   border-radius: 10px 10px 10px 10px;
-  margin:20px;
+
   background-color: var(--Light-shades);
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
 }
 
-#serviceTitle{
-color: #2e384f;
+#serviceTitle {
+  color: #2e384f;
 }
 
-#service-text{
-  text-align:left;
+#service-text {
+  text-align: left;
   margin: -1px;
 }
 
-.readMoreLink{
+.readMoreLink {
   margin-top: 1rem;
   color: #2e384f;
 }
 
-#customerDesign{
-  width:400px;
-  height:90%;
+#customerDesign {
+  width: 400px;
+  height: 90%;
   float: right;
   object-fit: cover;
-  margin:20px;
+  margin: 20px;
   border-radius: 10px 10px 10px 10px;
 }
 
-#customerTitle{
-  margin:20px;
-  color: #FBFBFB;
+#customerTitle {
+  margin: 20px;
+  color: #fbfbfb;
   margin-top: 5px;
 }
 
-#customerText{
+#customerText {
   margin: 20px;
   font-style: italic;
   letter-spacing: 0.5px;
   line-height: 140%;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
 
-.landing-customer{
+.landing-customer {
   background-color: var(--Dark-shades);
   border-radius: 10px;
   height: 500px;
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
 }
 
-#familyMoving{
+#familyMoving {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
   width: 100%;
   height: 500px;
   object-fit: cover;
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
+
   border-radius: 10px 10px 10px 10px;
 }
-

@@ -1,10 +1,10 @@
 .title {
   text-align: center;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-#contactTopTitle{
-  margin-top: -343px;
+#contactTopTitle {
+  margin-top: -360px;
 }
 
 .line {
@@ -19,14 +19,15 @@
 #message {
   height: 8rem;
   width: 200px;
+  resize: none;
 }
 
-#email{
+#email {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-textarea{
+textarea {
   border-radius: 10px;
   resize: vertical;
 }
@@ -40,12 +41,12 @@ textarea{
   background-color: var(--Light-shades);
 }
 
-.contactForm{
+.contactForm {
   position: relative;
   float: right;
   text-align: right;
   left: 250px;
-  top:380px;
+  top: 380px;
 }
 
 #contact-img {

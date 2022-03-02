@@ -153,4 +153,20 @@
   #check:checked ~ ul {
     right: 0;
   }
+
+  .landing-article {
+    border-radius: 0px;
+  }
+  
+  .landing-section {
+    border-radius: 0px;
+  }
+
+  #discover-img {
+    border-radius: 0px;
+  }
+
+  #discover {
+    border-radius: 0px;
+  }
 }

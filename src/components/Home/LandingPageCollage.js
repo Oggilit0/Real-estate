@@ -7,8 +7,8 @@ import '../../stylesheets/LandingPageCollage.css';
 
 const LandingPageCollage = () => {
   return (
-    <article className="landing-article" id="img-collage">
-      <section className="landing-section" id="img-container-home">
+    <article className="collage-design" id="img-collage">
+      <section className="collage-design" id="img-container-home">
         <img id="small-img1" src={livingroom2} />
         <p id = "collageText">
         Feel inspired by the latest project kick-offs, 
@@ -16,7 +16,7 @@ const LandingPageCollage = () => {
         </p>
       </section>
 
-      <section className="landing-section" id="img-container-home">
+      <section className="collage-design" id="img-container-home">
         <img id="small-img2" src={couple} />
         <p id = "collageText">
         If you are thinking about buying a home contact us! We would 
@@ -24,10 +24,10 @@ const LandingPageCollage = () => {
         </p>
       </section>
 
-      <section className="landing-section" id="medium-img-container">
+      <section className="collage-design" id="medium-img-container">
         <img id="medium-img" src={livingroom} />
       </section>
-      <section className="landing-section" id="broad-img-container">
+      <section className="collage-design" id="broad-img-container">
         <img id="broad-img" src={diningroom} />
       </section>
     </article>

@@ -51,3 +51,9 @@
   letter-spacing: 0.3px;
   line-height: 120%;
 }
+
+.collage-design {
+  background-color: var(--Light-shades);
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+}

@@ -9,43 +9,47 @@ import Viewing from "../ReusableComponents/Viewing";
 const HouseObject6 = () => {
   return (
     <div className="houseObjectContainer">
+      <img id="obj-header-img" src={pic2} />
       <Viewing className="cForm" />
-      <div className="factsTop">
-        <hr className="line"></hr>
-        <h2 className="title">Facts</h2>
-        <hr className="line"></hr>
-      </div>
 
-      <div className="adressPrice">
-        <div className="adress">Prinsessgatan 1</div>
-        <div className="price"> 8000000 kr</div>
-        <hr className="factsLine"></hr>
-      </div>
+      <div id="obj-information">
+        <div className="factsTop">
+          <h2 className="title">Facts</h2>
+        </div>
 
-      <div className="typeRooms">
-        <div className="adress">House</div>
-        <div className="price">2</div>
-        <hr className="factsLine"></hr>
+        <div className="adressPrice">
+          <div className="adress">Prinsessgatan 1</div>
+          <div className="price"> 8 000 000 kr</div>
+          <hr className="factsLine"></hr>
+        </div>
+
+        <div className="typeRooms">
+          <div className="adress">House</div>
+          <div className="price">2</div>
+          <hr className="factsLine"></hr>
+        </div>
       </div>
 
       <div className="pictures-bar">
-        <hr className="line"></hr>
         <h2 className="title">Pictures</h2>
-        <hr className="line"></hr>
       </div>
 
-      <article className="landing-section" id="img-collage-house">
-        <section className="landing-section" id="img-container">
+      <div id="obj-collage">
+      <article className="collage-design" id="img-collage-house">
+        <section className="collage-design" id="img-container">
           <img id="img1" src={pic2} />
         </section>
 
-        <section className="landing-section" id="medium-img-container">
+        <section className="collage-design" id="medium-img-container">
           <img id="medium-img-house" src={pic3} />
         </section>
-        <section className="landing-section" id="broad-img-container">
+        <section className="collage-design" id="broad-img-container">
           <img id="broad-img-house" src={pic4} />
         </section>
       </article>
+      </div>
+
+      
 
       <div className="description-bar">
         <hr className="line"></hr>

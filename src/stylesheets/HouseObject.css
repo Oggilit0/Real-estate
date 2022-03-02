@@ -58,9 +58,11 @@
 }
 
 #houseText {
-  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   letter-spacing: 0.2;
   line-height: 120%;
+  margin-bottom: 40px;
 }
 
 #houseTextTitle {
@@ -71,6 +73,7 @@
   position: absolute;
   width: 100%;
   min-width: 1366px;
+  max-width: 1920px;
   height: 400px;
   object-fit: cover;
   top: 115px;
@@ -78,9 +81,7 @@
 }
 
 #obj-collage{
-  float: left;
-  position: relative;
-
+margin-top: 20px;
 }
 
 #adress{
@@ -89,17 +90,31 @@
 }
 
 #price{
-
+  color: var(--Light-accent);
+  font-size: 2rem;
+  position: relative;
+  top: 100px;
+  left: 230px;
+  float: right;
 }
 
 #obj-information{
+  width: 100%;
   color: var(--Light-shades);
   background-color: var(--Dark-shades);
   border-radius: 10px;
+  height: 320px;
+}
+
+#obj-information p {
+  position: relative;
+  top: 80px;
+  font-size: 2rem;
+  width: 200px;
 }
 
 #description-bar{
-  top: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 375px) {

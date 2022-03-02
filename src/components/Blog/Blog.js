@@ -4,10 +4,12 @@ import BlogList from "./BlogList";
 import BlogLoggedIn from "./BlogLoggedIn";
 import { useEffect } from "react";
 import '../../stylesheets/Blog.css';
+import img from "../Pictures/bg-image.jpg";
 
 const Blog = () => {
   useEffect(() => {
     document.title = "Blog";
+    document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 
   const [post, setPost] = useState(BlogContent);

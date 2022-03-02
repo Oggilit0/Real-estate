@@ -5,26 +5,27 @@ import pic4 from "../Pictures/House/House6/House6-4.jpg";
 import pic5 from "../Pictures/House/House6/House6-5.jpg";
 import "../../stylesheets/HouseObject.css";
 import Viewing from "../ReusableComponents/Viewing";
+import { useEffect } from "react";
 
 const HouseObject6 = () => {
+  useEffect(() => {
+    document.getElementById("banner").style.backgroundImage = `url(${pic1})`;
+  }, []);
+
   return (
     <div className="houseObjectContainer">
-      <img id="obj-header-img" src={pic2} />
       <Viewing date={"24 jun"} />
-
       <div id="obj-information">
-        <div className="adressPrice">
           <div id="adress"><h1>Prinsessgatan 1</h1></div>
           <div id="price"> <h2>8 000 000 kr</h2></div>
           <p>Type: House</p>
-          <p>Rooms: 2</p>
-        </div>
+          <p>Rooms: 8</p>
       </div>
 
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic5} />
         </section>
 
         <section className="collage-design" id="medium-img-container">

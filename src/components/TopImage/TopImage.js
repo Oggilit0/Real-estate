@@ -3,7 +3,7 @@ import ReusableButton from "../ReusableComponents/ReusableButton";
 
 const TopImage = () => {
   return (
-    <div className="topImage" id="tempDesign">
+    <div className="topImage">
       <div id="banner">
         <div className="searchBar">
           <input type="text" placeholder="Search city or country"></input>

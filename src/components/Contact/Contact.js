@@ -10,11 +10,13 @@ import { useEffect } from "react";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 import '../../stylesheets/Contact.css';
 import Career from "../Contact/Career";
+import img from "../Pictures/bg-image.jpg";
 
 const Contact = () => {
 
   useEffect(() => {
     document.title = "Contact";
+    document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 
   return (

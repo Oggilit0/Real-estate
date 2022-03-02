@@ -9,10 +9,12 @@ import customer from "../Pictures/customer-lady.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import '../../stylesheets/Services.css';
+import img from "../Pictures/bg-image.jpg";
 
 const Services = () => {
   useEffect(() => {
     document.title = "Services";
+    document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
   return (
     <div className="services">

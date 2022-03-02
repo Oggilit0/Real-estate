@@ -3,54 +3,49 @@ import pic2 from "../Pictures/House/House4/House4-2.jpg";
 import pic3 from "../Pictures/House/House4/House4-3.jpg";
 import pic4 from "../Pictures/House/House4/House4-4.jpg";
 import pic5 from "../Pictures/House/House4/House4-5.jpg";
-import '../../stylesheets/HouseObject.css';
+import "../../stylesheets/HouseObject.css";
+import Viewing from "../ReusableComponents/Viewing";
+import { useEffect } from "react";
 
 const HouseObject4 = () => {
+  useEffect(() => {
+    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+  }, []);
+
   return (
     <div className="houseObjectContainer">
-      <div className="factsTop">
+      <Viewing date={"24 jun"} />
+      <div id="obj-information">
+          <div id="adress"><h1>Udden 5</h1></div>
+          <div id="price"> <h2>5 000 000 kr</h2></div>
+          <p>Type: House</p>
+          <p>Rooms: 4</p>
+      </div>
+
+      <div id="obj-collage">
+      <article className="collage-design" id="img-collage-house">
+        <section className="collage-design" id="img-container">
+          <img id="img1" src={pic2} />
+        </section>
+
+        <section className="collage-design" id="medium-img-container">
+          <img id="medium-img-house" src={pic3} />
+        </section>
+        <section className="collage-design" id="broad-img-container">
+          <img id="broad-img-house" src={pic4} />
+        </section>
+      </article>
+      </div>
+
+      
+
+      <div id="description-bar">
         <hr className="line"></hr>
-        <h2 className="title">Facts</h2>
-        <hr className="line"></hr>
-      </div>
-
-      <div className="adressPrice">
-        <div className="adress">Udden 5</div>
-        <div className="price">5000000 kr</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="typeRooms">
-        <div className="adress">House</div>
-        <div className="price">2</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="pictures-bar">
-      <hr className="line"></hr>
-        <h2 className="title">Pictures</h2>
-        <hr className="line"></hr>
-      </div>
-
-      <article className="landing-section" id="img-collage-house">
-      <section className="landing-section" id="img-container">
-        <img id="img1" src={pic1} />
-      </section>
-
-      <section className="landing-section" id="medium-img-container">
-        <img id="medium-img-house" src={pic2} />
-      </section>
-      <section className="landing-section" id="broad-img-container">
-        <img id="broad-img-house" src={pic5} />
-      </section>
-    </article>
-
-      <div className="description-bar">
-      <hr className="line"></hr>
         <h2 className="title">Information</h2>
         <hr className="line"></hr>
-        <p id = "houseText">
-          A warm welcome to this late 30's villa located on Udden 5 in
+
+        <p id="houseText">
+        A warm welcome to this late 30's villa located on Udden 5 in
           Valdemarsvik. <br/><br/>Here awaits a family-friendly villa spread over two
           floors.The floor plan is appealing where the kitchen and living room
           merge and in the living room there is a wood burning stove that
@@ -69,4 +64,5 @@ const HouseObject4 = () => {
     </div>
   );
 };
+
 export default HouseObject4;

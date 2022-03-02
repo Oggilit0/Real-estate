@@ -2,10 +2,12 @@ import aboutPhoto from "../Pictures/about.jpg";
 import { useEffect } from "react";
 import "../../stylesheets/About.css";
 import Career from "../Contact/Career";
+import img from "../Pictures/bg-image.jpg";
 
 const About = () => {
   useEffect(() => {
     document.title = "About";
+    document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 
   return (

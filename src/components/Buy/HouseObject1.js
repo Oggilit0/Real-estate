@@ -3,58 +3,48 @@ import pic2 from "../Pictures/House/House1/House1-2.jpg";
 import pic3 from "../Pictures/House/House1/House1-3.jpg";
 import pic4 from "../Pictures/House/House1/House1-4.jpg";
 import pic5 from "../Pictures/House/House1/House1-5.jpg";
+import Viewing from "../ReusableComponents/Viewing";
 import '../../stylesheets/HouseObject.css';
+import { useEffect } from "react";
 
 const HouseObject1 = () => {
+  useEffect(() => {
+    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+  }, []);
+
   return (
     <div className="houseObjectContainer">
+      <Viewing date={"2 aug"} />
+      <div id="obj-information">
+          <div id="adress"><h1>Ödåkra 5</h1></div>
+          <div id="price"> <h2>2 000 009 kr</h2></div>
+          <p>Type: House</p>
+          <p>Rooms: 2</p>
+      </div>
+
+      <div id="obj-collage">
+      <article className="collage-design" id="img-collage-house">
+        <section className="collage-design" id="img-container">
+          <img id="img1" src={pic2} />
+        </section>
+
+        <section className="collage-design" id="medium-img-container">
+          <img id="medium-img-house" src={pic3} />
+        </section>
+        <section className="collage-design" id="broad-img-container">
+          <img id="broad-img-house" src={pic4} />
+        </section>
+      </article>
+      </div>
+
       
-      <div className="factsTop">
-        <hr className="line"></hr>
-        <h2 className="title">Facts</h2>
-        <hr className="line"></hr>
-      </div>
 
-      <div className="adressPrice">
-        <div className="adress">Ödåkra 5</div>
-        <div className="price">2000009 kr</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="typeRooms">
-        <div className="adress">House</div>
-        <div className="price">2</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="pictures-bar">
-        <hr className="line"></hr>
-        <h2 className="title">Pictures</h2>
-        <hr className="line"></hr>
-      </div>
-
-      <article className="landing-section" id="img-collage-house">
-      <section className="landing-section" id="img-container">
-        <img id="img1" src={pic2} />
-      </section>
-
-      <section className="landing-section" id="medium-img-container">
-        <img id="medium-img-house" src={pic3} />
-      </section>
-      <section className="landing-section" id="broad-img-container">
-        <img id="broad-img-house" src={pic4} />
-      </section>
-    </article>
-
-    
-
-      <div className="description-bar">
+      <div id="description-bar">
         <hr className="line"></hr>
         <h2 className="title">Information</h2>
         <hr className="line"></hr>
-        <h4 id ="houseTextTitle">
-          Welcome to Ödåkra 5! </h4>
-          <p id = "houseText">New opportunity, as we have another home in the area for sale, to
+
+        <p id = "houseText">New opportunity, as we have another home in the area for sale, to
           acquire a well-equipped condominium on two floors in an attractive
           area. The home is bright and well-planned with a practical floor plan
           with hall, shower room with laundry area, kitchen and living room with
@@ -71,4 +61,5 @@ const HouseObject1 = () => {
     </div>
   );
 };
+
 export default HouseObject1;

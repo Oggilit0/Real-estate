@@ -25,7 +25,7 @@
   grid-area: brd-img;
 }
 
-#img-container{
+#img-container {
   grid-area: sml-1;
 }
 
@@ -50,19 +50,27 @@
   border-radius: 10px;
 }
 
-.factsLine{
+.factsLine {
   margin: 20px;
   border: 0.8px solid black;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-#houseText{
+#houseText {
   margin-bottom: 100px;
   letter-spacing: 0.2;
   line-height: 120%;
 }
 
-#houseTextTitle{
+#houseTextTitle {
   text-align: center;
+}
+
+.cForm {
+  position: relative;
+  float: right;
+  text-align: right;
+  left: 250px;
+  top: 100px;
 }

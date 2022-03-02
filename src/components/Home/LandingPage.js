@@ -4,10 +4,12 @@ import Articles from "./Articles";
 import Inspirational from "../ReusableComponents/Inspirational";
 import LandingPageCollage from "./LandingPageCollage";
 import '../../stylesheets/LandingPage.css';
+import img from "../Pictures/bg-image.jpg";
 
 const LandingPage = () => {
   useEffect(() => {
     document.title = "Home";
+    document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 
   return (

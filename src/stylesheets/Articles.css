@@ -4,11 +4,10 @@
   margin-bottom: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 10px;
 }
 
 #articles-img-container {
-  box-shadow: 5px 5px 5px rgb(0 0 0 / 0.1);
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0  / 0.1);
   border-radius: 10px;
   background-color: var(--Light-shades);
   height: 380px;

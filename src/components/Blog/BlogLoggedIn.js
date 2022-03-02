@@ -58,11 +58,14 @@ const BlogLoggedIn = () => {
       {user.email != "" ? (
         <div>
           <h2>
-            Welcome, <span>{user.name}</span>
+            Welcome, <span>{user.email}</span>
           </h2>
           <h4>
-            Make a post.
-            <form></form>
+            Make a post:
+            <form>
+              <textarea/>
+              <ReusableButton title ="Publish"/>
+            </form>
           </h4>
           <ReusableButton onClick={Logout} title="LOGOUT"></ReusableButton>
         </div>

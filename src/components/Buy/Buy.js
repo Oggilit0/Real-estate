@@ -3,10 +3,12 @@ import HouseContent from "../data/HouseContent";
 import HouseList from "./HouseList";
 import { useEffect } from "react";
 import Inspirational from "../ReusableComponents/Inspirational";
-import '../../stylesheets/Buy.css';
+import "../../stylesheets/Buy.css";
+import house from "../Pictures/House/House1/House1-1.jpg";
 
 const Buy = () => {
   const [post, setPost] = useState(HouseContent);
+
   useEffect(() => {
     document.title = "Buy";
   }, []);

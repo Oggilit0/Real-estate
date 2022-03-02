@@ -2,6 +2,7 @@ import { isContentEditable } from "@testing-library/user-event/dist/utils";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 
 const BlogSummary = ({item}) => {
+  
   return (
     <div id = "blogSummary">
       <h1 id="blogTitle">{item.title}</h1>
@@ -11,8 +12,6 @@ const BlogSummary = ({item}) => {
       <div id = "continue-btn">
       <ReusableButton onClick={(e) => {e.preventDefault(); window.location.href = `/blogpost${item.id}`;}}title="Continue reading"></ReusableButton>
       </div>
-      <hr></hr>
-      
     </div>
   );
 };

@@ -48,7 +48,7 @@
 }
 
 #collageText{
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   line-height: 120%;
 }
 
@@ -56,4 +56,5 @@
   background-color: var(--Light-shades);
   margin: 20px 20px 20px 20px;
   border-radius: 10px;
+  margin-top: 5px;
 }

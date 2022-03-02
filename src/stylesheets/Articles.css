@@ -8,7 +8,7 @@
 }
 
 #articles-img-container {
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 0.1);
   border-radius: 10px;
   background-color: var(--Light-shades);
   height: 380px;
@@ -20,9 +20,29 @@
 }
 
 #articles-img-container h1{
-  margin-left: 20px;
+  text-align: center;
   color: var(--Dark-shades);
+  text-decoration: none;
+  
   }
+
+a:link{
+    text-decoration: none;
+  }
+
+a:hover{
+    text-decoration: underline;
+  }
+
+#arrow{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+  margin: 15px;
+}
 
 #articles-img {
   width: 100%;

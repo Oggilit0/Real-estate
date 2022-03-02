@@ -1,14 +1,11 @@
-import SearchBar from "./SearchBar";
-import ListViewings from "../Buy/ListViewings.js";
-import '../../stylesheets/TopImage.css';
+import "../../stylesheets/TopImage.css";
 
 const TopImage = () => {
   return (
     <div className="topImage" id="tempDesign">
       <div id="banner">
         <div className="searchBar">
-          <SearchBar className="input" />
-          <ListViewings name="Summerview" />
+          <input type="text" placeholder="Search..."></input>
         </div>
       </div>
     </div>

@@ -2,9 +2,6 @@
   background-color: var(--Light-accent);
   width: 100%;
   border-radius: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 0.2);
 }
 
 #discover-img {
@@ -13,12 +10,15 @@
   object-fit: cover;
   vertical-align: top;
   border-radius: 10px 0 0 10px;
-  
 }
 
 #discover-text {
   color: var(--Dark-shades);
   width: 50%;
   float: right;
-  
+}
+
+#discoverText{
+  line-height: 120%;
+  letter-spacing: 0.2;
 }

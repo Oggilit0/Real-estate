@@ -33,19 +33,16 @@ a:hover{
     text-decoration: underline;
   }
 
-#arrow{
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-top: 1px solid #000;
-  border-right: 1px solid #000;
-  transform: rotate(45deg);
-  margin: 15px;
-}
-
 #articles-img {
   width: 100%;
   height: 150px;
   object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+#service-img{
+  width: 100%;
+  height: 150px;
+  object-fit:fill;
   border-radius: 10px 10px 0 0;
 }

@@ -56,7 +56,7 @@ const Articles = () => {
       </Link>
       <Link to="/services">
         <section id="articles-img-container">
-          <img id="articles-img" src={CalculatorLogo}></img>
+          <img id="service-img" src={CalculatorLogo}></img>
           <h1>House loan</h1>
           <p>
             Calculate your mortgage, monthly payments, and more in just a few
@@ -67,7 +67,7 @@ const Articles = () => {
       </Link>
       <Link to="/services">
         <section id="articles-img-container">
-          <img id="articles-img" src={ValueLogo}></img>
+          <img id="service-img" src={ValueLogo}></img>
           <h1>Valuation</h1>
           <p>
             With several years of experience in the real estate sector, we are
@@ -91,7 +91,7 @@ const Articles = () => {
           <img id="articles-img" src={blog}></img>
           <h1>Visit our blog</h1>
           <p>
-            Visit our beloved and well updated blog!
+            Visit our beloved and well updated blog to get the latest information and inspiration.
           </p>
           <p id = "explore">Explore</p>
         </section>

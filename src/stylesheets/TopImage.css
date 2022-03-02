@@ -23,3 +23,15 @@ input {
   border-radius: 10px;
 }
 
+#slogan{
+  position: relative;
+  color: #fff;
+}
+
+#reusable-button{
+  position: relative;
+  text-align: center;
+  bottom: 55px;
+  left: 155px;
+}
+

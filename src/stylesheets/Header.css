@@ -1,9 +1,11 @@
 #header-logo {
   float: left;
   margin-left: 20px;
-  width: 80px;
+  width: 42px;
   border-radius: 10px;
   margin: 20px;
+  padding: 10px;
+  background-color: var(--Light-shades);
 }
 
 .header{

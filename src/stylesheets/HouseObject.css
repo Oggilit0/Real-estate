@@ -67,14 +67,6 @@
   text-align: center;
 }
 
-.cForm {
-  position: relative;
-  float: right;
-  text-align: right;
-  left: 250px;
-  top: 100px;
-}
-
 #obj-header-img{
   position: absolute;
   width: 100%;
@@ -86,7 +78,28 @@
 }
 
 #obj-collage{
-  width: 100%;
+  float: left;
+  position: relative;
+
+}
+
+#adress{
+  margin: 20px;
+  font-size: 2rem;
+}
+
+#price{
+
+}
+
+#obj-information{
+  color: var(--Light-shades);
+  background-color: var(--Dark-shades);
+  border-radius: 10px;
+}
+
+#description-bar{
+  top: 20px;
 }
 
 @media screen and (max-width: 375px) {

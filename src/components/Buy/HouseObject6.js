@@ -10,28 +10,15 @@ const HouseObject6 = () => {
   return (
     <div className="houseObjectContainer">
       <img id="obj-header-img" src={pic2} />
-      <Viewing className="cForm" />
+      <Viewing date={"24 jun"} />
 
       <div id="obj-information">
-        <div className="factsTop">
-          <h2 className="title">Facts</h2>
-        </div>
-
         <div className="adressPrice">
-          <div className="adress">Prinsessgatan 1</div>
-          <div className="price"> 8 000 000 kr</div>
-          <hr className="factsLine"></hr>
+          <div id="adress"><h1>Prinsessgatan 1</h1></div>
+          <div id="price"> <h2>8 000 000 kr</h2></div>
+          <p>Type: House</p>
+          <p>Rooms: 2</p>
         </div>
-
-        <div className="typeRooms">
-          <div className="adress">House</div>
-          <div className="price">2</div>
-          <hr className="factsLine"></hr>
-        </div>
-      </div>
-
-      <div className="pictures-bar">
-        <h2 className="title">Pictures</h2>
       </div>
 
       <div id="obj-collage">
@@ -51,7 +38,7 @@ const HouseObject6 = () => {
 
       
 
-      <div className="description-bar">
+      <div id="description-bar">
         <hr className="line"></hr>
         <h2 className="title">Information</h2>
         <hr className="line"></hr>

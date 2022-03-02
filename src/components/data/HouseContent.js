@@ -5,6 +5,7 @@ import img4 from "../Pictures/House/House4/House4-2.jpg";
 import img5 from "../Pictures/House/House5/House5-1.jpg";
 import img6 from "../Pictures/House/House6/House6-3.jpg";
 import img7 from "../Pictures/House/House7/House7-1.jpg";
+import img8 from "../Pictures/House/Apartment1/Apartment1-3.jpg";
 
 const HouseContent = [
   {
@@ -84,6 +85,17 @@ const HouseContent = [
     type: "Type of living: House",
     description: "A place to build a family",
     image: img7,
+  },
+  {
+    id: 8,
+    city: "Karesuando",
+    address: "Lindvägen 4",
+    price: "Asking price: 40000000kr",
+    sqMeters: "120 sq",
+    amountRooms: "Amount of rooms: 3",
+    type: "Type of living: Apartment",
+    description: "A small place to hide",
+    image: img8,
   },
 ];
 

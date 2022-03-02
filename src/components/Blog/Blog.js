@@ -23,8 +23,9 @@ const Blog = () => {
       <h2 className="title">Blog</h2>
       <hr className="line"></hr>
       </div>
+      <div id="blog-content">
       <BlogList post={post}/>
-      
+      </div>
     </div>
   );
 };

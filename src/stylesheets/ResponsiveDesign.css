@@ -322,4 +322,44 @@
     float: left;
   }
 
+#blogPostText{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  letter-spacing: 0.2;
+  line-height: 140%;
+}
+
+#replyBox{
+  margin-top: 20px;
+  width: 330px;
+  height: 150px;
+}
+
+#nameBox{
+  margin: 10px 0 10px 0;
+}
+
+#emailBox{
+  margin: 10px 0 10px 0;
+}
+
+.replyForm{
+  margin:20px;
+}
+
+#blogLoggIn{
+  position: relative;
+  float: left;
+  text-align: right;
+  left: 0;
+  top:320px;
+  }
+
+  #blog-content{
+    position: relative;
+    height: 100%;
+    margin-bottom: 240px;
+    top: 220px;
+  }
+
 }

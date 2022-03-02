@@ -4,10 +4,12 @@ import pic3 from "../Pictures/House/House6/House6-3.jpg";
 import pic4 from "../Pictures/House/House6/House6-4.jpg";
 import pic5 from "../Pictures/House/House6/House6-5.jpg";
 import "../../stylesheets/HouseObject.css";
+import Viewing from "../ReusableComponents/Viewing";
 
 const HouseObject6 = () => {
   return (
     <div className="houseObjectContainer">
+      <Viewing className="cForm" />
       <div className="factsTop">
         <hr className="line"></hr>
         <h2 className="title">Facts</h2>

@@ -116,10 +116,3 @@ margin-top: 20px;
 #description-bar{
   margin-top: 20px;
 }
-
-@media screen and (max-width: 375px) {
-  #obj-header-img{
-    min-width: 100%;
-    height: 240px;
-  }
-}

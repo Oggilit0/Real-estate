@@ -9,8 +9,12 @@ import Viewing from "../ReusableComponents/Viewing";
 const HouseObject6 = () => {
   return (
     <div className="houseObjectContainer">
-      <img id="obj-header-img" src={pic2} />
-      <Viewing className="cForm" />
+      <Viewing date={"24 jun"} />
+      <div className="factsTop">
+        <hr className="line"></hr>
+        <h2 className="title">Facts</h2>
+        <hr className="line"></hr>
+      </div>
 
       <div id="obj-information">
         <div className="factsTop">

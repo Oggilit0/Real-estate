@@ -3,18 +3,20 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "../../stylesheets/Viewing.css";
 import ReusableButton from "./ReusableButton";
 
-const Viewing = () => {
+const Viewing = (props) => {
   return (
     <>
-      <div class="cForm">
-        <div>Next Showing:</div>
-        24 JUN 18:00
+      <div className="cForm">
         <div>
-          Share:
-          <p />
-          <a href="#">
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-          </a>
+          <div>Next Showing:</div>
+          {props.date}
+          <div>
+            Share:
+            <p />
+            <a href="#">
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+            </a>
+          </div>
         </div>
         <h2 className="title" id="contactForm">
           Book Showing:

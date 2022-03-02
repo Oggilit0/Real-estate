@@ -7,7 +7,10 @@ import '../../stylesheets/LandingPageCollage.css';
 
 const LandingPageCollage = () => {
   return (
-    <article className="collage-design" id="img-collage">
+    <article className="collage-design">
+      <div id="img-collage">
+
+      
       <section className="collage-design" id="img-container-home">
         <img id="small-img1" src={livingroom2} />
         <p id = "collageText">
@@ -30,6 +33,7 @@ const LandingPageCollage = () => {
       <section className="collage-design" id="broad-img-container">
         <img id="broad-img" src={diningroom} />
       </section>
+      </div>
     </article>
   );
 };

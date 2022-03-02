@@ -8,3 +8,8 @@
   font-weight: 500;
   border-radius: 5px;
 }
+
+.reuse-btn:hover{
+background-color: #787689;
+}
+

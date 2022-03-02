@@ -8,7 +8,9 @@ const BlogSummary = ({item}) => {
       <p id="timeDatePost">Posted by {item.author} on {item.date}</p>
       <img id = "blogImage" src={item.image}/>
       <div id="previewText">{item.previewText}</div>
+      <div id = "continue-btn">
       <ReusableButton onClick={(e) => {e.preventDefault(); window.location.href = `/blogpost${item.id}`;}}title="Continue reading"></ReusableButton>
+      </div>
       <hr></hr>
       
     </div>

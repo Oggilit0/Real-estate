@@ -17,7 +17,7 @@ const HouseObject6 = () => {
       <div id="obj-information">
           <div id="adress"><h1>Lindvägen 4</h1></div>
           <div id="price"> <h2>40 000 000kr</h2></div>
-          <p>Type: Aprtment</p>
+          <p>Type: Apartment</p>
           <p>Rooms: 3</p>
       </div>
 

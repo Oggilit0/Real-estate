@@ -1,5 +1,4 @@
 import Carousel from "react-elastic-carousel";
-import discover from "../Pictures/pillow.jpg";
 import house2 from "../Pictures/House/House2/House2-3.jpg";
 import house3 from "../Pictures/House/House3/House3-4.jpg";
 import house4 from "../Pictures/House/House4/House4-5.jpg";

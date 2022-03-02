@@ -44,7 +44,9 @@ const BlogPost2 = (item) => {
         </div>
         <input id="emailBox"></input>
       </div>
+      <div id="reply-btn">
       <ReusableButton title="Leave a reply"></ReusableButton>
+      </div>
     </div>
   );
 };

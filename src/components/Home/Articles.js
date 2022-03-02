@@ -3,7 +3,6 @@ import onceUpon from "../Pictures/real-estate-blog-agent.jpg";
 import tips from "../Pictures/house-for-sale.jpg";
 import newYork from "../Pictures/new-york.jpg";
 import about from "../Pictures/about.jpg";
-import StyleLogo from "../Pictures/StyleLogo.png";
 import ValueLogo from "../Pictures/ValueLogo.png";
 import CalculatorLogo from "../Pictures/calculatorLogo.png";
 import blog from "../Pictures/blogImage.jpg";

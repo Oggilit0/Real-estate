@@ -4,26 +4,30 @@ import ReusableButton from "../ReusableComponents/ReusableButton";
 
 const BlogLoggedIn = () => {
   const adminUser = {
+    name:"Admin",
     email: "admin@admin.com",
     password: "admin123",
   };
 
   const marcusUser = {
+    name: "Marcus",
     email: "marcus@brederfalt.com",
     password: "guy",
   };
 
   const mathildaUser = {
+    name: "Mathilda",
     email: "mathilda@realestate.com",
     password: "langth",
   };
 
   const oskarUser = {
+    name: "Oskar",
     email: "oskar@realestate.com",
     password: "macforthewin",
   };
 
-  const [user, setUser] = useState({ name: "", email: "" });
+  const [user, setUser] = useState({name: "" ,email: "" });
   const [error, setError] = useState("");
 
   const Login = (details) => {
@@ -40,7 +44,7 @@ const BlogLoggedIn = () => {
         details.password === oskarUser.password)
     ) {
       setUser({
-        name: details.name,
+        name: user.name,
         email: details.email,
       });
     } else {
@@ -50,24 +54,29 @@ const BlogLoggedIn = () => {
 
   const Logout = () => {
     console.log("Logout");
-    setUser({ name: "", email: "" });
+    setUser({email: "" });
   };
+
+  const publish = () =>{
+    alert(`Blogpost sent for verification!`);
+  }
+
 
   return (
     <div>
       {user.email != "" ? (
         <div>
           <h2>
-            Welcome, <span>{user.email}</span>
+            Welcome, <span>{user.name}</span>
           </h2>
           <h4>
             Make a post:
             <form>
               <textarea/>
-              <ReusableButton title ="Publish"/>
+              <ReusableButton onClick={publish} title ="Publish"/>
             </form>
           </h4>
-          <ReusableButton onClick={Logout} title="LOGOUT"></ReusableButton>
+          <ReusableButton onClick={Logout} title="LOGOUT"/>
         </div>
       ) : (
         <LoginForm Login={Login} error={error} />

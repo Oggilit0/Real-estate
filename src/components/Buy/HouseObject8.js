@@ -3,54 +3,48 @@ import pic2 from "../Pictures/House/Apartment1/Apartment1-2.jpg";
 import pic3 from "../Pictures/House/Apartment1/Apartment1-3.jpg";
 import pic4 from "../Pictures/House/Apartment1/Apartment1-4.jpg";
 import "../../stylesheets/HouseObject.css";
+import Viewing from "../ReusableComponents/Viewing";
+import { useEffect } from "react";
 
-const HouseObject8 = () => {
+const HouseObject6 = () => {
+  useEffect(() => {
+    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+  }, []);
+
   return (
     <div className="houseObjectContainer">
-      <div className="factsTop">
-        <hr className="line"></hr>
-        <h2 className="title">Facts</h2>
-        <hr className="line"></hr>
+      <Viewing date={"24 jun"} />
+      <div id="obj-information">
+          <div id="adress"><h1>Lindvägen 4</h1></div>
+          <div id="price"> <h2>40 000 000kr</h2></div>
+          <p>Type: Aprtment</p>
+          <p>Rooms: 3</p>
       </div>
 
-      <div className="adressPrice">
-        <div className="adress">Lindvägen 4</div>
-        <div className="price"> 40000000kr</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="typeRooms">
-        <div className="adress">Apartment</div>
-        <div className="price">2</div>
-        <hr className="factsLine"></hr>
-      </div>
-
-      <div className="pictures-bar">
-        <hr className="line"></hr>
-        <h2 className="title">Pictures</h2>
-        <hr className="line"></hr>
-      </div>
-
-      <article className="landing-section" id="img-collage-house">
-        <section className="landing-section" id="img-container">
+      <div id="obj-collage">
+      <article className="collage-design" id="img-collage-house">
+        <section className="collage-design" id="img-container">
           <img id="img1" src={pic2} />
         </section>
 
-        <section className="landing-section" id="medium-img-container">
+        <section className="collage-design" id="medium-img-container">
           <img id="medium-img-house" src={pic3} />
         </section>
-        <section className="landing-section" id="broad-img-container">
+        <section className="collage-design" id="broad-img-container">
           <img id="broad-img-house" src={pic4} />
         </section>
       </article>
+      </div>
 
-      <div className="description-bar">
+      
+
+      <div id="description-bar">
         <hr className="line"></hr>
         <h2 className="title">Information</h2>
         <hr className="line"></hr>
 
         <p id="houseText">
-          Bright and fresh apartment of 120 sqm with open floor plan located at
+        Bright and fresh apartment of 120 sqm with open floor plan located at
           the top of the house! The elevator takes you all the way down to the
           heated garage and basement storage that belongs to the apartment. The
           home has oak parquet floors in all rooms and white painted walls.
@@ -64,4 +58,4 @@ const HouseObject8 = () => {
   );
 };
 
-export default HouseObject8;
+export default HouseObject6;

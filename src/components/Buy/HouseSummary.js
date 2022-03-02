@@ -6,7 +6,9 @@ const HouseSummary = ({ item }) => {
     <>
       <article>
         <div id="articles-img-container">
-          <img id="articles-img" src={item.image}></img>
+          <Link to={`/houseobject${item.id}`}>
+            <img id="articles-img" src={item.image}></img>
+          </Link>
           <p>
             <b>{item.city} </b>
             <br />

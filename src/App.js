@@ -10,7 +10,6 @@ import Buy from "./components/Buy/Buy";
 import Contact from "./components/Contact/Contact";
 import Services from "./components/Services/Services";
 import TopImage from "./components/TopImage/TopImage";
-import BlogPost from "./components/Blog/BlogPost";
 import HouseObject1 from "./components/Buy/HouseObject1";
 import HouseObject2 from "./components/Buy/HouseObject2";
 import HouseObject3 from "./components/Buy/HouseObject3";
@@ -36,7 +35,6 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blogpost" element={<BlogPost />} />
             <Route path="/buy" element={<Buy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/services" element={<Services />} />

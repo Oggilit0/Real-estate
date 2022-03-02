@@ -16,6 +16,12 @@ button {
   margin: 20px;
 }
 
+.line {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .landing-article {
   background-color: var(--Dark-shades);
   border-radius: 10px;

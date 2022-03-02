@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import BlogLoggedIn from "./BlogLoggedIn";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 
 function LoginForm({ Login, error }) {
-  const [details, setDetails] = useState({ email: "", password: "" });
+  const [details, setDetails] = useState({email: "", password: "" });
 
   const submitHandler = (e) => {
     e.preventDefault();

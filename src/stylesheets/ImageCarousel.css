@@ -14,12 +14,12 @@
 }
 
 .rec.rec-arrow:hover {
-  color: var(Light-shades);
+  color: var(--Light-shades);
   background-color: var(--Dark-accent);
 }
 
 .rec.rec-arrow:focus {
-  color: var(Light-shades);
+  color: var(--Light-shades);
   background-color: var(--Dark-accent);
 }
 

@@ -38,8 +38,9 @@ const LandingPage = () => {
       <hr className="line"></hr>
       </div>
 
-      <Inspirational />
-
+      <div >
+        <Inspirational id ="inspirational-lander" />
+      </div>
       <div id = "landingPageTitles">
       <hr className="line"></hr>
       <h2 className="title">Articles</h2>

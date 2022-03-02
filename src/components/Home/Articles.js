@@ -25,8 +25,7 @@ const Articles = () => {
           <img id="articles-img" src={tips}></img>
           <h1>5 Tips when selling your house</h1>
           <p>
-            Now is a great time to sell your home! Home values are rising
-            rapidly, and...
+            Now is a great time to sell your home! Home values are rising...
           </p>
           <p id = "explore">Explore</p>
         </section>
@@ -36,8 +35,7 @@ const Articles = () => {
           <img id="articles-img" src={newYork}></img>
           <h1>Upcoming in <br/>New York</h1>
           <p>
-            We are excited to announce that New York is about to launch a new
-            wave of listings..
+            We are excited to announce that New York is about to launch a new...
           </p>
           <p id = "explore">Explore</p>
         </section>
@@ -70,7 +68,7 @@ const Articles = () => {
           <h1>Valuation</h1>
           <p>
             With several years of experience in the real estate sector, we are
-            committed to providing the most...
+            committed to...
           </p>
           <p id = "explore">Explore</p>
         </section>
@@ -80,7 +78,7 @@ const Articles = () => {
           <img id="articles-img" src={career}></img>
           <h1>Open positions</h1>
           <p>
-          Our company is growing quickly and we're looking for some new faces to join our team.
+          Our company is growing quickly and we're looking for some new faces to join our...
           </p>
           <p id = "explore">Explore</p>
         </section>

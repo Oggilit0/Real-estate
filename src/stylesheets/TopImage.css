@@ -6,6 +6,16 @@
   background-position: 50% 70%;
 }
 
+#banner h1{
+  margin: 0px;
+  position: relative;
+  left: 65%;
+  top: 75%;
+  color: var(--Light-shades);
+  font-size: 4rem;
+  opacity: 25%;
+}
+
 .topImage {
   grid-area: topImage;
   height: 400px;
@@ -14,7 +24,7 @@
 .searchBar {
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 30%;
 }
 
 input {

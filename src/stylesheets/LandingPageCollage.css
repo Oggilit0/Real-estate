@@ -53,7 +53,7 @@
 }
 
 .collage-design {
+  grid-gap:20px;
   background-color: var(--Light-shades);
-  margin: 20px 20px 20px 20px;
   border-radius: 10px;
 }

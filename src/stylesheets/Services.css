@@ -43,8 +43,9 @@ color: #2e384f;
 
 #customerDesign{
   width:400px;
-  height:100%;
+  height:90%;
   float: right;
+  object-fit: cover;
   margin:20px;
   border-radius: 10px 10px 10px 10px;
 }
@@ -53,7 +54,6 @@ color: #2e384f;
   margin:20px;
   color: #FBFBFB;
   margin-top: 5px;
-  
 }
 
 #customerText{
@@ -67,13 +67,17 @@ color: #2e384f;
 .landing-customer{
   background-color: var(--Dark-shades);
   border-radius: 10px;
+  height: 500px;
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
 }
 
 #familyMoving{
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
-  width: auto;
+  width: 100%;
   height: 500px;
+  object-fit: cover;
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
   border-radius: 10px 10px 10px 10px;
 }

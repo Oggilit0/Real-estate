@@ -368,4 +368,29 @@
     font-size: 2rem;
   }
 
+  #customerText {
+    margin: 20px;
+  }
+  
+  .landing-customer {
+    background-color: var(--Dark-shades);
+    border-radius: 0px;
+    height: 720px;
+  }
+
+  #customerDesign {
+    width: 100%;
+    height: 400px;
+    float: none;
+    margin: 0px;
+    border-radius: 0;
+  }
+
+  #familyMoving {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 0px;
+  }
+
 }

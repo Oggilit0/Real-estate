@@ -25,7 +25,7 @@ const HouseObject5 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic1} />
         </section>
 
         <section className="collage-design" id="medium-img-container">

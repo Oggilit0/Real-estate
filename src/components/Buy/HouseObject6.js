@@ -25,14 +25,14 @@ const HouseObject6 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic5} />
+          <img id="img1" src={pic3} />
         </section>
 
         <section className="collage-design" id="medium-img-container">
-          <img id="medium-img-house" src={pic3} />
+          <img id="medium-img-house" src={pic5} />
         </section>
         <section className="collage-design" id="broad-img-container">
-          <img id="broad-img-house" src={pic4} />
+          <img id="broad-img-house" src={pic2} />
         </section>
       </article>
       </div>
@@ -48,7 +48,7 @@ const HouseObject6 = () => {
           Here, the puzzle of life gets close in an attractive small town idyll
           with surroundings of forest and countryside. <br/><br/> In grown-up
           neighborhoods, you live on Prinsessgatan in an area without passage
-          and close to forests and wonderful recreational areas. <br/> This property
+          and close to forests and wonderful recreational areas. This property
           is well maintained and built in 1957. Well-planned area with basement
           and furnished upstairs that is framed by a neat garden that
           accommodates both nice sun locations and a place for those interested
@@ -66,9 +66,9 @@ const HouseObject6 = () => {
           living room and hall with nice light from two directions and a
           pleasant dining area. In the furnished attic, cozy rooms are offered
           in the form of two bedrooms and living rooms with plenty of storage in
-          the walk-in closet. <br/> The basement has a spacious laundry room, living
+          the walk-in closet. The basement has a spacious laundry room, living
           room and storage and hobby room. There is also a larger bathroom with
-          a bath. <br/>The area is a true family dream with idyllic neighborhoods
+          a bath. <br/><br/>The area is a true family dream with idyllic neighborhoods
           that can be reached with a short drive, about 10 minutes.
         </p>
       </div>

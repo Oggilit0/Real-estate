@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject4 = () => {
   useEffect(() => {
-    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+    document.getElementById("banner").style.backgroundImage = `url(${pic5})`;
   }, []);
 
   return (

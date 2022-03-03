@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject3 = () => {
   useEffect(() => {
-    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+    document.getElementById("banner").style.backgroundImage = `url(${pic1})`;
   }, []);
 
   return (
@@ -25,14 +25,14 @@ const HouseObject3 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic1} />
         </section>
 
         <section className="collage-design" id="medium-img-container">
-          <img id="medium-img-house" src={pic3} />
+          <img id="medium-img-house" src={pic4} />
         </section>
         <section className="collage-design" id="broad-img-container">
-          <img id="broad-img-house" src={pic4} />
+          <img id="broad-img-house" src={pic2} />
         </section>
       </article>
       </div>

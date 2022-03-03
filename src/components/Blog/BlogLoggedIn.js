@@ -63,12 +63,9 @@ const BlogLoggedIn = () => {
   };
 
   return (
-    <div>
+    <div className="blogLoggedIn">
       {user.email != "" ? (
         <div>
-          <h4>
-            Welcome, <span>{user.email}</span>
-          </h4>
           <div>
             <h4>
               Make a post:

@@ -34,18 +34,15 @@ const BlogPost3 = (item) => {
              always important to make sure that you have given all possible customers 
              what they want</p>
       <div className="replyForm">
-        <div>
-          <label id="reply">Leave a reply:</label>
+      <div id = "replyInputs">
+        <textarea id="replyBox" placeholder="Leave a reply"/>
         </div>
-        <textarea id="replyBox"></textarea>
-        <div>
-          <label id="name">Name:</label>
+        <div id = "replyInputs">
+        <input id="nameBox" placeholder="Name"/>
         </div>
-        <input id="nameBox"></input>
-        <div>
-          <label id="email">Email:</label>
-        </div>
-        <input id="emailBox"></input>
+        <div id = "replyInputs">
+        <input id="emailBox" placeholder="Email"/>
+      </div>
       </div>
       <div id="reply-btn">
       <ReusableButton title="Leave a reply"></ReusableButton>

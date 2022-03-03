@@ -9,6 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject6 = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.getElementById("banner").style.backgroundImage = `url(${pic1})`;
   }, []);
 

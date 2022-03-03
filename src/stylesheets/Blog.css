@@ -18,10 +18,28 @@
   top: 245px;
 }
 
+.blogLoggedIn {
+  position: relative;
+  float: right;
+  text-align: right;
+  left: 10px;
+  top: 10px;
+}
+
 #blogTopTitle {
   margin-top: -221px;
 }
 
 .formMakeAPost {
   resize: none;
+}
+
+#buttonBlog {
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  margin-bottom: 120px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 5px;
 }

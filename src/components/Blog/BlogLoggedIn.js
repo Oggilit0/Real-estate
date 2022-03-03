@@ -71,11 +71,12 @@ const BlogLoggedIn = () => {
               Make a post:
               <form>
                 <textarea className="formMakeAPost" />
-                <ReusableButton onClick={publish} title="Publish" />
+                <div id="buttonBlog">
+                  <ReusableButton onClick={publish} title="Publish" />
+                  <ReusableButton onClick={Logout} title="LOGOUT" />
+                </div>
               </form>
             </h4>
-
-            <ReusableButton onClick={Logout} title="LOGOUT" />
           </div>
         </div>
       ) : (

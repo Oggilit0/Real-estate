@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject2 = () => {
   useEffect(() => {
-    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+    document.getElementById("banner").style.backgroundImage = `url(${pic5})`;
   }, []);
 
   return (
@@ -25,14 +25,14 @@ const HouseObject2 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic1} />
         </section>
 
         <section className="collage-design" id="medium-img-container">
-          <img id="medium-img-house" src={pic3} />
+          <img id="medium-img-house" src={pic2} />
         </section>
         <section className="collage-design" id="broad-img-container">
-          <img id="broad-img-house" src={pic4} />
+          <img id="broad-img-house" src={pic3} />
         </section>
       </article>
       </div>
@@ -47,13 +47,13 @@ const HouseObject2 = () => {
         <p id="houseText">
         Two-storey villa with basement, located in a popular residential area
           with a spacious plot of about 80 sqm. From the house you can easily
-          reach Kinna center, school / care and bus stop. <br/> The standard is new
+          reach Kinna center, school / care and bus stop. <br/><br/> The standard is new
           and fresh and in no need of renovation, which gives new owners the
           opportunity to have a piece of mind. Detached garage building and
           storage shed on the plot. The house has been inspected and minutes are
           available on the broker's website under the tab "documents and links".
           The property is sold with a disclaimer against any. hidden errors due
-          to estate sales. Welcome with your registration for the show.
+          to estate sales.<br/><br/> Welcome with your registration for the show.
         </p>
       </div>
     </div>

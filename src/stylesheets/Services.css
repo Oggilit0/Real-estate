@@ -21,7 +21,6 @@
   padding: 35px;
   border: 1px solid grey;
   border-radius: 10px 10px 10px 10px;
-
   background-color: var(--Light-shades);
   box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
 }
@@ -58,7 +57,7 @@
 #customerText {
   margin: 20px;
   font-style: italic;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   line-height: 140%;
   color: var(--Light-shades);
 }

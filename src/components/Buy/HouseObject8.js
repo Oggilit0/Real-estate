@@ -24,7 +24,7 @@ const HouseObject6 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic1} />
         </section>
 
         <section className="collage-design" id="medium-img-container">
@@ -45,10 +45,10 @@ const HouseObject6 = () => {
 
         <p id="houseText">
         Bright and fresh apartment of 120 sqm with open floor plan located at
-          the top of the house! The elevator takes you all the way down to the
+          the top of the house!<br/><br/> The elevator takes you all the way down to the
           heated garage and basement storage that belongs to the apartment. The
           home has oak parquet floors in all rooms and white painted walls.
-          Kitchen and dining area adjacent to the living room with access to the
+          <br/>Kitchen and dining area adjacent to the living room with access to the
           balcony. The bathroom is spacious with tiled walls, carpet on the
           floor and equipped with washer and dryer. Bedroom with storage in the
           form of closets.

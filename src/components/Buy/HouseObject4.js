@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject4 = () => {
   useEffect(() => {
-    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+    document.getElementById("banner").style.backgroundImage = `url(${pic5})`;
   }, []);
 
   return (
@@ -52,13 +52,13 @@ const HouseObject4 = () => {
           creates an incredible feeling of coziness and is a fantastic heat
           source that heats up colder days. Cozy kitchen that was renovated in
           2017 and there is plenty of space for a dining table for nice family
-          dinners.<br/>Upstairs we find the house's more private spaces with 3
+          dinners.<br/><br/>Upstairs we find the house's more private spaces with 3
           bedrooms and a hall with access to the lovely balcony for relaxation.
           Furthermore, we have a bathroom on the entrance level and a toilet on
           the upper level.<br/> Flat and easy-care garden plot with plenty of space
           for play, relaxation and cultivation opportunities if desired. <br/>Here
           you live in central Valdemarsvik with proximity to preschool, school,
-          grocery store and sports facility. Welcome to register your interest!
+          grocery store and sports facility. <br/> Welcome to register your interest!
         </p>
       </div>
     </div>

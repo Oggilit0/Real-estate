@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 const HouseObject3 = () => {
   useEffect(() => {
-    document.getElementById("banner").style.backgroundImage = `url(${pic2})`;
+    document.getElementById("banner").style.backgroundImage = `url(${pic1})`;
   }, []);
 
   return (
@@ -25,14 +25,14 @@ const HouseObject3 = () => {
       <div id="obj-collage">
       <article className="collage-design" id="img-collage-house">
         <section className="collage-design" id="img-container">
-          <img id="img1" src={pic2} />
+          <img id="img1" src={pic1} />
         </section>
 
         <section className="collage-design" id="medium-img-container">
-          <img id="medium-img-house" src={pic3} />
+          <img id="medium-img-house" src={pic4} />
         </section>
         <section className="collage-design" id="broad-img-container">
-          <img id="broad-img-house" src={pic4} />
+          <img id="broad-img-house" src={pic2} />
         </section>
       </article>
       </div>
@@ -44,11 +44,11 @@ const HouseObject3 = () => {
         <h2 className="title">Information</h2>
         <hr className="line"></hr>
 
-        <p id="houseText">
-        Here is a place that will soon become vacant. <br/>The kitchen from
+         <p id="houseText">
+          Here is a place that will soon become vacant. <br/><br/>The kitchen from
           Marbodal is clearly elegant, You see that the bathrooms are renovated
           if you are observant, That there is both district heating and wood
-          stove is brilliant, right? <br/>The garage is large and interesting enough,
+          stove is brilliant, right? <br/><br/>The garage is large and interesting enough,
           You get a seat with an Saab AND a Trabant! Admittedly, the house costs
           a penny, But there is room to pledge, 300 meters to Gruvberget is
           relevant. <br/> Welcome to Kungsgatan 3 on an outer edge!

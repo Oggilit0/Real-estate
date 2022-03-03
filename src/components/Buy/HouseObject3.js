@@ -44,11 +44,11 @@ const HouseObject3 = () => {
         <h2 className="title">Information</h2>
         <hr className="line"></hr>
 
-        <p id="houseText">
-        Here is a place that will soon become vacant. <br/>The kitchen from
+         <p id="houseText">
+          Here is a place that will soon become vacant. <br/><br/>The kitchen from
           Marbodal is clearly elegant, You see that the bathrooms are renovated
           if you are observant, That there is both district heating and wood
-          stove is brilliant, right? <br/>The garage is large and interesting enough,
+          stove is brilliant, right? <br/><br/>The garage is large and interesting enough,
           You get a seat with an Saab AND a Trabant! Admittedly, the house costs
           a penny, But there is room to pledge, 300 meters to Gruvberget is
           relevant. <br/> Welcome to Kungsgatan 3 on an outer edge!

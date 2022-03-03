@@ -46,9 +46,9 @@ const HouseObject5 = () => {
 
         <p id="houseText">
         Move into this well-planned and well-maintained 1½ storey villa with
-          basement and a good location in popular Bettna. The same family has
+          basement and a good location in popular Bettna. <br/> The same family has
           lived and enjoyed here since the house was built in 2019, perfect for
-          you who are looking for a little extra space. The villa's social areas
+          you who are looking for a little extra space. <br/> <br/>The villa's social areas
           are ample with space for both family and friends. The entrance floor
           houses a living room at an angle open to the dining room with access
           to the patio deck and the garden. Kitchen with dining area, bedroom
@@ -56,7 +56,7 @@ const HouseObject5 = () => {
           bathroom and a small extra room as an office. Basement throughout the
           house with large living room with space for both party and play,
           laundry sauna and storage. Garage with on site in front and proximity
-          to guest parking. You are very welcome to register for the
+          to guest parking. <br/> <br/>You are very welcome to register for the
           show!orhoods that can be reached with a short drive, about 10 minutes.
         </p>
       </div>

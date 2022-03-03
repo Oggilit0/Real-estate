@@ -47,13 +47,13 @@ const HouseObject2 = () => {
         <p id="houseText">
         Two-storey villa with basement, located in a popular residential area
           with a spacious plot of about 80 sqm. From the house you can easily
-          reach Kinna center, school / care and bus stop. <br/> The standard is new
+          reach Kinna center, school / care and bus stop. <br/><br/> The standard is new
           and fresh and in no need of renovation, which gives new owners the
           opportunity to have a piece of mind. Detached garage building and
           storage shed on the plot. The house has been inspected and minutes are
           available on the broker's website under the tab "documents and links".
           The property is sold with a disclaimer against any. hidden errors due
-          to estate sales. Welcome with your registration for the show.
+          to estate sales.<br/><br/> Welcome with your registration for the show.
         </p>
       </div>
     </div>

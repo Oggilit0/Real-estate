@@ -14,7 +14,7 @@ const Inspirational = () => {
           or charges - we'll collate all the latest data and email you your
           report within just a few minutes.
         </p>
-        <ReusableButton title="Try it out now!"></ReusableButton>
+        <ReusableButton title="Try it out now!" color ="var(--Dark-shades)"></ReusableButton>
       </div>
     </section>
   );

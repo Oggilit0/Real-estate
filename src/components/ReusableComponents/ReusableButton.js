@@ -1,8 +1,8 @@
 import '../../stylesheets/ReusableButton.css';
 
-const ReusableButton = ({onClick, title,submit}) => {
+const ReusableButton = ({onClick, title,submit, color}) => {
   return <div>
-    <button className = "reuse-btn" onClick={onClick} submit={submit}>{title}</button>
+    <button className = "reuse-btn" onClick={onClick} submit={submit} style={{backgroundColor: color}}>{title}</button>
     </div>
 }
 

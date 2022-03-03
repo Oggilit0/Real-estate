@@ -9,6 +9,7 @@ import img from "../Pictures/bg-image.jpg";
 const LandingPage = () => {
   useEffect(() => {
     document.title = "Home";
+    window.scrollTo(0, 0);
     document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 

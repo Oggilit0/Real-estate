@@ -14,6 +14,7 @@ import img from "../Pictures/bg-image.jpg";
 const Services = () => {
   useEffect(() => {
     document.title = "Services";
+    window.scrollTo(0, 0);
     document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
   return (

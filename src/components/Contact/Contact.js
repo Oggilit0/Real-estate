@@ -16,6 +16,7 @@ const Contact = () => {
 
   useEffect(() => {
     document.title = "Contact";
+    window.scrollTo(0, 0);
     document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 

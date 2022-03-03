@@ -10,8 +10,8 @@ const Buy = () => {
   const [post, setPost] = useState(HouseContent);
 
   useEffect(() => {
-
     document.title = "Buy";
+    window.scrollTo(0, 0);
     document.getElementById("banner").style.backgroundImage = `url(${img})`;
   }, []);
 
@@ -24,10 +24,9 @@ const Buy = () => {
       <div id="houselist-container">
         <HouseList post={post} />
       </div>
-      <div>
+      <div id="inspirational-buy">
         <Inspirational />
       </div>
-      <p />
       <div id="houselist-container">
         <HouseList post={post} />
       </div>

@@ -27,22 +27,19 @@ const BlogPost1 = (item) => {
           are still to come. <br /><br />  And when the day comes that I'm standing on top of it all, with
           my clients by my side and my kids playing around, i know this is going to be where i belong.'</p>
       <div className="replyForm">
-        <div>
-          <label id="reply">Leave a reply:</label>
+        <div id = "replyInputs">
+        <textarea id="replyBox" placeholder="Leave a reply"/>
         </div>
-        <textarea id="replyBox"></textarea>
-        <div>
-          <label id="name">Name:</label>
+        <div id = "replyInputs">
+        <input id="nameBox" placeholder="Name"/>
         </div>
-        <input id="nameBox"></input>
-        <div>
-          <label id="email">Email:</label>
-        </div>
-        <input id="emailBox"></input>
+        <div id = "replyInputs">
+        <input id="emailBox" placeholder="Email"/>
       </div>
       <div id="reply-btn">
       <ReusableButton title="Leave a reply"></ReusableButton>
       </div>
+    </div>
     </div>
   );
 };

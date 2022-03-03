@@ -31,18 +31,15 @@ const BlogPost2 = (item) => {
             You can even make a whole weekend out of it by renting a beach house on Fire
              Island. Come find your best place yet!</p>
       <div className="replyForm">
-        <div>
-          <label id="reply">Leave a reply:</label>
+      <div id = "replyInputs">
+        <textarea id="replyBox" placeholder="Leave a reply"/>
         </div>
-        <textarea id="replyBox"></textarea>
-        <div>
-          <label id="name">Name:</label>
+        <div id = "replyInputs">
+        <input id="nameBox" placeholder="Name"/>
         </div>
-        <input id="nameBox"></input>
-        <div>
-          <label id="email">Email:</label>
-        </div>
-        <input id="emailBox"></input>
+        <div id = "replyInputs">
+        <input id="emailBox" placeholder="Email"/>
+      </div>
       </div>
       <div id="reply-btn">
       <ReusableButton title="Leave a reply"></ReusableButton>

@@ -4,10 +4,12 @@
   padding-top: 0;
   padding-bottom: 0;
   resize: none;
+  margin-bottom: 5px;
 }
 
 #nameBox{
 width: 200px;
+margin-bottom: 5px;
 }
 
 #emailBox{
@@ -25,4 +27,8 @@ width: 200px;
   margin-bottom: 50px;
   letter-spacing: 0.2;
   line-height: 140%;
+}
+
+#reply-btn{
+  margin-left: -21px;
 }

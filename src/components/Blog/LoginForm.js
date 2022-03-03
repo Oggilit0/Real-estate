@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReusableButton from "../ReusableComponents/ReusableButton";
 
 function LoginForm({ Login, error }) {
-  const [details, setDetails] = useState({email: "", password: "" });
+  const [details, setDetails] = useState({ email: "", password: "" });
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -12,7 +12,7 @@ function LoginForm({ Login, error }) {
   return (
     <form onSubmit={submitHandler}>
       <div>
-        <h2 className = "title" id ="sellersLogin">Sellers Login</h2>
+        <h2>Sellers Login</h2>
         {error != "" ? <div>{error}</div> : ""}
         <div>
           <input
@@ -36,7 +36,7 @@ function LoginForm({ Login, error }) {
             value={details.password}
           ></input>
         </div>
-        <ReusableButton type="submit" title="LOGIN"/>
+        <ReusableButton type="submit" title="LOGIN" />
       </div>
     </form>
   );
